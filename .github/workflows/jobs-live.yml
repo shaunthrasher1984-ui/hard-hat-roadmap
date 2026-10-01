@@ -1,0 +1,88 @@
+# Refreshes jobs-live.json (the "Live job postings" page) once a day at 6:17 AM Toronto time.
+# GitHub cron runs in UTC, so both 10:17 UTC (EDT) and 11:17 UTC (EST) are scheduled and the first step lets only the 6 AM Toronto run continue.
+# After the refresh, the deploy job publishes the site to GitHub Pages (Pages source: GitHub Actions). A push made with
+# GITHUB_TOKEN does not start other workflows or a branch Pages build, so the deploy runs here, in the same workflow.
+# API keys live in repository secrets (Settings > Secrets and variables > Actions); a source whose secret is missing is skipped.
+name: Refresh live job postings
+on:
+  schedule:
+    - cron: '17 10 * * *'
+    - cron: '17 11 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: jobs-live
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - name: Run only at 6 AM Toronto time (or when started by hand)
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=America/Toronto date +%H)" != "06" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Not 6 AM in Toronto; skipping this trigger."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+      - name: Fetch, filter and write jobs-live.json
+        if: steps.gate.outputs.run == 'true'
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: python scripts/fetch_jobs.py --out jobs-live.json
+      - name: Check the file before publishing
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/check_jobs.py jobs-live.json
+      - name: Commit if changed
+        id: commit
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs-live.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Refresh live job postings ($(TZ=America/Toronto date '+%Y-%m-%d'))"
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.refresh.outputs.sha }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+          include-hidden-files: true
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

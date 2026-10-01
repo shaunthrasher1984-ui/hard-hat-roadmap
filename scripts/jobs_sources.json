@@ -1,0 +1,37 @@
+{
+ "note": "Only official APIs or feeds published for syndication. Each source records the terms that were checked. Set enabled=false to turn a source off.",
+ "checked": "2026-09-30",
+ "queries": {
+  "OHS": ["health and safety", "safety coordinator", "safety advisor", "safety officer", "HSE", "EHS", "return to work"],
+  "CM": ["project coordinator", "assistant project manager", "project manager", "estimator", "superintendent", "field engineer", "scheduler", "construction manager"]
+ },
+ "sources": [
+  {"id": "adzuna", "kind": "adzuna", "name": "Adzuna", "enabled": true, "needs": ["ADZUNA_APP_ID", "ADZUNA_APP_KEY"], "logo": "assets/adzuna-logo.png",
+   "terms": "https://developer.adzuna.com/docs/terms_of_service : publishing Adzuna ad listings is a permitted use; every displayed advert must carry 'Jobs by Adzuna' (min 116x23 px, 'Adzuna' as the official logo image, both linked to adzuna.ca). Default limit 250 calls/day. Skipped unless both secrets are set AND the official logo file is committed at the 'logo' path."},
+  {"id": "jooble", "kind": "jooble", "name": "Jooble", "enabled": true, "needs": ["JOOBLE_API_KEY"],
+   "terms": "https://jooble.org/api/about : REST API for webmasters to show Jooble results on their own site; key issued after a request form. Follow any extra conditions sent with the key."},
+  {"id": "chandos", "kind": "smartrecruiters", "name": "Chandos careers (SmartRecruiters Posting API)", "employer": "Chandos", "company": "Chandos", "construction_employer": true, "enabled": true,
+   "terms": "SmartRecruiters Posting API (https://developers.smartrecruiters.com/docs/endpoints): public, no key, provided so employers' postings can be listed on career sites. Chandos links its careers page to careers.smartrecruiters.com/Chandos."},
+  {"id": "aecon", "kind": "sf_rss", "name": "Aecon careers (RSS feed)", "employer": "Aecon", "base": "https://jobs.aecon.com", "construction_employer": true, "enabled": true,
+   "terms": "Custom RSS feed published by Aecon's career site. Aecon legal notice: site content is for personal, non-commercial use and may be reproduced for those purposes. Only title, city, date and a link are shown."},
+  {"id": "opg", "kind": "sf_rss", "name": "Ontario Power Generation careers (RSS feed)", "employer": "Ontario Power Generation", "base": "https://jobs.opg.com", "construction_employer": false, "enabled": true,
+   "attr": "Copyright © 2026 Ontario Power Generation Inc. All rights reserved. This information is subject to the general terms of use set out in Ontario Power Generation Inc.'s website (www.opg.com).",
+   "terms": "https://www.opg.com/terms-conditions/ : information may be used and reproduced for educational or non-commercial purposes, unchanged, with OPG's copyright notice (shown on the page)."},
+  {"id": "pcl", "kind": "sf_rss", "name": "PCL Construction careers (RSS feed)", "employer": "PCL Construction", "base": "https://careers.pcl.com", "construction_employer": true, "enabled": false,
+   "terms": "Off: RSS feed exists, but no website terms of use permitting reuse were found. Turn on only after PCL confirms."},
+  {"id": "toronto", "kind": "sf_rss", "name": "City of Toronto jobs (RSS feed)", "employer": "City of Toronto", "base": "https://jobs.toronto.ca", "enabled": false,
+   "terms": "Off: https://www.toronto.ca/home/copyright-information/ says materials may not be copied or published without prior written permission."},
+  {"id": "ottawa", "kind": "sf_rss", "name": "City of Ottawa jobs (RSS feed)", "employer": "City of Ottawa", "base": "https://jobs-emplois.ottawa.ca", "enabled": false,
+   "terms": "Off: ottawa.ca terms of use say material may not be reproduced or republished without permission."},
+  {"id": "mississauga", "kind": "sf_rss", "name": "City of Mississauga jobs (RSS feed)", "employer": "City of Mississauga", "base": "https://jobs.mississauga.ca", "enabled": false,
+   "terms": "Off: https://www.mississauga.ca/home/privacy-and-terms/ allows one copy for non-commercial personal use or study only."}
+ ],
+ "not_used": {
+  "Job Bank (Government of Canada)": "No public job-search API. The XML feed is only for approved job boards (Canadian Business Number, established employment website, agreement). The open.canada.ca postings dataset is monthly and has no employer name or posting link. Job Bank's terms prohibit scripts, robots, crawlers or scrapers. The site links to Job Bank searches instead.",
+  "Careerjet": "API needs the real end-user's IP and user agent on each call and a whitelisted server IP, which does not fit a once-a-day batch job on GitHub Actions.",
+  "Indeed": "No public job-search API; scraping is not allowed.",
+  "LinkedIn": "Scraping is not allowed.",
+  "Workday / BambooHR / iCIMS / Dayforce": "No documented public job API for third parties; career-site endpoints are internal.",
+  "Greenhouse / Lever": "Public job-board APIs exist and are supported by fetch_jobs.py (kinds 'greenhouse' and 'lever'), but none of the site's employers were found on them."
+ }
+}
