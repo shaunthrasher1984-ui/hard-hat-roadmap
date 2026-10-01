@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-01T01:19:41Z",
+"generated_at":"2026-10-01T10:30:32Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":10,
-"CM":40
+"OHS":12,
+"CM":38
 },
 "sources":[
 {
@@ -36,7 +36,7 @@
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":166,
+"fetched":128,
 "kept":0
 },
 {
@@ -62,18 +62,90 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":506,
-"not_canada":97,
-"no_track":259,
+"in":468,
+"not_canada":55,
+"no_track":269,
 "blocked":0,
 "too_old":17,
 "bad_date":0,
 "bad_url":0,
-"duplicate":83,
+"duplicate":77,
 "over_cap":0,
 "kept":50
 },
 "jobs":[
+{
+"title":"Sr. Planner",
+"employer":"Aecon",
+"city":"Hamilton",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Hamilton-Sr_-Planner-ON/604077717/",
+"id":"7819ee45ff"
+},
+{
+"title":"Sr. Estimator",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Sr_-Estimator-ON/599752617/",
+"id":"434fd7d4ea"
+},
+{
+"title":"Manager, Business Development/Estimating",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Manager%2C-Business-DevelopmentEstimating-ON/604921517/",
+"id":"975e733f98"
+},
+{
+"title":"Health & Safety Advisor - Evening Shift",
+"employer":"Aecon",
+"city":"Scarborough",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/stconnect/job/Scarborough-Health-&-Safety-Advisor-Evening-Shift-ON/601436617/",
+"id":"6cab555555"
+},
+{
+"title":"Health & Safety Administrator",
+"employer":"Aecon",
+"city":"Scarborough",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/stconnect/job/Scarborough-Health-&-Safety-Administrator-ON/605751017/",
+"id":"a51ef48ce3"
+},
+{
+"title":"EHS Advisor",
+"employer":"Aecon",
+"city":"Jansen",
+"prov":"SK",
+"region":"CA",
+"track":"OHS",
+"posted":"2026-10-01",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Jansen-EHS-Advisor-SK/599760117/",
+"id":"83ff0be608"
+},
 {
 "title":"Sr. Project Coordinator",
 "employer":"Aecon",
@@ -219,18 +291,6 @@
 "id":"eaa96153f3"
 },
 {
-"title":"Project Coordinator - SGR",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-09-29",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-SGR-ON/602245117/",
-"id":"ace2b5c45b"
-},
-{
 "title":"Mechanical Superintendent",
 "employer":"Aecon",
 "city":"Bowmanville",
@@ -241,18 +301,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Bowmanville-Mechanical-Superintendent-ON/605666817/",
 "id":"77dfa30185"
-},
-{
-"title":"Ingénieur de Projet",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-09-29",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Ing%C3%A9nieur-de-Projet-Qu%C3%A9b/599688717/",
-"id":"3646d942cf"
 },
 {
 "title":"Superintendent - AOTHR",
@@ -291,30 +339,6 @@
 "id":"316e04a83a"
 },
 {
-"title":"Estimating Lead",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-09-27",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Estimating-Lead-ON/603108817/",
-"id":"d616fac8ee"
-},
-{
-"title":"Cost Controller (HaLRT)",
-"employer":"Aecon",
-"city":"Hamilton",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-09-27",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Hamilton-Cost-Controller-%28HaLRT%29-ON/602178017/",
-"id":"a26b269e9f"
-},
-{
 "title":"Superintendent",
 "employer":"Chandos",
 "city":"Vancouver",
@@ -349,18 +373,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Bowmanville-Earthworks-Superintendent-ON/604776517/",
 "id":"3f67e7c6ba"
-},
-{
-"title":"Project Coordinator (Utilities) - YNSE",
-"employer":"Aecon",
-"city":"North York",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-09-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/North-York-Project-Coordinator-%28Utilities%29-YNSE-ON/605553417/",
-"id":"8391cfcf31"
 },
 {
 "title":"EHS Advisor (Contract)",
@@ -589,18 +601,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000149964849",
 "id":"67c01c4679"
-},
-{
-"title":"Field Safety Advisor",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-09-15",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-Field-Safety-Advisor-ON/599250717/",
-"id":"0a3d0aa4ae"
 },
 {
 "title":"Sr. Manager, Project",
