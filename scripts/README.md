@@ -21,3 +21,7 @@ Keys (optional; a source is skipped when its key is missing). Add them in Settin
 
 `blocklist_sha256.json` holds hashed words and names the site must never show; matching postings are dropped.
 Run locally: `python scripts/fetch_jobs.py --out jobs-live.json` (Python 3.9+, standard library only).
+
+
+## Soft-launch note
+Python fetch/filter scripts are **not** shipped in this public preview build (proprietary pipeline). Keep them in a private source repo; CI should run them privately and commit only `jobs-live.json`.

@@ -1,0 +1,9 @@
+{
+  "stripe_payment_link": "",
+  "price_cad": 29,
+  "price_label": "$29 CAD one-time",
+  "product_name": "Lifetime soft-launch access",
+  "currency": "CAD",
+  "unlock_query_param": "unlock",
+  "success_url_hint": "https://shaunthrasher1984-ui.github.io/hard-hat-roadmap/?unlock=1&ref=paid"
+}

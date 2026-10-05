@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "algo": "sha256-uppercase-trimmed",
+  "codes": [
+    {
+      "hash": "8deec576c4378b9d5a7c04e04bce70626b7c638f7c51498594507c0c0d334dcf",
+      "note": "soft-launch"
+    },
+    {
+      "hash": "270e71836a3f8061af2e26782d7f9c61a7691c589690df59d089024ff3234889",
+      "note": "soft-launch"
+    },
+    {
+      "hash": "e1b3508803ffd4784fd1e098ea7e4a1673c33c6ca5b76346106f1f58058bebf3",
+      "note": "soft-launch"
+    },
+    {
+      "hash": "b02a3e59808ba7d9de9443b2050045b943dd45d1031f913840e8340e9b96ec97",
+      "note": "soft-launch"
+    }
+  ]
+}

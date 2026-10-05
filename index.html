@@ -512,6 +512,31 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
   .bigcard:hover,.card:hover,.sknode:hover,.counter:hover,.qstep:hover,.btn-primary:hover,.btn-t:hover,.btn-o:hover,.ctas .btn-primary:hover,.ctas .btn-ghost:hover,.intro-choose .btn:hover,.intro-skip:hover,.skgrid .skcard:hover{transform:none!important}
   .intro-beats span.on{transform:none}
 }
+
+/* ---------- soft launch: banner, unlock, lang, legal footer ---------- */
+.softbanner{background:linear-gradient(90deg,#0b6f6f,#0a4f6b);color:#fff;border-bottom:1px solid rgba(255,255,255,.15)}
+.softbanner-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:10px 0}
+.softbanner p{margin:0;font-weight:700}
+.softbanner-acts{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.softbanner .linkbtn{color:#fff}
+.langseg{margin-left:8px}
+.langseg button{padding:6px 10px;font-size:.78rem;min-height:36px;min-width:36px}
+@media (max-width:980px){.langseg{margin-left:0}}
+.unlock{margin:22px 0 28px;padding:22px 20px;border:1px solid var(--line);border-left:4px solid var(--gold,#f5b400);background:var(--card)}
+.unlock-hero .lead{max-width:62ch}
+.unlock-price{font-size:1.05rem;margin:8px 0 14px}
+.unlock-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:12px}
+@media (max-width:720px){.unlock-grid{grid-template-columns:minmax(0,1fr)}}
+.unlock-form{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.unlock-form input{flex:1 1 160px;min-height:44px;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--soft);color:var(--ink);font:inherit}
+.unlock-msg{margin:10px 0 0;font-size:.92rem}
+.unlock-msg.ok{color:var(--teal,#0b6f6f);font-weight:700}
+.unlock-msg.err{color:#c0392b;font-weight:650}
+a.btn.is-disabled,a.btn[aria-disabled=true]{opacity:.55;pointer-events:none;cursor:not-allowed}
+.skgate{margin:12px 0 16px;border-left:4px solid var(--gold,#f5b400)}
+.i18n-note{background:var(--soft);border:1px dashed var(--line);padding:10px 12px;border-radius:8px}
+footer.site-legal-footer .flinks-legal{margin:8px 0}
+footer.site-legal-footer .flinks-legal a{color:var(--tealtx,#3cc7c0);font-weight:650}
 </style>
 </head>
 <body>
@@ -558,12 +583,26 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12"/><path d="m3 6 1 1 2-2M3 12l1 1 2-2M3 18l1 1 2-2"/></symbol>
 </svg>
+<div id="softBanner" class="softbanner noprint" hidden role="region" aria-label="Student soft launch">
+ <div class="wrap softbanner-in">
+  <p data-i18n="soft_banner"><strong>Student soft launch</strong> — unlock full practice</p>
+  <div class="softbanner-acts">
+   <button type="button" class="btn btn-primary" id="softBannerGo" data-i18n="soft_go">See unlock options</button>
+   <button type="button" class="linkbtn" id="softBannerDismiss" data-i18n="soft_dismiss">Dismiss</button>
+  </div>
+ </div>
+</div>
 <header class="topbar">
  <div class="wrap bar">
   <a class="brandlink" href="#/ohs/home" data-nav="home" aria-label="Hard Hat Roadmap, home"><span class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M16 48h22a8 8 0 0 0 0-16H26a8 8 0 0 1 0-16h20" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="14" cy="48" r="6" fill="#7fe0d6" stroke="#fff" stroke-width="3"/><circle cx="48" cy="16" r="6" fill="#ffd166" stroke="#fff" stroke-width="3"/></svg></span><span class="bname"><b><span class="bl">Hard Hat Roadmap</span><span class="bs">Hard Hat Roadmap</span></b><small>by Shaun Thrasher</small></span></a>
   <div class="seg trackseg" role="group" aria-label="Career track">
    <button type="button" data-track="ohs" aria-pressed="true"><span class="long">Safety (OHS)</span><span class="short">OHS</span></button>
    <button type="button" data-track="cm" aria-pressed="false"><span class="long">Construction Mgmt</span><span class="short">CM</span></button>
+  </div>
+  <div class="langseg seg" id="langSwitch" role="group" aria-label="Language">
+   <button type="button" data-lang="en" aria-pressed="true">EN</button>
+   <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+   <button type="button" data-lang="es" aria-pressed="false">ES</button>
   </div>
   <button class="iconbtn" id="theme" type="button" aria-label="Switch to dark mode"><svg class="i"><use href="#i-moon"/></svg></button>
   <button class="iconbtn menubtn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg class="i"><use href="#i-menu"/></svg></button>
@@ -579,6 +618,7 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
    <a href="#/ohs/live" data-nav="live"><svg class="i"><use href="#i-search"/></svg>Live Postings</a>
    <a href="#/ohs/jobs" data-nav="jobs"><svg class="i"><use href="#i-briefcase"/></svg>Jobs &amp; Employers</a>
    <a href="#/ohs/library" data-nav="library"><svg class="i"><use href="#i-book"/></svg>Resources</a>
+   <a href="#/ohs/home" data-nav="home" data-jump="unlock" data-i18n="nav_unlock"><svg class="i"><use href="#i-star"/></svg><span data-i18n-label>Unlock</span></a>
   </nav>
  </div></div>
 </header>
@@ -602,6 +642,7 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
    <a href="#/ohs/jobs" data-nav="jobs"><svg class="i"><use href="#i-briefcase"/></svg>Jobs &amp; Employers</a>
    <a href="#/ohs/library" data-nav="library"><svg class="i"><use href="#i-book"/></svg>Resources (full library)</a>
    <a href="#/ohs/about" data-nav="about"><svg class="i"><use href="#i-user"/></svg>About Shaun Thrasher</a>
+   <a href="#/ohs/home" data-nav="home" data-jump="unlock" data-i18n="nav_unlock"><svg class="i"><use href="#i-star"/></svg><span data-i18n-label>Unlock</span></a>
   </nav>
   <p class="lbl">Display</p>
   <button class="themerow" id="theme2" type="button"><svg class="i"><use href="#i-moon"/></svg><span>Dark mode</span></button>
@@ -619,6 +660,36 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
     <button type="button" data-track="cm" aria-pressed="false">Construction management</button></div></div>
   </div></div>
   <div class="wrap">
+   <p id="i18nContentNote" class="note i18n-note" hidden></p>
+   <section class="unlock panel reveal" id="unlock" aria-labelledby="unlockTitle">
+    <div class="unlock-hero">
+     <span class="kicker" data-i18n="unlock_kicker">Student soft launch</span>
+     <h2 id="unlockTitle" data-i18n="unlock_title">Unlock full practice</h2>
+     <p class="lead" data-i18n="unlock_lead">Lifetime soft-launch access: full Test Your Skills, blueprints and study receipts. Roadmaps, training and About stay free.</p>
+     <p class="unlock-price"><span data-i18n="unlock_price_lbl">Price</span>: <strong id="unlockPrice">$29 CAD one-time</strong></p>
+    </div>
+    <div class="unlock-grid">
+     <div class="unlock-col unlock-only-locked">
+      <a class="btn btn-primary is-disabled" id="stripePayBtn" href="#unlock" aria-disabled="true" data-i18n="stripe_cta">Pay with Stripe (coming — paste Payment Link)</a>
+      <p class="note" data-i18n="pay_note">Questions about your purchase? Reply to your Stripe receipt email.</p>
+     </div>
+     <div class="unlock-col unlock-only-locked">
+      <h3 data-i18n="code_title">Have an access code?</h3>
+      <form id="unlockCodeForm" class="unlock-form" autocomplete="off">
+       <label class="sr" for="unlockCode">Access code</label>
+       <input id="unlockCode" name="code" type="text" inputmode="text" autocomplete="off" spellcheck="false" placeholder="Enter code (e.g. HHR-…)" data-i18n="code_ph">
+       <button class="btn btn-t" type="submit" data-i18n="code_btn">Unlock with code</button>
+      </form>
+      <p id="unlockCodeMsg" class="unlock-msg" hidden role="status"></p>
+     </div>
+     <div class="unlock-col unlock-only-open" hidden>
+      <p id="unlockStatus" class="unlock-msg ok" data-i18n="unlocked">Access unlocked on this device.</p>
+      <a class="btn btn-primary" href="#/ohs/skills" data-nav="skills">Open Test Your Skills</a>
+     </div>
+    </div>
+    <p class="note">Unofficial practice for designations — not affiliated with awarding bodies. Free sample: first 3 questions per practice set.</p>
+   </section>
+
    <div class="big3" id="big3"><a class="bigcard reveal" data-go="roadmaps" href="#/ohs/roadmaps" data-only="ohs"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-route"></use></svg></span><h3>Roadmaps</h3><p>Start in safety → Grow → Lead. 20 steps, each with free or low-cost training and the official source.</p><span class="go">Open my roadmap <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="bigcard reveal" data-go="training" href="#/ohs/training" data-only="ohs"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-grad"></use></svg></span><h3>Free Training</h3><p>41 free courses, webinars and guides for OHS, sorted by roadmap stage. Required-in-Ontario training is marked.</p><span class="go">Find free training <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="bigcard reveal" data-go="tools" href="#/ohs/tools" data-only="ohs"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-tool"></use></svg></span><h3>Tools</h3><p>Resume checker, training gap planner and interview prep. They run on your device; nothing is uploaded.</p><span class="go">Use the tools <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="bigcard reveal" data-go="roadmaps" href="#/cm/roadmaps" data-only="cm"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-route"></use></svg></span><h3>Roadmaps</h3><p>Break in → Grow → Lead. 20 steps, each with free or low-cost training and the official source.</p><span class="go">Open my roadmap <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="bigcard reveal" data-go="training" href="#/cm/training" data-only="cm"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-grad"></use></svg></span><h3>Free Training</h3><p>43 free courses, webinars and guides for CM, sorted by roadmap stage. Required-in-Ontario training is marked.</p><span class="go">Find free training <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a><a class="bigcard reveal" data-go="tools" href="#/cm/tools" data-only="cm"><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-tool"></use></svg></span><h3>Tools</h3><p>Resume checker, training gap planner and interview prep. They run on your device; nothing is uploaded.</p><span class="go">Use the tools <svg class="i" aria-hidden="true"><use href="#i-arrow"></use></svg></span></a></div>
    <div class="counters" id="counters"><div class="counter reveal" data-only="ohs"><b data-count="">41</b><span>free training items</span></div><div class="counter reveal" data-only="ohs"><b data-count="">20</b><span>roadmap steps</span></div><div class="counter reveal" data-only="ohs"><b data-count="">43</b><span>employers with entry-level, co-op or new-grad programs</span></div><div class="counter reveal" data-only="ohs"><b data-count="">213</b><span>verified resources in the library</span></div><div class="counter reveal" data-only="cm"><b data-count="">43</b><span>free training items</span></div><div class="counter reveal" data-only="cm"><b data-count="">20</b><span>roadmap steps</span></div><div class="counter reveal" data-only="cm"><b data-count="">34</b><span>employers with entry-level, co-op or new-grad programs</span></div><div class="counter reveal" data-only="cm"><b data-count="">257</b><span>verified resources in the library</span></div></div>
    <h2 class="group" id="h-quick"><svg class="i"><use href="#i-check"/></svg>Your first four tickets <span class="n">what Ontario employers expect on day one</span></h2>
@@ -731,12 +802,19 @@ footer .flinks .linkbtn{background:none;border:0;color:var(--tealtx);font:inheri
  <section class="view" id="v-about" aria-labelledby="h-about"><div class="wrap" id="aboutBody"><div class="vhead"><span class="kicker">About</span><h2 id="h-about" tabindex="-1">About Shaun Thrasher</h2><p class="about-headline">OHS professional and college instructor with 20+ years in construction and industrial work, helping people get hired and move up in health &amp; safety and construction management.</p></div><div class="two"><div class="panel"><h3 class="rch"><svg class="i" aria-hidden="true"><use href="#i-user"></use></svg>My background</h3><p>I spent more than 20 years on the tools and on job sites, as a construction foreman, heavy equipment operator and maintenance technician, before moving into occupational health and safety. In 2023 I earned my Occupational Health and Safety diploma with honours. I work as a Health &amp; Safety Advisor on heavy civil and industrial sites, doing inspections, orientations, incident investigations and audits. Today I'm a college instructor in OHS and construction management, and I also work as a safety consultant and trainer.</p><p>I also know workplace injury from the inside. I've lived more than 11 years of first-hand WSIB experience as an injured worker, recovering from two traumatic brain injuries and a fractured pelvis, and going through three separate return-to-work and reintegration processes. That experience shapes how I teach and consult. Safety isn't paperwork to me; it's what gets people home, and when someone does get hurt, knowing your rights and the process makes all the difference.</p><p>Along the way I've watched a lot of capable people get stuck. They don't know which training matters, how to present their experience, or what the next step looks like. Good career guidance shouldn't depend on who you know or what you can afford. That's why I built Hard Hat Roadmap: free career roadmaps, training and tools for people in OHS and construction management. Whether you're just starting out or going after your next role, my goal is to help you get hired, keep growing and get home safe.</p><h3 class="rch about-section"><svg class="i" aria-hidden="true"><use href="#i-briefcase"></use></svg>Experience</h3><div class="about-list"><article class="about-item"><h4>Safety Consultant &amp; Trainer</h4><p class="about-dates">2023 to present</p><p>Safety training, audits, risk and gap assessments, and building safety programs.</p></article><article class="about-item"><h4>College Instructor, OHS &amp; Construction Management</h4><p class="about-dates">2025 to present</p><p>Teaching, mentoring and helping people get job-ready.</p></article><article class="about-item"><h4>Health &amp; Safety Advisor, heavy civil and industrial</h4><p class="about-dates">2023 to present</p><p>Inspections, incident investigations, audits and site orientations across multiple construction and industrial sites.</p></article><article class="about-item"><h4>Injured worker and WSIB claimant</h4><p class="about-dates">11+ years</p><p>First-hand experience with the WSIB claims process: two traumatic brain injuries, a fractured pelvis, and three return-to-work and reintegration processes.</p></article><article class="about-item"><h4>20+ years in the field</h4><p>Heavy equipment operator in heavy civil and utilities, construction and landscaping foreman, and industrial maintenance technician.</p></article></div></div><div class="panel"><h3 class="rch"><svg class="i" aria-hidden="true"><use href="#i-star"></use></svg>Credentials</h3><ul class="about-credentials"><li>Occupational Health and Safety Diploma, with honours (2023)</li><li>Heavy Equipment Operator (2018)</li><li>COR™ Internal Auditor (IHSA)</li><li>Health and Safety Representative (IHSA)</li><li>Working at Heights; Confined Space; CPR &amp; First Aid; Train the Trainer</li></ul><details class="q about-courses"><summary>IHSA courses <span class="b b-soft">13</span></summary><div class="qb"><ul><li>Intro to the OHS Act</li><li>Hazard Identification and Control in Construction</li><li>Hazard and Risk Management (COR)</li><li>Trenching Safety</li><li>Scaffold Users' Hazard Awareness</li><li>Basics of Silica</li><li>Utility Work Protection Code</li><li>Traffic Control and Backing Vehicles</li><li>Workplace Harassment &amp; Violence Prevention</li><li>Occupational Mental Health</li><li>Naloxone Training</li><li>Defensive Driving</li><li>Driver Fatigue</li></ul></div></details><p class="about-pursuing"><b>Currently pursuing:</b> NCSO</p></div></div><div class="two" style="margin-top:16px"><div class="panel" id="ab-privacy"><h3 class="rch"><svg class="i" aria-hidden="true"><use href="#i-lock"></use></svg>Privacy</h3><p style="margin-top:0">No tracking, no analytics, no cookies and no accounts. Your roadmap ticks live only in the page link (the part after #), so they are not sent to any server. Optional intro preference (hhr-skip-intro) and practice-path progress (hhr-skill-path) may stay in this browser's local storage on your device only. The resume checker reads your file inside your browser, and the page cannot send data to any other site. The only file it downloads after loading is this site's own list of live job postings.</p></div><div class="panel"><h3 class="rch"><svg class="i" aria-hidden="true"><use href="#i-link"></use></svg>Share this page</h3><p style="margin-top:0">Copy the link to this page, including your track and ticks.</p><div class="rcbtns"><button class="btn btn-t" id="copyLink" type="button"><svg class="i" aria-hidden="true"><use href="#i-link"></use></svg>Copy link</button><span id="copyMsg" role="status"></span></div></div></div></div></section>
 </main>
 <span id="main-end" hidden></span>
-<footer><div class="wrap fgrid">
+<footer class="site-legal-footer" role="contentinfo"><div class="wrap fgrid">
  <div>
-  <p><strong>© 2026 Shaun Thrasher.</strong> Hard Hat Roadmap is an independent resource. It is not affiliated with, endorsed by or sponsored by any college, school or employer. Training rules, fees and credential requirements change: always verify with the official source linked on each item before you enrol or apply.</p>
-  <p>No tracking, no cookies, no accounts. Nothing you tick, type or upload leaves your device. Optional intro preference and practice progress can stay in this browser only. Links checked September 28, 2026.</p>
+  <p data-i18n="footer_copy"><strong>© 2026 Shaun Thrasher. Hard Hat Roadmap™. All rights reserved.</strong></p>
+  <p class="flinks-legal"><a href="legal/terms.html" data-i18n="legal_terms">Terms</a>
+    ·
+    <a href="legal/privacy.html" data-i18n="legal_privacy">Privacy</a>
+    ·
+    <a href="legal/copyright.html" data-i18n="legal_copyright">Copyright</a></p>
+  <p data-i18n="footer_indep">Hard Hat Roadmap is an independent practice and career resource. Not affiliated with IHSA, BCRSP, CCOHS, PMI, CCA, or any certification body.</p>
+  <p>Hard Hat Roadmap is an independent resource. It is not affiliated with, endorsed by or sponsored by any college, school or employer. <span data-i18n="footer_verify">Training rules, fees and credential requirements change: always verify with the official source linked on each item before you enrol or apply.</span></p>
+  <p data-i18n="footer_privacy">No tracking, no cookies, no accounts. Nothing you tick, type or upload leaves your device. Optional intro preference and practice progress can stay in this browser only. Links checked September 28, 2026.</p>
  </div>
- <div class="flinks"><a href="#/ohs/about" data-nav="about">About</a><a href="#/ohs/about" data-nav="about" data-jump="ab-privacy">Privacy</a><button type="button" class="linkbtn" id="playIntroBtn">Play intro</button><a href="resources.json">Open data (JSON)</a><span>r1.0-preview</span></div>
+ <div class="flinks"><a href="#/ohs/about" data-nav="about">About</a><a href="legal/privacy.html" data-i18n="legal_privacy">Privacy</a><a href="#/ohs/home" data-nav="home" data-jump="unlock" data-i18n="nav_unlock">Unlock</a><button type="button" class="linkbtn" id="playIntroBtn">Play intro</button><a href="resources.json">Open data (JSON)</a><span>r1.0-preview</span></div>
 </div></footer>
 <nav class="bottomnav" aria-label="Quick navigation">
  <a href="#/ohs/home" data-nav="home"><svg class="i"><use href="#i-home"/></svg>Home</a>
@@ -1133,6 +1211,11 @@ var SITE_WHY={
 };
 function skGet(k,fb){try{var v=localStorage.getItem(k);return v==null?fb:JSON.parse(v)}catch(e){return fb}}
 function skSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+
+function hasAccess(){return window.HHRPay&&HHRPay.hasAccess()}
+function gateHTML(){return '<aside class="skgate panel noprint" role="region"><p>Unlock full practice to continue past the free sample (first 3 questions) and open mock exams + study receipts.</p>'+
+  '<p class="unlock-price"><strong>$29 CAD one-time</strong> · Lifetime soft-launch access</p>'+
+  '<a class="btn btn-primary" href="#unlock" data-jump="unlock">Unlock full practice</a></aside>'}
 function pathState(){return skGet(SKLS.key,{cleared:{},desk:''})}
 function pathSet(s){skSet(SKLS.key,s)}
 function pathStatus(id){var s=pathState(),node=SK.PATH.filter(function(n){return n.id===id})[0];
@@ -1140,6 +1223,7 @@ function pathStatus(id){var s=pathState(),node=SK.PATH.filter(function(n){return
 function honestBanner(){return '<p class="note skhonest" role="note"><svg class="i"><use href="#i-alert"/></svg><span><strong>Honesty note.</strong> '+esc(SK.HONEST)+'</span></p>'}
 function cardMatches(c){if(SKF.filter==='All')return true;if(SKF.filter==='OHS')return c.track==='OHS'||c.track==='Both';return c.track==='CM'||c.track==='Both'}
 function planHTML(c){if(!c.plan)return '';
+  if(!hasAccess())return '<details class="skplan skplan-locked"><summary>Blueprint-first study plan <span class="b b-soft">~'+esc(c.plan.hours)+' h · unlock to view</span></summary><p class="note">Full blueprint steps unlock with soft-launch access.</p>'+gateHTML()+'</details>';
   return '<details class="skplan"><summary>Blueprint-first study plan <span class="b b-soft">~'+esc(c.plan.hours)+' h</span></summary><ol class="skplanol">'+
     c.plan.order.map(function(r){return '<li><b>'+esc(r[0])+'</b> <span class="b b-soft">'+esc(r[1])+'</span><br>'+esc(r[2])+'</li>'}).join('')+'</ol></details>'}
 function prepHTML(c){return '<ul class="skprep">'+c.prep.map(function(p){return '<li><a href="'+esc(p[1])+'" target="_blank" rel="noopener">'+esc(p[0])+'</a></li>'}).join('')+'</ul>'}
@@ -1152,7 +1236,7 @@ function cardHTML(c){var badge=c.kind==='designation'?'<span class="b b-cred">De
     '<div class="skacts"><button type="button" class="btn btn-t" data-sk-desk="'+esc(c.id)+'">Set as focus</button>'+
     '<details class="skprepdet"><summary class="btn btn-o sksum">Official prep</summary>'+prepHTML(c)+'</details>'+
     '<button type="button" class="btn btn-primary" data-sk-practice="'+esc(c.id)+'">Practice</button>'+
-    '<button type="button" class="btn btn-ghost" data-sk-mock="'+esc(c.id)+'">Mock exam</button></div></article>'}
+    (hasAccess()?'<button type="button" class="btn btn-ghost" data-sk-mock="'+esc(c.id)+'">Mock exam</button>':'<a class="btn btn-ghost" href="#unlock" data-jump="unlock">Unlock mock exam</a>')+'</div></article>'}
 function pathHTML(){return '<div class="skpath" aria-label="Skill path"><h3 class="group">'+icon('route')+'Skill path <span class="n">Foundation → Site Ready</span></h3>'+
   '<p class="note">Progress stays on this device only (<code>hhr-skill-path</code>). Clear a node with a practice set (≥70%) to unlock the next.</p>'+
   '<ol class="skpathol">'+SK.PATH.map(function(n){var st=pathStatus(n.id);
@@ -1176,9 +1260,9 @@ function sandboxHTML(){return '<article class="card sksandbox reveal"><div class
   '<button type="button" class="btn btn-ghost" data-sb="2">Ignore — it still holds</button></div><p class="cites" id="sbOut" hidden></p></article>'}
 function renderSkills(){var s=pathState();if(s.desk&&!SKF.desk)SKF.desk=s.desk;
   var L=SK.CARDS.filter(cardMatches);
-  $('#skIntro').textContent='Practice for Ontario and Canada designations — official awarding-body prep first, then original self-check drills.';
+  $('#skIntro').textContent='Practice for Ontario and Canada designations — official awarding-body prep first, then original self-check drills. Unofficial practice only.';
   $$('#skFilt .chip').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.sf===SKF.filter))});
-  $('#skHonest').innerHTML=honestBanner();
+  $('#skHonest').innerHTML=honestBanner()+(hasAccess()?'':gateHTML());
   $('#skPath').innerHTML=deskBar()+pathHTML();
   $('#skList').innerHTML='<div class="grid skgrid">'+L.map(cardHTML).join('')+sandboxHTML()+'</div>';
   $('#skPractice').hidden=true;$('#skList').hidden=false;$('#skPath').hidden=false;$('#skHonest').hidden=false;$('#skFilt').hidden=false;
@@ -1189,9 +1273,13 @@ function ringSVG(pct){var r=28,c=2*Math.PI*r,o=c*(1-pct/100);
     '<circle cx="36" cy="36" r="'+r+'" fill="none" stroke="var(--teal)" stroke-width="8" stroke-linecap="round" stroke-dasharray="'+c+'" stroke-dashoffset="'+o+'" transform="rotate(-90 36 36)"/>'+
     '<text x="36" y="40" text-anchor="middle" font-size="14" font-weight="700" fill="currentColor">'+pct+'%</text></svg>'}
 function startQuiz(id,mock){var c=SK.CARDS.filter(function(x){return x.id===id})[0];if(!c)return;
+  if(mock&&!hasAccess()){var u=document.getElementById('unlock');if(u)u.scrollIntoView({block:'start'});return}
   var qs=c.quiz.slice();if(SKF.focus)qs=qs.filter(function(q){return q.d===SKF.focus});if(!qs.length)qs=c.quiz.slice();
   if(mock)qs=qs.concat(qs).slice(0,Math.min(10,Math.max(qs.length,6)));
-  QUIZ={id:id,card:c,mock:!!mock,i:0,qs:qs,ans:[],t0:Date.now(),limit:mock?qs.length*45:0,timerOn:!!mock,timer:null};
+  var freeCap=(window.HHRPay&&HHRPay.FREE_Q)||3;
+  var teaser=!hasAccess();
+  if(teaser&&!mock)qs=qs.slice(0,Math.min(freeCap,qs.length));
+  QUIZ={id:id,card:c,mock:!!mock,i:0,qs:qs,ans:[],t0:Date.now(),limit:mock?qs.length*45:0,timerOn:!!mock,timer:null,teaser:teaser};
   $('#skList').hidden=true;$('#skPath').hidden=true;$('#skHonest').hidden=true;$('#skFilt').hidden=true;$('#skPractice').hidden=false;paintQ();
   if(QUIZ.limit){QUIZ.timer=setInterval(function(){var left=QUIZ.limit-Math.floor((Date.now()-QUIZ.t0)/1000);
     var el=$('#skTimer');if(el)el.textContent=left>0?fmtTimer(left):'Time';if(left<=0){clearInterval(QUIZ.timer);finishQuiz()}},400)}}
@@ -1202,7 +1290,7 @@ function paintQ(){var Q=QUIZ,q=Q.qs[Q.i],c=Q.card,pct=Math.round(100*Q.i/Q.qs.le
     '<span class="b b-trial">Practice only — not an exam</span>'+
     '<a class="skprepchip" href="'+esc(prep[1])+'" target="_blank" rel="noopener">Official prep · '+esc(prep[0])+'</a>'+
     '<button type="button" class="linkbtn" id="skAbort">Exit desk</button></div>'+
-    '<div class="skdesk-meta">'+ringSVG(pct)+'<div><span class="kicker">'+esc(c.short)+(Q.mock?' · mock':'')+'</span>'+
+    '<div class="skdesk-meta">'+ringSVG(pct)+'<div><span class="kicker">'+esc(c.short)+(Q.mock?' · mock':'')+(Q.teaser?' · free sample':'')+'</span>'+
     '<p class="count" style="margin:4px 0">Question '+(Q.i+1)+' of '+Q.qs.length+' · '+esc(dname)+'</p>'+
     '<label class="tog"><input type="checkbox" id="skTimerToggle"'+(Q.timerOn?' checked':'')+'> Optional timer</label> '+
     '<span class="sktimer" id="skTimer" '+(Q.limit?'':'hidden')+'>'+(Q.limit?fmtTimer(Q.limit):'')+'</span></div></div>'+
@@ -1249,10 +1337,16 @@ function finishQuiz(){var Q=QUIZ;if(Q.timer)clearInterval(Q.timer);
   var weakStrip=weak.length?'<div class="skweak"><b>Weak topics:</b> '+weak.map(function(k){return '<button type="button" class="chip" data-weak="'+esc(k)+'">'+esc(by[k].name)+'</button>'}).join(' ')+'</div>':'<p class="note">No weak domains this round — nice work.</p>';
   var next15='<aside class="sknext panel"><h4>Next 15 minutes</h4><ol><li><a href="'+esc(prep[1])+'" target="_blank" rel="noopener">Official: '+esc(prep[0])+'</a></li>'+
     '<li><button type="button" class="linkbtn" id="skDrillWeak">Drill: '+esc(weakName)+' (unofficial self-check)</button></li></ol></aside>';
-  var receipt='<div class="skreceipt panel" id="skReceipt"><h4>Study receipt <span class="b b-soft">unofficial</span></h4>'+
+  var receipt;
+  if(hasAccess()){
+    receipt='<div class="skreceipt panel" id="skReceipt"><h4>Study receipt <span class="b b-soft">unofficial</span></h4>'+
     '<p>'+esc(Q.card.short)+' · '+ok+'/'+n+' ('+pct+'%) · '+new Date().toLocaleString('en-CA',{timeZone:'America/Toronto'})+' ET</p>'+
     '<p class="cites">'+esc(SK.HONEST)+'</p><ul class="skdom">'+rows+'</ul>'+
     '<button type="button" class="btn btn-o" id="skPrintReceipt">Print / save PDF</button></div>';
+  }else{
+    receipt='<div class="skreceipt panel" id="skReceipt"><h4>Study receipt <span class="b b-soft">locked</span></h4>'+
+    '<p>Sample score: <b>'+ok+'/'+n+'</b> ('+pct+'%). Unlock soft-launch access for full receipts and remaining questions.</p>'+gateHTML()+'</div>';
+  }
   $('#skPractice').innerHTML='<div class="panel skdesk"><p class="skhonestmini">'+esc(SK.HONEST)+'</p>'+
     '<div class="skdesk-meta">'+ringSVG(pct)+'<div><h3 style="margin:0">Results · '+esc(Q.card.short)+'</h3>'+
     '<p class="count"><b>'+ok+' of '+n+'</b> correct ('+pct+'%). Practice only — not an exam.</p></div></div>'+
@@ -1261,7 +1355,7 @@ function finishQuiz(){var Q=QUIZ;if(Q.timer)clearInterval(Q.timer);
     '<button class="btn btn-ghost" id="skBack" type="button">Back to cards</button></div></div>';
   $$('[data-weak]').forEach(function(b){b.onclick=function(){SKF.focus=b.dataset.weak;startQuiz(Q.id,false)}});
   var dw=$('#skDrillWeak');if(dw)dw.onclick=function(){if(weak[0])SKF.focus=weak[0];startQuiz(Q.id,false)};
-  $('#skPrintReceipt').onclick=function(){document.body.classList.add('print-skills');window.print();setTimeout(function(){document.body.classList.remove('print-skills')},800)};
+  var pr=$('#skPrintReceipt');if(pr)pr.onclick=function(){document.body.classList.add('print-skills');window.print();setTimeout(function(){document.body.classList.remove('print-skills')},800)};
   $('#skAgain').onclick=function(){startQuiz(Q.id,Q.mock)};
   $('#skBack').onclick=function(){QUIZ=null;renderSkills()}}
 document.addEventListener('click',function(e){
@@ -1352,6 +1446,345 @@ function playIntro(){try{localStorage.removeItem(KEY)}catch(e){}
 function boot(){if(skipped())return;var h=(location.hash||'').replace(/^#\/?/,'').split('?')[0];var parts=h.split('/').filter(Boolean);var page=parts[1]||'home';if(page!=='home')return;document.body.classList.add('intro-on');wire(build())}
 window.playIntro=playIntro;
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
+})();
+
+/* Soft-launch paywall: Stripe Payment Link (optional) + access-code unlock. localStorage hhr_access only. */
+(function(){
+'use strict';
+var ACCESS_KEY='hhr_access', ACCESS_TS='hhr_access_ts', FREE_Q=3;
+var CFG={stripe_payment_link:'',price_label:'$29 CAD one-time',product_name:'Lifetime soft-launch access'};
+var CODE_HASHES=[];
+var HHRPay={
+  FREE_Q:FREE_Q,
+  hasAccess:function(){
+    try{return localStorage.getItem(ACCESS_KEY)==='1'}catch(e){return false}
+  },
+  grant:function(src){
+    try{
+      localStorage.setItem(ACCESS_KEY,'1');
+      localStorage.setItem(ACCESS_TS,String(Date.now()));
+      localStorage.setItem('hhr_access_src',src||'code');
+    }catch(e){}
+    document.documentElement.setAttribute('data-access','1');
+    paintUnlock();
+    try{if(window.renderSkills)renderSkills()}catch(e){}
+  },
+  revoke:function(){
+    try{localStorage.removeItem(ACCESS_KEY);localStorage.removeItem(ACCESS_TS);localStorage.removeItem('hhr_access_src')}catch(e){}
+    document.documentElement.removeAttribute('data-access');
+    paintUnlock();
+  }
+};
+window.HHRPay=HHRPay;
+
+function sha256hex(str){
+  if(!window.crypto||!crypto.subtle)return Promise.reject(new Error('Secure context required for code unlock (use HTTPS).'));
+  return crypto.subtle.digest('SHA-256',new TextEncoder().encode(str)).then(function(buf){
+    return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0')}).join('');
+  });
+}
+
+function qs(){
+  try{return new URLSearchParams(location.search)}catch(e){return new URLSearchParams()}
+}
+
+function paintUnlock(){
+  var on=HHRPay.hasAccess();
+  document.documentElement.setAttribute('data-access',on?'1':'0');
+  var status=$('#unlockStatus');
+  if(status){
+    status.hidden=!on;
+    status.textContent=on?'Access unlocked on this device. Full Test Your Skills + study receipts are available.':'';
+  }
+  var locked=$$('.unlock-only-locked');
+  locked.forEach(function(el){el.hidden=!!on});
+  var unlocked=$$('.unlock-only-open');
+  unlocked.forEach(function(el){el.hidden=!on});
+  var btn=$('#stripePayBtn');
+  if(btn){
+    var link=(CFG.stripe_payment_link||'').trim();
+    if(link){
+      btn.href=link;btn.removeAttribute('aria-disabled');btn.classList.remove('is-disabled');
+      btn.textContent='Pay with Stripe — '+CFG.price_label;
+    }else{
+      btn.href='#unlock';btn.setAttribute('aria-disabled','true');btn.classList.add('is-disabled');
+      btn.textContent='Pay with Stripe (coming — paste Payment Link)';
+    }
+  }
+  var price=$('#unlockPrice');
+  if(price)price.textContent=CFG.price_label||'$29 CAD one-time';
+}
+
+function tryQueryUnlock(){
+  var p=qs();
+  var tok=p.get('unlock');
+  if(tok!==null&&tok!==''&&tok!=='0'&&tok.toLowerCase()!=='false'){
+    HHRPay.grant('stripe-query');
+    // clean URL without losing hash
+    try{
+      var u=new URL(location.href);
+      u.searchParams.delete('unlock');
+      history.replaceState(null,'',u.pathname+u.search+u.hash);
+    }catch(e){}
+  }
+}
+
+function showSoftBanner(){
+  var p=qs();
+  var fromQr=p.get('ref')==='qr';
+  var seen=false;
+  try{seen=localStorage.getItem('hhr_soft_banner_seen')==='1'}catch(e){}
+  var ban=$('#softBanner');
+  if(!ban)return;
+  if(HHRPay.hasAccess()){ban.hidden=true;return}
+  if(fromQr||!seen){
+    ban.hidden=false;
+    if(fromQr){
+      // scroll to unlock after paint
+      setTimeout(function(){
+        var t=document.getElementById('unlock');
+        if(t)t.scrollIntoView({block:'start',behavior:'smooth'});
+      },120);
+    }
+  }
+}
+
+function wireUnlockForm(){
+  var form=$('#unlockCodeForm');
+  if(!form)return;
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var inp=$('#unlockCode');
+    var msg=$('#unlockCodeMsg');
+    var raw=(inp&&inp.value||'').trim().toUpperCase();
+    if(!raw){if(msg){msg.hidden=false;msg.textContent='Enter an access code.';msg.className='unlock-msg err'}return}
+    if(!CODE_HASHES.length){if(msg){msg.hidden=false;msg.textContent='Codes not loaded yet — try again in a moment.';msg.className='unlock-msg err'}return}
+    sha256hex(raw).then(function(hex){
+      var ok=CODE_HASHES.indexOf(hex)>=0;
+      if(ok){
+        HHRPay.grant('code');
+        if(msg){msg.hidden=false;msg.textContent='Unlocked. Full practice is available on this device.';msg.className='unlock-msg ok'}
+        if(inp)inp.value='';
+      }else{
+        if(msg){msg.hidden=false;msg.textContent='That code was not recognized. Check spelling and try again.';msg.className='unlock-msg err'}
+      }
+    }).catch(function(err){
+      if(msg){msg.hidden=false;msg.textContent=String(err.message||err);msg.className='unlock-msg err'}
+    });
+  });
+  var dismiss=$('#softBannerDismiss');
+  if(dismiss)dismiss.onclick=function(){
+    try{localStorage.setItem('hhr_soft_banner_seen','1')}catch(e){}
+    var ban=$('#softBanner');if(ban)ban.hidden=true;
+  };
+  var goUnlock=$('#softBannerGo');
+  if(goUnlock)goUnlock.onclick=function(){
+    var t=document.getElementById('unlock');
+    if(t){t.scrollIntoView({block:'start',behavior:'smooth'});try{localStorage.setItem('hhr_soft_banner_seen','1')}catch(e){}}
+  };
+}
+
+function loadConfig(){
+  var jobs=[];
+  jobs.push(fetch('pay_config.json',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null}).then(function(j){if(j)CFG=Object.assign(CFG,j)}).catch(function(){}));
+  jobs.push(fetch('pay_codes.json',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null}).then(function(j){
+    if(j&&j.codes)CODE_HASHES=j.codes.map(function(c){return (c.hash||'').toLowerCase()});
+  }).catch(function(){}));
+  return Promise.all(jobs).then(function(){paintUnlock()});
+}
+
+function bootPay(){
+  if(HHRPay.hasAccess())document.documentElement.setAttribute('data-access','1');
+  tryQueryUnlock();
+  paintUnlock();
+  wireUnlockForm();
+  showSoftBanner();
+  loadConfig();
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bootPay);
+else bootPay();
+})();
+
+/* Soft-launch i18n: EN / FR / ES chrome strings. Quiz content stays English in v1. */
+(function(){
+'use strict';
+var LANG_KEY='hhr_lang';
+var DICT={
+  en:{
+    lang_note:'',
+    nav_home:'Home',nav_roadmaps:'Roadmaps',nav_training:'Free Training',nav_skills:'Test Your Skills',
+    nav_tools:'Tools',nav_careers:'Jobs You Could Get',nav_live:'Live Postings',nav_jobs:'Jobs & Employers',
+    nav_library:'Resources',nav_about:'About Shaun Thrasher',nav_unlock:'Unlock',
+    track_ohs_long:'Safety (OHS)',track_cm_long:'Construction Mgmt',track_ohs_short:'OHS',track_cm_short:'CM',
+    theme_dark:'Switch to dark mode',theme_light:'Switch to light mode',menu:'Open menu',
+    kick:'Free · Independent · Ontario-first',
+    hero_h1:'Get hired in safety or construction management.',
+    hero_lead:'Free training, clear roadmaps, real tools. For anyone starting, switching into or growing a career in occupational health and safety or construction management.',
+    cta_road_ohs:'See the OHS roadmap',cta_road_cm:'See the CM roadmap',cta_train:'Find free training',
+    pick_lbl:"I'm heading into:",
+    soft_banner:'Student soft launch — unlock full practice',
+    soft_go:'See unlock options',soft_dismiss:'Dismiss',
+    unlock_kicker:'Student soft launch',
+    unlock_title:'Unlock full practice',
+    unlock_lead:'Lifetime soft-launch access: full Test Your Skills, blueprints and study receipts. Roadmaps, training and About stay free.',
+    unlock_price_lbl:'Price',
+    stripe_cta:'Pay with Stripe (coming — paste Payment Link)',
+    stripe_ready:'Pay with Stripe',
+    code_title:'Have an access code?',
+    code_ph:'Enter code (e.g. HHR-…)',
+    code_btn:'Unlock with code',
+    pay_note:'Questions about your purchase? Reply to your Stripe receipt email.',
+    unlocked:'Access unlocked on this device. Full Test Your Skills + study receipts are available.',
+    footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. All rights reserved.',
+    footer_indep:'Hard Hat Roadmap is an independent practice and career resource. Not affiliated with IHSA, BCRSP, CCOHS, PMI, CCA, or any certification body.',
+    legal_terms:'Terms',legal_privacy:'Privacy',legal_copyright:'Copyright',
+    footer_verify:'Training rules, fees and credential requirements change: always verify with the official source linked on each item before you enrol or apply.',
+    footer_privacy:'No tracking, no cookies, no accounts. Nothing you tick, type or upload leaves your device.',
+    sk_gate:'Unlock full practice to continue past the free sample (first 3 questions) and open mock exams + study receipts.',
+    sk_unlock_btn:'Unlock full practice'
+  },
+  fr:{
+    lang_note:'Les questions de pratique sont en anglais pour l’instant — interface disponible en FR/ES.',
+    nav_home:'Accueil',nav_roadmaps:'Feuilles de route',nav_training:'Formation gratuite',nav_skills:'Testez vos compétences',
+    nav_tools:'Outils',nav_careers:'Emplois possibles',nav_live:'Offres en direct',nav_jobs:'Emplois et employeurs',
+    nav_library:'Ressources',nav_about:'À propos de Shaun Thrasher',nav_unlock:'Débloquer',
+    track_ohs_long:'Sécurité (SST)',track_cm_long:'Gestion de construction',track_ohs_short:'SST',track_cm_short:'GC',
+    theme_dark:'Passer en mode sombre',theme_light:'Passer en mode clair',menu:'Ouvrir le menu',
+    kick:'Gratuit · Indépendant · Priorité Ontario',
+    hero_h1:'Trouvez un emploi en sécurité ou en gestion de construction.',
+    hero_lead:'Formation gratuite, feuilles de route claires, vrais outils. Pour démarrer, se reconvertir ou progresser en SST ou en gestion de construction.',
+    cta_road_ohs:'Voir la feuille de route SST',cta_road_cm:'Voir la feuille de route GC',cta_train:'Trouver une formation gratuite',
+    pick_lbl:'Je m’oriente vers :',
+    soft_banner:'Lancement étudiant — débloquez la pratique complète',
+    soft_go:'Voir les options',soft_dismiss:'Fermer',
+    unlock_kicker:'Lancement étudiant',
+    unlock_title:'Débloquer la pratique complète',
+    unlock_lead:'Accès unique au lancement : Testez vos compétences au complet, plans d’étude et reçus. Feuilles de route, formation et À propos restent gratuits.',
+    unlock_price_lbl:'Prix',
+    stripe_cta:'Payer avec Stripe (bientôt — coller le lien de paiement)',
+    stripe_ready:'Payer avec Stripe',
+    code_title:'Vous avez un code d’accès ?',
+    code_ph:'Entrez le code (ex. HHR-…)',
+    code_btn:'Débloquer avec un code',
+    pay_note:'Questions sur votre achat ? Répondez au courriel de reçu Stripe.',
+    unlocked:'Accès débloqué sur cet appareil. Pratique complète et reçus d’étude disponibles.',
+    footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. Tous droits réservés.',
+    footer_indep:'Hard Hat Roadmap est une ressource indépendante de pratique et de carrière. Non affilié à IHSA, BCRSP, CCOHS, PMI, CCA ni à aucun organisme de certification.',
+    legal_terms:'Conditions',legal_privacy:'Confidentialité',legal_copyright:'Droits d’auteur',
+    footer_verify:'Les règles, frais et exigences de titres changent : vérifiez toujours la source officielle liée avant de vous inscrire ou de postuler.',
+    footer_privacy:'Aucun suivi, aucun cookie, aucun compte. Rien de ce que vous cochez, tapez ou téléversez ne quitte votre appareil.',
+    sk_gate:'Débloquez la pratique complète pour aller au-delà de l’échantillon gratuit (3 questions) et ouvrir les examens blancs + reçus.',
+    sk_unlock_btn:'Débloquer la pratique complète'
+  },
+  es:{
+    lang_note:'Las preguntas de práctica están en inglés por ahora — la interfaz está disponible en FR/ES.',
+    nav_home:'Inicio',nav_roadmaps:'Hojas de ruta',nav_training:'Formación gratuita',nav_skills:'Pon a prueba tus habilidades',
+    nav_tools:'Herramientas',nav_careers:'Empleos posibles',nav_live:'Ofertas en vivo',nav_jobs:'Empleos y empleadores',
+    nav_library:'Recursos',nav_about:'Acerca de Shaun Thrasher',nav_unlock:'Desbloquear',
+    track_ohs_long:'Seguridad (SST)',track_cm_long:'Gestión de construcción',track_ohs_short:'SST',track_cm_short:'GC',
+    theme_dark:'Cambiar a modo oscuro',theme_light:'Cambiar a modo claro',menu:'Abrir menú',
+    kick:'Gratis · Independiente · Prioridad Ontario',
+    hero_h1:'Consigue trabajo en seguridad o gestión de construcción.',
+    hero_lead:'Formación gratuita, hojas de ruta claras y herramientas reales. Para empezar, cambiar de carrera o crecer en SST o gestión de construcción.',
+    cta_road_ohs:'Ver hoja de ruta SST',cta_road_cm:'Ver hoja de ruta GC',cta_train:'Buscar formación gratuita',
+    pick_lbl:'Voy hacia:',
+    soft_banner:'Lanzamiento estudiantil — desbloquea la práctica completa',
+    soft_go:'Ver opciones',soft_dismiss:'Cerrar',
+    unlock_kicker:'Lanzamiento estudiantil',
+    unlock_title:'Desbloquear práctica completa',
+    unlock_lead:'Acceso único de lanzamiento: Test Your Skills completo, planes de estudio y recibos. Hojas de ruta, formación y Acerca de siguen gratis.',
+    unlock_price_lbl:'Precio',
+    stripe_cta:'Pagar con Stripe (próximamente — pegar enlace de pago)',
+    stripe_ready:'Pagar con Stripe',
+    code_title:'¿Tienes un código de acceso?',
+    code_ph:'Introduce el código (ej. HHR-…)',
+    code_btn:'Desbloquear con código',
+    pay_note:'¿Preguntas sobre tu compra? Responde al correo del recibo de Stripe.',
+    unlocked:'Acceso desbloqueado en este dispositivo. Práctica completa y recibos disponibles.',
+    footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. Todos los derechos reservados.',
+    footer_indep:'Hard Hat Roadmap es un recurso independiente de práctica y carrera. No afiliado a IHSA, BCRSP, CCOHS, PMI, CCA ni a ningún organismo de certificación.',
+    legal_terms:'Términos',legal_privacy:'Privacidad',legal_copyright:'Derechos de autor',
+    footer_verify:'Las reglas, tarifas y requisitos de credenciales cambian: verifica siempre la fuente oficial enlazada antes de inscribirte o postular.',
+    footer_privacy:'Sin seguimiento, sin cookies, sin cuentas. Nada de lo que marcas, escribes o subes sale de tu dispositivo.',
+    sk_gate:'Desbloquea la práctica completa para pasar de la muestra gratis (3 preguntas) y abrir exámenes de práctica + recibos.',
+    sk_unlock_btn:'Desbloquear práctica completa'
+  }
+};
+
+function getLang(){
+  try{var v=localStorage.getItem(LANG_KEY);if(v&&DICT[v])return v}catch(e){}
+  return 'en';
+}
+function setLang(lang){
+  if(!DICT[lang])lang='en';
+  try{localStorage.setItem(LANG_KEY,lang)}catch(e){}
+  document.documentElement.setAttribute('lang',lang==='en'?'en-CA':lang);
+  document.documentElement.setAttribute('data-lang',lang);
+  applyI18n();
+  $$('#langSwitch [data-lang]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===lang))});
+}
+
+function t(key){
+  var lang=getLang();
+  return (DICT[lang]&&DICT[lang][key])||DICT.en[key]||key;
+}
+window.HHRi18n={t:t,getLang:getLang,setLang:setLang,DICT:DICT};
+
+function setText(sel,key){
+  var el=typeof sel==='string'?document.querySelector(sel):sel;
+  if(!el)return;
+  var v=t(key);if(v!==undefined)el.textContent=v;
+}
+function setHTML(sel,html){
+  var el=document.querySelector(sel);if(el)el.innerHTML=html;
+}
+
+function applyI18n(){
+  var lang=getLang();
+  // nav (main + sheet + bottom) via data-i18n-nav
+  $$('[data-i18n]').forEach(function(el){
+    var key=el.getAttribute('data-i18n');
+    if(!key)return;
+    var v=t(key);
+    if(el.tagName==='INPUT'||el.tagName==='TEXTAREA'){
+      if(el.hasAttribute('placeholder'))el.setAttribute('placeholder',v);
+    }else if(el.hasAttribute('aria-label')&&el.getAttribute('data-i18n-aria')==='1'){
+      el.setAttribute('aria-label',v);
+    }else{
+      // preserve leading SVG icons: only replace text nodes / last label span
+      var label=el.querySelector('[data-i18n-label]');
+      if(label)label.textContent=v;
+      else if(!el.querySelector('svg.i')||el.children.length===0)el.textContent=v;
+      else{
+        // set text after svg
+        var texts=[];
+        el.childNodes.forEach(function(n){if(n.nodeType===3&&n.textContent.trim())texts.push(n)});
+        if(texts.length)texts[texts.length-1].textContent=' '+v;
+        else{var span=document.createElement('span');span.setAttribute('data-i18n-label','');span.textContent=v;el.appendChild(span)}
+      }
+    }
+  });
+  var note=$('#i18nContentNote');
+  if(note){
+    var n=t('lang_note');
+    note.hidden=!n;note.textContent=n;
+  }
+  // Stripe button label depends on config — pay.js paintUnlock refreshes; nudge status
+  var st=$('#unlockStatus');
+  if(st&&!st.hidden&&window.HHRPay&&HHRPay.hasAccess())st.textContent=t('unlocked');
+  $$('#langSwitch [data-lang]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lang===lang))});
+}
+
+function wireLang(){
+  var sw=$('#langSwitch');
+  if(sw)sw.addEventListener('click',function(e){
+    var b=e.target.closest('[data-lang]');if(!b)return;
+    setLang(b.dataset.lang);
+  });
+  setLang(getLang());
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',wireLang);
+else wireLang();
 })();
 
 /* quiet scroll-reveal (respects prefers-reduced-motion via CSS) */
