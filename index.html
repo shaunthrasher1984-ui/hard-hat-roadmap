@@ -666,7 +666,7 @@ footer.site-legal-footer .flinks-legal a{color:var(--tealtx,#3cc7c0);font-weight
      <span class="kicker" data-i18n="unlock_kicker">Student soft launch</span>
      <h2 id="unlockTitle" data-i18n="unlock_title">Unlock full practice</h2>
      <p class="lead" data-i18n="unlock_lead">Lifetime soft-launch access: full Test Your Skills, blueprints and study receipts. Roadmaps, training and About stay free.</p>
-     <p class="unlock-price"><span data-i18n="unlock_price_lbl">Price</span>: <strong id="unlockPrice">$29 CAD one-time</strong></p>
+     <p class="unlock-price"><span data-i18n="unlock_price_lbl">Price</span>: <strong id="unlockPrice">$14.99 CAD one-time</strong></p>
     </div>
     <div class="unlock-grid">
      <div class="unlock-col unlock-only-locked">
@@ -1214,7 +1214,7 @@ function skSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 
 function hasAccess(){return window.HHRPay&&HHRPay.hasAccess()}
 function gateHTML(){return '<aside class="skgate panel noprint" role="region"><p>Unlock full practice to continue past the free sample (first 3 questions) and open mock exams + study receipts.</p>'+
-  '<p class="unlock-price"><strong>$29 CAD one-time</strong> · Lifetime soft-launch access</p>'+
+  '<p class="unlock-price"><strong>$14.99 CAD one-time</strong> · Lifetime soft-launch access</p>'+
   '<a class="btn btn-primary" href="#unlock" data-jump="unlock">Unlock full practice</a></aside>'}
 function pathState(){return skGet(SKLS.key,{cleared:{},desk:''})}
 function pathSet(s){skSet(SKLS.key,s)}
@@ -1452,7 +1452,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 (function(){
 'use strict';
 var ACCESS_KEY='hhr_access', ACCESS_TS='hhr_access_ts', FREE_Q=3;
-var CFG={stripe_payment_link:'',price_label:'$29 CAD one-time',product_name:'Lifetime soft-launch access'};
+var CFG={stripe_payment_link:'',price_label:'$14.99 CAD one-time',product_name:'Lifetime soft-launch access'};
 var CODE_HASHES=[];
 var HHRPay={
   FREE_Q:FREE_Q,
@@ -1512,7 +1512,7 @@ function paintUnlock(){
     }
   }
   var price=$('#unlockPrice');
-  if(price)price.textContent=CFG.price_label||'$29 CAD one-time';
+  if(price)price.textContent=CFG.price_label||'$14.99 CAD one-time';
 }
 
 function tryQueryUnlock(){
