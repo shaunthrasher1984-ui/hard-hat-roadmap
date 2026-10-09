@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-08T10:32:35Z",
+"generated_at":"2026-10-09T10:32:34Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":8,
-"CM":43
+"OHS":7,
+"CM":46
 },
 "sources":[
 {
@@ -23,20 +23,20 @@
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
 "fetched":56,
-"kept":22
+"kept":21
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":29
+"kept":32
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":175,
+"fetched":180,
 "kept":0
 },
 {
@@ -62,18 +62,102 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":520,
-"not_canada":82,
-"no_track":321,
+"in":525,
+"not_canada":55,
+"no_track":331,
 "blocked":0,
-"too_old":16,
+"too_old":17,
 "bad_date":0,
 "bad_url":0,
-"duplicate":50,
+"duplicate":69,
 "over_cap":0,
-"kept":51
+"kept":53
 },
 "jobs":[
+{
+"title":"Superintendent - YNSE",
+"employer":"Aecon",
+"city":"North York",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/North-York-Superintendent-YNSE-ON/605171317/",
+"id":"0f38dd2736"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"North York",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/North-York-Superintendent-ON/604300817/",
+"id":"5930bf4c69"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Hamilton",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Hamilton-Superintendent-ON/605983117/",
+"id":"2125490bd8"
+},
+{
+"title":"Junior Estimator",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Junior-Estimator-ON/605995117/",
+"id":"d2dbb37928"
+},
+{
+"title":"Deputy Project Director",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Deputy-Project-Director-ON/604295617/",
+"id":"fce9cf9d59"
+},
+{
+"title":"Coordinator, Project",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Coordinator%2C-Project-ON/605139817/",
+"id":"99fb458302"
+},
+{
+"title":"Construction Manager - YNSE",
+"employer":"Aecon",
+"city":"North York",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-09",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/North-York-Construction-Manager-YNSE-ON/605171117/",
+"id":"7aa7b98c00"
+},
 {
 "title":"Superintendent, Civil Structural",
 "employer":"Aecon",
@@ -85,18 +169,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Superintendent%2C-Civil-Structural-ON/604286217/",
 "id":"5102d2003a"
-},
-{
-"title":"Sr. Estimator, Transmission",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-08",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Sr_-Estimator%2C-Transmission-ON/604210817/",
-"id":"9c34e30104"
 },
 {
 "title":"Project Manager (Airports)",
@@ -133,18 +205,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-PlannerScheduler-ON/605956517/",
 "id":"525605d90d"
-},
-{
-"title":"Manager, Project (Telecommunications)",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-08",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Manager%2C-Project-%28Telecommunications%29-ON/599046717/",
-"id":"487e2bec71"
 },
 {
 "title":"Project Coordinator",
@@ -207,18 +267,6 @@
 "id":"b7269a1759"
 },
 {
-"title":"EHS Manager",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-05",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-EHS-Manager-ON/600699117/",
-"id":"36d80b1ed0"
-},
-{
 "title":"Project Manager - Heavy Industrial",
 "employer":"Aecon",
 "city":"Cambridge",
@@ -243,7 +291,7 @@
 "id":"0b5f03c7f4"
 },
 {
-"title":"Directeur(trice) Construction",
+"title":"Directeur(trice) Construction (Opportunité future)",
 "employer":"Aecon",
 "city":"Montreal",
 "prov":"QC",
@@ -251,20 +299,8 @@
 "track":"CM",
 "posted":"2026-10-04",
 "source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Directeur%28trice%29-Construction-Qu%C3%A9b/598964717/",
-"id":"a23fbf9d35"
-},
-{
-"title":"Project Coordinator",
-"employer":"Aecon",
-"city":"Stouffville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-03",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Stouffville-Project-Coordinator-ON/599229617/",
-"id":"50804ad4ce"
+"url":"https://jobs.aecon.com/job/Montreal-Directeur%28trice%29-Construction-%28Opportunit%C3%A9-future%29-Qu%C3%A9b/598964717/",
+"id":"03d9ee4e47"
 },
 {
 "title":"EHS Director",
@@ -581,18 +617,6 @@
 {
 "title":"Superintendent",
 "employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-20",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
-"id":"730c1bb0bc"
-},
-{
-"title":"Superintendent",
-"employer":"Aecon",
 "city":"Toronto",
 "prov":"ON",
 "region":"ON",
@@ -601,6 +625,18 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
 "id":"717e57681d"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-09-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
+"id":"730c1bb0bc"
 },
 {
 "title":"Senior Project Coordinator",
@@ -673,18 +709,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000149379199",
 "id":"e8d21c08dd"
-},
-{
-"title":"Estimator",
-"employer":"Chandos",
-"city":"Edmonton",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-08",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000148341429",
-"id":"7dc725773d"
 }
 ]
 }
