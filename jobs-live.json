@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-10T10:28:15Z",
+"generated_at":"2026-10-11T10:28:56Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":5,
-"CM":46
+"OHS":6,
+"CM":48
 },
 "sources":[
 {
@@ -30,7 +30,7 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":30
+"kept":33
 },
 {
 "id":"opg",
@@ -63,17 +63,113 @@
 "attribution":{},
 "filter_stats":{
 "in":525,
-"not_canada":102,
-"no_track":278,
+"not_canada":77,
+"no_track":287,
 "blocked":0,
 "too_old":17,
 "bad_date":0,
 "bad_url":0,
-"duplicate":77,
+"duplicate":90,
 "over_cap":0,
-"kept":51
+"kept":54
 },
 "jobs":[
+{
+"title":"Sr. Manager, Transmission Project",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Sr_-Manager%2C-Transmission-Project-AB/605246917/",
+"id":"e7b5c27266"
+},
+{
+"title":"Planner/Scheduler (HaLRT)",
+"employer":"Aecon",
+"city":"Hamilton",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Hamilton-PlannerScheduler-%28HaLRT%29-ON/601714417/",
+"id":"3381ef2294"
+},
+{
+"title":"Manager, Project",
+"employer":"Aecon",
+"city":"Scarborough",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Scarborough-Manager%2C-Project-ON/604401417/",
+"id":"293f96b50b"
+},
+{
+"title":"Estimator",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Estimator-ON/604402717/",
+"id":"496de5c2e4"
+},
+{
+"title":"EHS Manager",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-EHS-Manager-ON/604393817/",
+"id":"9ef9fc8b89"
+},
+{
+"title":"Coordinator, Project",
+"employer":"Aecon",
+"city":"Scarborough",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Scarborough-Coordinator%2C-Project-ON/604401317/",
+"id":"d97a46fdd3"
+},
+{
+"title":"Assistant Project Manager",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Assistant-Project-Manager-ON/602639217/",
+"id":"ea101cda4e"
+},
+{
+"title":"Advisor, EHS",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-11",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Advisor%2C-EHS-ON/604402817/",
+"id":"1746d444e0"
+},
 {
 "title":"Sr. Project Coordinator",
 "employer":"Aecon",
@@ -85,18 +181,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Hamilton-Sr_-Project-Coordinator-ON/606045317/",
 "id":"b7b8354dcc"
-},
-{
-"title":"Senior Project Coordinator",
-"employer":"Aecon",
-"city":"Fort Saskatchewan",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Fort-Saskatchewan-Senior-Project-Coordinator-AB/606019617/",
-"id":"dba31b438e"
 },
 {
 "title":"Project Engineer, Fabrication",
@@ -121,30 +205,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Kawartha-Lakes-EHS-Advisor-AOTHR-ON/604352917/",
 "id":"7417e4c51d"
-},
-{
-"title":"Director, Project",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Director%2C-Project-ON/606040317/",
-"id":"636028ed25"
-},
-{
-"title":"Director, Integrated Project Delivery",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Director%2C-Integrated-Project-Delivery-ON/606040017/",
-"id":"e21eabecba"
 },
 {
 "title":"Superintendent - YNSE",
@@ -217,18 +277,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Bowmanville-Deputy-Project-Director-ON/604295617/",
 "id":"fce9cf9d59"
-},
-{
-"title":"Coordinator, Project",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-Coordinator%2C-Project-ON/605139817/",
-"id":"99fb458302"
 },
 {
 "title":"Construction Manager - YNSE",
@@ -435,18 +483,6 @@
 "id":"cd77cde159"
 },
 {
-"title":"Health & Safety Advisor - Evening Shift",
-"employer":"Aecon",
-"city":"Scarborough",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-01",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/stconnect/job/Scarborough-Health-&-Safety-Advisor-Evening-Shift-ON/601436617/",
-"id":"6cab555555"
-},
-{
 "title":"Senior Estimator, Transportation Infrastructure",
 "employer":"Chandos",
 "city":"Calgary",
@@ -593,18 +629,6 @@
 {
 "title":"Superintendent",
 "employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-20",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
-"id":"730c1bb0bc"
-},
-{
-"title":"Superintendent",
-"employer":"Aecon",
 "city":"Toronto",
 "prov":"ON",
 "region":"ON",
@@ -613,6 +637,18 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
 "id":"717e57681d"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-09-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
+"id":"730c1bb0bc"
 },
 {
 "title":"Senior Project Coordinator",
