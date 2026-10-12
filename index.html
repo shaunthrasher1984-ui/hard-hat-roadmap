@@ -1833,7 +1833,7 @@ function applyI18n(){
   });
   var note=$('#i18nContentNote');
   if(note){
-    var n=t('lang_note');
+    var L=getLang(),n=(DICT[L]&&DICT[L].lang_note)||'';
     note.hidden=!n;note.textContent=n;
   }
   // Pay button: keep live PayPal label once a link is configured
