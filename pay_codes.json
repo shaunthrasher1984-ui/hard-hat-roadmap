@@ -17,6 +17,11 @@
     {
       "hash": "b02a3e59808ba7d9de9443b2050045b943dd45d1031f913840e8340e9b96ec97",
       "note": "soft-launch"
+    },
+    {
+      "hash": "aa0da6e3ad0da1aee325c44d8f1d2d647edd9a64efffe138bdb965bdf5815a17",
+      "note": "promo-10",
+      "price_cad": 10
     }
   ]
 }
