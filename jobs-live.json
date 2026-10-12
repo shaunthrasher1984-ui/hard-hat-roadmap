@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-11T10:28:56Z",
+"generated_at":"2026-10-12T10:33:49Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":6,
-"CM":48
+"OHS":7,
+"CM":47
 },
 "sources":[
 {
@@ -63,17 +63,65 @@
 "attribution":{},
 "filter_stats":{
 "in":525,
-"not_canada":77,
-"no_track":287,
+"not_canada":72,
+"no_track":280,
 "blocked":0,
 "too_old":17,
 "bad_date":0,
 "bad_url":0,
-"duplicate":90,
+"duplicate":102,
 "over_cap":0,
 "kept":54
 },
 "jobs":[
+{
+"title":"Safety Lead - Future Opportunities",
+"employer":"Aecon",
+"city":"Hamilton",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-12",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Hamilton-Safety-Lead-Future-Opportunities-ON/604462517/",
+"id":"18bba51bdc"
+},
+{
+"title":"Project Engineer, Utility Design",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-12",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Project-Engineer%2C-Utility-Design-ON/603592317/",
+"id":"ae7b0fcefe"
+},
+{
+"title":"Construction Manager - AOTHR",
+"employer":"Aecon",
+"city":"Barrie",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-12",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Barrie-Construction-Manager-AOTHR-ON/604462717/",
+"id":"aa7cbb38ad"
+},
+{
+"title":"Civil Project Manager",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-10-12",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Civil-Project-Manager-AB/602646217/",
+"id":"af71c830a6"
+},
 {
 "title":"Sr. Manager, Transmission Project",
 "employer":"Aecon",
@@ -255,18 +303,6 @@
 "id":"89fee608b8"
 },
 {
-"title":"Junior Estimator",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-Junior-Estimator-ON/605995117/",
-"id":"d2dbb37928"
-},
-{
 "title":"Deputy Project Director",
 "employer":"Aecon",
 "city":"Bowmanville",
@@ -325,18 +361,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Kincardine-Project-Administrator-ON/606825817/",
 "id":"798e154132"
-},
-{
-"title":"Project Coordinator",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-06",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Project-Coordinator-ON/606790817/",
-"id":"705a917a78"
 },
 {
 "title":"EHS Director",
@@ -423,18 +447,6 @@
 "id":"83ef3d9f86"
 },
 {
-"title":"Piping Superintendent - Future Opportunities",
-"employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-10-02",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Piping-Superintendent-Future-Opportunities-AB/603260617/",
-"id":"dfd830f2df"
-},
-{
 "title":"Millwright Superintendent - Future Opportunities",
 "employer":"Aecon",
 "city":"Calgary",
@@ -445,18 +457,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Calgary-Millwright-Superintendent-Future-Opportunities-AB/603261517/",
 "id":"31df0f6829"
-},
-{
-"title":"Instrumentation Superintendent - Future Opportunities",
-"employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-10-02",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Instrumentation-Superintendent-Future-Opportunities-AB/603261417/",
-"id":"61bc1196ae"
 },
 {
 "title":"Superintendent",
