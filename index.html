@@ -1615,7 +1615,7 @@ function wireUnlockForm(){
         PROMO_MODE=true;
         try{sessionStorage.setItem('hhr_promo','1')}catch(e){}
         paintUnlock();
-        if(msg){msg.hidden=false;msg.textContent='Student promo applied: $10 CAD. Pay with PayPal below and we’ll email your access code within 24 hours.';msg.className='unlock-msg ok'}
+        if(msg){msg.hidden=false;msg.textContent='Student promo applied: $10 CAD. Pay with PayPal below and you’ll be unlocked automatically.';msg.className='unlock-msg ok'}
         var pay=document.getElementById('stripePayBtn');
         if(pay)pay.scrollIntoView({block:'nearest',behavior:'smooth'});
         return;
@@ -1700,7 +1700,7 @@ var DICT={
     code_title:'Have an access code?',
     code_ph:'Enter code (e.g. HHR-…)',
     code_btn:'Unlock with code',
-    pay_note:"After you pay, you'll get your access code by email within 24 hours. Questions? Reply to your PayPal receipt.",
+    pay_note:"Pay securely with PayPal (card or PayPal account). You'll be sent straight back here and unlocked automatically. Questions? Reply to your PayPal receipt.",
     unlocked:'Access unlocked on this device. Full Test Your Skills + study receipts are available.',
     footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. All rights reserved.',
     footer_indep:'Hard Hat Roadmap is an independent practice and career resource. Not affiliated with IHSA, BCRSP, CCOHS, PMI, CCA, or any certification body.',
@@ -1733,7 +1733,7 @@ var DICT={
     code_title:'Vous avez un code d’accès ?',
     code_ph:'Entrez le code (ex. HHR-…)',
     code_btn:'Débloquer avec un code',
-    pay_note:'Après votre paiement, vous recevrez votre code d’accès par courriel sous 24 heures. Des questions ? Répondez à votre reçu PayPal.',
+    pay_note:'Payez en toute sécurité avec PayPal (carte ou compte PayPal). Vous serez redirigé ici et débloqué automatiquement. Des questions ? Répondez à votre reçu PayPal.',
     unlocked:'Accès débloqué sur cet appareil. Pratique complète et reçus d’étude disponibles.',
     footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. Tous droits réservés.',
     footer_indep:'Hard Hat Roadmap est une ressource indépendante de pratique et de carrière. Non affilié à IHSA, BCRSP, CCOHS, PMI, CCA ni à aucun organisme de certification.',
@@ -1766,7 +1766,7 @@ var DICT={
     code_title:'¿Tienes un código de acceso?',
     code_ph:'Introduce el código (ej. HHR-…)',
     code_btn:'Desbloquear con código',
-    pay_note:'Después de pagar, recibirás tu código de acceso por correo en 24 horas. ¿Preguntas? Responde a tu recibo de PayPal.',
+    pay_note:'Paga de forma segura con PayPal (tarjeta o cuenta PayPal). Volverás aquí y se desbloqueará automáticamente. ¿Preguntas? Responde a tu recibo de PayPal.',
     unlocked:'Acceso desbloqueado en este dispositivo. Práctica completa y recibos disponibles.',
     footer_copy:'© 2026 Shaun Thrasher. Hard Hat Roadmap™. Todos los derechos reservados.',
     footer_indep:'Hard Hat Roadmap es un recurso independiente de práctica y carrera. No afiliado a IHSA, BCRSP, CCOHS, PMI, CCA ni a ningún organismo de certificación.',
