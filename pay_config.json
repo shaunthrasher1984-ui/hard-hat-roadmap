@@ -2,10 +2,10 @@
   "stripe_payment_link": "",
   "price_cad": 14.99,
   "price_label": "$14.99 CAD one-time",
-  "product_name": "Hard Hat Roadmap — Soft Launch Access",
+  "product_name": "Hard Hat Roadmap \u2014 Soft Launch Access",
   "currency": "CAD",
   "paypal_payment_link": "https://www.paypal.com/ncp/payment/7DFAQX7F8QVLN",
-  "paypal_promo_link": "",
+  "paypal_promo_link": "https://www.paypal.com/ncp/payment/HT933YGU2C8KC",
   "promo_price_cad": 10,
   "promo_price_label": "$10 CAD student promo",
   "promo_code_hash": "aa0da6e3ad0da1aee325c44d8f1d2d647edd9a64efffe138bdb965bdf5815a17"
