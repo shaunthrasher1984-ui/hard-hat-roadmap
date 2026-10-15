@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-14T10:44:07Z",
+"generated_at":"2026-10-15T10:44:08Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":7,
-"CM":44
+"OHS":6,
+"CM":37
 },
 "sources":[
 {
@@ -23,20 +23,20 @@
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
 "fetched":56,
-"kept":21
+"kept":18
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":30
+"kept":25
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":160,
+"fetched":140,
 "kept":0
 },
 {
@@ -62,18 +62,66 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":505,
-"not_canada":112,
-"no_track":293,
+"in":485,
+"not_canada":119,
+"no_track":240,
 "blocked":0,
-"too_old":17,
+"too_old":20,
 "bad_date":0,
 "bad_url":0,
-"duplicate":32,
+"duplicate":63,
 "over_cap":0,
-"kept":51
+"kept":43
 },
 "jobs":[
+{
+"title":"Project Manager - Foundations",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Project-Manager-Foundations-AB/600167917/",
+"id":"36c503d61e"
+},
+{
+"title":"Project Coordinator- Mechanical",
+"employer":"Aecon",
+"city":"Kincardine",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kincardine-Project-Coordinator-Mechanical-ON/606174117/",
+"id":"facab68d60"
+},
+{
+"title":"Project Coordinator - Future Opportunities",
+"employer":"Aecon",
+"city":"Kincardine",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kincardine-Project-Coordinator-Future-Opportunities-ON/605298617/",
+"id":"b735ea9fac"
+},
+{
+"title":"Project Coordinator",
+"employer":"Aecon",
+"city":"Pickering",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-ON/605313617/",
+"id":"ab197cff66"
+},
 {
 "title":"Field Safety Advisor",
 "employer":"Aecon",
@@ -159,42 +207,6 @@
 "id":"55932068f7"
 },
 {
-"title":"Co-op, Project Coordinator (Scarborough)",
-"employer":"Aecon",
-"city":"Scarborough",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-13",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Scarborough-Co-op%2C-Project-Coordinator-%28Scarborough%29-ON/606957517/",
-"id":"570432195d"
-},
-{
-"title":"Co-op, Project Coordinator",
-"employer":"Aecon",
-"city":"Ohsweken",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-13",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Ohsweken-Co-op%2C-Project-Coordinator-ON/606072617/",
-"id":"737312b598"
-},
-{
-"title":"Co-op, Project Controls Coordinator",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-13",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Co-op%2C-Project-Controls-Coordinator-ON/606069617/",
-"id":"42589c714f"
-},
-{
 "title":"Safety Lead - Future Opportunities",
 "employer":"Aecon",
 "city":"Hamilton",
@@ -219,18 +231,6 @@
 "id":"af71c830a6"
 },
 {
-"title":"Planner/Scheduler (HaLRT)",
-"employer":"Aecon",
-"city":"Hamilton",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Hamilton-PlannerScheduler-%28HaLRT%29-ON/601714417/",
-"id":"3381ef2294"
-},
-{
 "title":"Manager, Project",
 "employer":"Aecon",
 "city":"Scarborough",
@@ -241,18 +241,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Scarborough-Manager%2C-Project-ON/604401417/",
 "id":"293f96b50b"
-},
-{
-"title":"Estimator",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Estimator-ON/604402717/",
-"id":"496de5c2e4"
 },
 {
 "title":"EHS Manager",
@@ -267,18 +255,6 @@
 "id":"9ef9fc8b89"
 },
 {
-"title":"Assistant Project Manager",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Assistant-Project-Manager-ON/602639217/",
-"id":"ea101cda4e"
-},
-{
 "title":"Advisor, EHS",
 "employer":"Aecon",
 "city":"Toronto",
@@ -289,30 +265,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Advisor%2C-EHS-ON/604402817/",
 "id":"1746d444e0"
-},
-{
-"title":"Sr. Project Coordinator",
-"employer":"Aecon",
-"city":"Hamilton",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Hamilton-Sr_-Project-Coordinator-ON/606045317/",
-"id":"b7b8354dcc"
-},
-{
-"title":"Project Engineer, Fabrication",
-"employer":"Aecon",
-"city":"Brantford",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Brantford-Project-Engineer%2C-Fabrication-ON/599155517/",
-"id":"a9f81c1529"
 },
 {
 "title":"EHS Advisor - AOTHR",
@@ -385,18 +337,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000154119679",
 "id":"de708469ff"
-},
-{
-"title":"EHS Director",
-"employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"OHS",
-"posted":"2026-10-06",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-EHS-Director-AB/606796017/",
-"id":"9a7f48cc7b"
 },
 {
 "title":"Directeur(trice) Construction (Opportunité future)",
@@ -649,42 +589,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000149964849",
 "id":"67c01c4679"
-},
-{
-"title":"Senior Estimator (Municipal Infrastructure)",
-"employer":"Chandos",
-"city":"Vancouver",
-"prov":"BC",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-14",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000149378801",
-"id":"4707703a8a"
-},
-{
-"title":"Senior Estimator (Municipal Infrastructure)",
-"employer":"Chandos",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-14",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000149379473",
-"id":"353cc6ee97"
-},
-{
-"title":"Senior Estimator (Municipal Infrastructure)",
-"employer":"Chandos",
-"city":"Edmonton",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-14",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000149379199",
-"id":"e8d21c08dd"
 }
 ]
 }
