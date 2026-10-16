@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-15T10:44:08Z",
+"generated_at":"2026-10-16T10:43:26Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":6,
-"CM":37
+"OHS":8,
+"CM":39
 },
 "sources":[
 {
@@ -22,21 +22,21 @@
 "id":"chandos",
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
-"fetched":56,
-"kept":18
+"fetched":59,
+"kept":19
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":25
+"kept":28
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":140,
+"fetched":149,
 "kept":0
 },
 {
@@ -62,18 +62,66 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":485,
-"not_canada":119,
-"no_track":240,
+"in":497,
+"not_canada":95,
+"no_track":298,
 "blocked":0,
 "too_old":20,
 "bad_date":0,
 "bad_url":0,
-"duplicate":63,
+"duplicate":37,
 "over_cap":0,
-"kept":43
+"kept":47
 },
 "jobs":[
+{
+"title":"Sr. Manager, Project Controls",
+"employer":"Aecon",
+"city":"Kincardine",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-16",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kincardine-Sr_-Manager%2C-Project-Controls-ON/606198817/",
+"id":"6511e1b21d"
+},
+{
+"title":"Project Controls Coordinator - Contract",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-16",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Project-Controls-Coordinator-Contract-ON/604513717/",
+"id":"23b58b56b7"
+},
+{
+"title":"Project Administrator - AOTH",
+"employer":"Aecon",
+"city":"Barrie",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-16",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Barrie-Project-Administrator-AOTH-ON/604551817/",
+"id":"3d8253c906"
+},
+{
+"title":"Superintendent - General Application",
+"employer":"Chandos",
+"city":"Mississauga",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000155827107",
+"id":"a6686abe29"
+},
 {
 "title":"Project Manager - Foundations",
 "employer":"Aecon",
@@ -111,7 +159,7 @@
 "id":"b735ea9fac"
 },
 {
-"title":"Project Coordinator",
+"title":"Lead Planner",
 "employer":"Aecon",
 "city":"Pickering",
 "prov":"ON",
@@ -119,8 +167,44 @@
 "track":"CM",
 "posted":"2026-10-15",
 "source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-ON/605313617/",
-"id":"ab197cff66"
+"url":"https://jobs.aecon.com/job/Pickering-Lead-Planner-ON/607072317/",
+"id":"2882532f8c"
+},
+{
+"title":"Estimating Controls Specialist",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Estimating-Controls-Specialist-ON/607072217/",
+"id":"01f64b6d1a"
+},
+{
+"title":"Advisor, EHS",
+"employer":"Aecon",
+"city":"Vancouver",
+"prov":"BC",
+"region":"CA",
+"track":"OHS",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Vancouver-Advisor%2C-EHS-Brit/607057517/",
+"id":"2d4f2c31ec"
+},
+{
+"title":"Advisor, EHS",
+"employer":"Aecon",
+"city":"Mississauga",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
+"id":"71fe432bca"
 },
 {
 "title":"Field Safety Advisor",
@@ -195,18 +279,6 @@
 "id":"48e5adc1fd"
 },
 {
-"title":"Intermediate Cost Controller",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-13",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-Intermediate-Cost-Controller-ON/606981417/",
-"id":"55932068f7"
-},
-{
 "title":"Safety Lead - Future Opportunities",
 "employer":"Aecon",
 "city":"Hamilton",
@@ -217,30 +289,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Hamilton-Safety-Lead-Future-Opportunities-ON/604462517/",
 "id":"18bba51bdc"
-},
-{
-"title":"Civil Project Manager",
-"employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-10-12",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Civil-Project-Manager-AB/602646217/",
-"id":"af71c830a6"
-},
-{
-"title":"Manager, Project",
-"employer":"Aecon",
-"city":"Scarborough",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Scarborough-Manager%2C-Project-ON/604401417/",
-"id":"293f96b50b"
 },
 {
 "title":"EHS Manager",
