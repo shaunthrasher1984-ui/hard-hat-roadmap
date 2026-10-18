@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-17T10:38:57Z",
+"generated_at":"2026-10-18T10:39:29Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":9,
-"CM":34
+"OHS":10,
+"CM":36
 },
 "sources":[
 {
@@ -30,7 +30,7 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":26
+"kept":29
 },
 {
 "id":"opg",
@@ -63,17 +63,77 @@
 "attribution":{},
 "filter_stats":{
 "in":521,
-"not_canada":94,
-"no_track":324,
+"not_canada":67,
+"no_track":329,
 "blocked":0,
 "too_old":22,
 "bad_date":0,
 "bad_url":0,
-"duplicate":38,
+"duplicate":57,
 "over_cap":0,
-"kept":43
+"kept":46
 },
 "jobs":[
+{
+"title":"Project Manager",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-18",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Project-Manager-ON/601912017/",
+"id":"7da4708ee8"
+},
+{
+"title":"Project Controls Coordinator",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-18",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Project-Controls-Coordinator-ON/605451017/",
+"id":"1de611fffa"
+},
+{
+"title":"Manager, Transmission Project",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-18",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Manager%2C-Transmission-Project-ON/605441417/",
+"id":"1b3806ac86"
+},
+{
+"title":"Jr. Project Manager",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-18",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Jr_-Project-Manager-ON/601911717/",
+"id":"7ab5b2797f"
+},
+{
+"title":"EHS Coordinator - AOTHR",
+"employer":"Aecon",
+"city":"Kawartha Lakes",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-18",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kawartha-Lakes-EHS-Coordinator-AOTHR-ON/605453417/",
+"id":"2e8ff862d6"
+},
 {
 "title":"Sr Project Coordinator - Electrical",
 "employer":"Aecon",
@@ -171,16 +231,16 @@
 "id":"36c503d61e"
 },
 {
-"title":"Project Coordinator- Mechanical",
+"title":"Advisor, EHS",
 "employer":"Aecon",
-"city":"Kincardine",
+"city":"Mississauga",
 "prov":"ON",
 "region":"ON",
-"track":"CM",
+"track":"OHS",
 "posted":"2026-10-15",
 "source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Kincardine-Project-Coordinator-Mechanical-ON/606174117/",
-"id":"facab68d60"
+"url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
+"id":"71fe432bca"
 },
 {
 "title":"Advisor, EHS",
@@ -193,18 +253,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Vancouver-Advisor%2C-EHS-Brit/607057517/",
 "id":"2d4f2c31ec"
-},
-{
-"title":"Advisor, EHS",
-"employer":"Aecon",
-"city":"Mississauga",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-15",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
-"id":"71fe432bca"
 },
 {
 "title":"Field Safety Advisor",
@@ -337,18 +385,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/North-York-Superintendent-ON/604300817/",
 "id":"5930bf4c69"
-},
-{
-"title":"Construction Manager - YNSE",
-"employer":"Aecon",
-"city":"North York",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/North-York-Construction-Manager-YNSE-ON/605171117/",
-"id":"7aa7b98c00"
 },
 {
 "title":"Project Coordinator",
