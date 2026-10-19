@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-18T10:39:29Z",
+"generated_at":"2026-10-19T10:42:56Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":10,
-"CM":36
+"OHS":11,
+"CM":37
 },
 "sources":[
 {
@@ -30,7 +30,7 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":29
+"kept":31
 },
 {
 "id":"opg",
@@ -63,17 +63,77 @@
 "attribution":{},
 "filter_stats":{
 "in":521,
-"not_canada":67,
-"no_track":329,
+"not_canada":61,
+"no_track":315,
 "blocked":0,
 "too_old":22,
 "bad_date":0,
 "bad_url":0,
-"duplicate":57,
+"duplicate":75,
 "over_cap":0,
-"kept":46
+"kept":48
 },
 "jobs":[
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Stouffville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Stouffville-Superintendent-ON/604670417/",
+"id":"dc5fe7a7bc"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
+"id":"730c1bb0bc"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
+"id":"717e57681d"
+},
+{
+"title":"Sr. EHS Advisor",
+"employer":"Aecon",
+"city":"Pickering",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Pickering-Sr_-EHS-Advisor-ON/604647617/",
+"id":"e0fb513310"
+},
+{
+"title":"Project Manager, Substation",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Project-Manager%2C-Substation-ON/601115017/",
+"id":"eadf1f0df0"
+},
 {
 "title":"Project Manager",
 "employer":"Aecon",
@@ -133,18 +193,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Kawartha-Lakes-EHS-Coordinator-AOTHR-ON/605453417/",
 "id":"2e8ff862d6"
-},
-{
-"title":"Sr Project Coordinator - Electrical",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-17",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-Sr-Project-Coordinator-Electrical-ON/605399217/",
-"id":"33cd5b1ce4"
 },
 {
 "title":"Site Manager",
@@ -233,18 +281,6 @@
 {
 "title":"Advisor, EHS",
 "employer":"Aecon",
-"city":"Mississauga",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-15",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
-"id":"71fe432bca"
-},
-{
-"title":"Advisor, EHS",
-"employer":"Aecon",
 "city":"Vancouver",
 "prov":"BC",
 "region":"CA",
@@ -253,6 +289,18 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Vancouver-Advisor%2C-EHS-Brit/607057517/",
 "id":"2d4f2c31ec"
+},
+{
+"title":"Advisor, EHS",
+"employer":"Aecon",
+"city":"Mississauga",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
+"id":"71fe432bca"
 },
 {
 "title":"Field Safety Advisor",
@@ -601,30 +649,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000150782650",
 "id":"3b094bed64"
-},
-{
-"title":"Superintendent",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-09-20",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
-"id":"717e57681d"
-},
-{
-"title":"Superintendent",
-"employer":"Aecon",
-"city":"Calgary",
-"prov":"AB",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-20",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Calgary-Superintendent-AB/604664817/",
-"id":"730c1bb0bc"
 }
 ]
 }
