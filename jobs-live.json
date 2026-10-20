@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-19T10:42:56Z",
+"generated_at":"2026-10-20T10:42:03Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":11,
-"CM":37
+"OHS":12,
+"CM":36
 },
 "sources":[
 {
@@ -22,21 +22,21 @@
 "id":"chandos",
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
-"fetched":59,
-"kept":17
+"fetched":61,
+"kept":18
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":289,
-"kept":31
+"kept":30
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":173,
+"fetched":190,
 "kept":0
 },
 {
@@ -62,29 +62,101 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":521,
-"not_canada":61,
-"no_track":315,
+"in":540,
+"not_canada":33,
+"no_track":367,
 "blocked":0,
 "too_old":22,
 "bad_date":0,
 "bad_url":0,
-"duplicate":75,
+"duplicate":70,
 "over_cap":0,
 "kept":48
 },
 "jobs":[
 {
+"title":"[New to Nuclear] Project Coordinator",
+"employer":"Aecon",
+"city":"Kincardine",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kincardine-New-to-Nuclear-Project-Coordinator-ON/602009517/",
+"id":"ca3291b5d7"
+},
+{
+"title":"Site Superintendent",
+"employer":"Aecon",
+"city":"Chalk River",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Chalk-River-Site-Superintendent-ON/602942717/",
+"id":"18e023fadc"
+},
+{
+"title":"Safety Advisor - Night Shift",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Safety-Advisor-Night-Shift-ON/606298417/",
+"id":"a792fc6b0d"
+},
+{
+"title":"Project Manager, Track Works",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Project-Manager%2C-Track-Works-ON/606301317/",
+"id":"84604ec60e"
+},
+{
+"title":"Project Manager - YNSE",
+"employer":"Aecon",
+"city":"North York",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/North-York-Project-Manager-YNSE-ON/602942517/",
+"id":"46fab079ee"
+},
+{
+"title":"Co-op, Environment Health & Safety",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-20",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Co-op%2C-Environment-Health-&-Safety-ON/606284217/",
+"id":"e4161ec204"
+},
+{
 "title":"Superintendent",
 "employer":"Aecon",
-"city":"Stouffville",
+"city":"Toronto",
 "prov":"ON",
 "region":"ON",
 "track":"CM",
 "posted":"2026-10-19",
 "source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Stouffville-Superintendent-ON/604670417/",
-"id":"dc5fe7a7bc"
+"url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
+"id":"717e57681d"
 },
 {
 "title":"Superintendent",
@@ -101,14 +173,26 @@
 {
 "title":"Superintendent",
 "employer":"Aecon",
-"city":"Toronto",
+"city":"Stouffville",
 "prov":"ON",
 "region":"ON",
 "track":"CM",
 "posted":"2026-10-19",
 "source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Superintendent-ON/604667717/",
-"id":"717e57681d"
+"url":"https://jobs.aecon.com/job/Stouffville-Superintendent-ON/604670417/",
+"id":"dc5fe7a7bc"
+},
+{
+"title":"Sr. Scheduler",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-19",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Sr_-Scheduler-ON/607140817/",
+"id":"dc8a706e56"
 },
 {
 "title":"Sr. EHS Advisor",
@@ -135,6 +219,30 @@
 "id":"eadf1f0df0"
 },
 {
+"title":"HSE Administrator",
+"employer":"Chandos",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"OHS",
+"posted":"2026-10-19",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000156366295",
+"id":"f7470774ce"
+},
+{
+"title":"HSE Administrator",
+"employer":"Chandos",
+"city":"Edmonton",
+"prov":"AB",
+"region":"CA",
+"track":"OHS",
+"posted":"2026-10-19",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000156366319",
+"id":"ad829afc51"
+},
+{
 "title":"Project Manager",
 "employer":"Aecon",
 "city":"Bowmanville",
@@ -157,18 +265,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Project-Controls-Coordinator-ON/605451017/",
 "id":"1de611fffa"
-},
-{
-"title":"Manager, Transmission Project",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-18",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Manager%2C-Transmission-Project-ON/605441417/",
-"id":"1b3806ac86"
 },
 {
 "title":"Jr. Project Manager",
@@ -231,30 +327,6 @@
 "id":"1758555df7"
 },
 {
-"title":"Sr. Manager, Project Controls",
-"employer":"Aecon",
-"city":"Kincardine",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-16",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Kincardine-Sr_-Manager%2C-Project-Controls-ON/606198817/",
-"id":"6511e1b21d"
-},
-{
-"title":"Project Controls Coordinator - Contract",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-16",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-Project-Controls-Coordinator-Contract-ON/604513717/",
-"id":"23b58b56b7"
-},
-{
 "title":"Superintendent - General Application",
 "employer":"Chandos",
 "city":"Mississauga",
@@ -281,18 +353,6 @@
 {
 "title":"Advisor, EHS",
 "employer":"Aecon",
-"city":"Vancouver",
-"prov":"BC",
-"region":"CA",
-"track":"OHS",
-"posted":"2026-10-15",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Vancouver-Advisor%2C-EHS-Brit/607057517/",
-"id":"2d4f2c31ec"
-},
-{
-"title":"Advisor, EHS",
-"employer":"Aecon",
 "city":"Mississauga",
 "prov":"ON",
 "region":"ON",
@@ -301,6 +361,18 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Mississauga-Advisor%2C-EHS-ON/607059717/",
 "id":"71fe432bca"
+},
+{
+"title":"Advisor, EHS",
+"employer":"Aecon",
+"city":"Vancouver",
+"prov":"BC",
+"region":"CA",
+"track":"OHS",
+"posted":"2026-10-15",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Vancouver-Advisor%2C-EHS-Brit/607057517/",
+"id":"2d4f2c31ec"
 },
 {
 "title":"Field Safety Advisor",
@@ -375,66 +447,6 @@
 "id":"18bba51bdc"
 },
 {
-"title":"EHS Manager",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-EHS-Manager-ON/604393817/",
-"id":"9ef9fc8b89"
-},
-{
-"title":"Advisor, EHS",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-11",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Toronto-Advisor%2C-EHS-ON/604402817/",
-"id":"1746d444e0"
-},
-{
-"title":"EHS Advisor - AOTHR",
-"employer":"Aecon",
-"city":"Kawartha Lakes",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-10-10",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Kawartha-Lakes-EHS-Advisor-AOTHR-ON/604352917/",
-"id":"7417e4c51d"
-},
-{
-"title":"Superintendent - YNSE",
-"employer":"Aecon",
-"city":"North York",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/North-York-Superintendent-YNSE-ON/605171317/",
-"id":"0f38dd2736"
-},
-{
-"title":"Superintendent",
-"employer":"Aecon",
-"city":"North York",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/North-York-Superintendent-ON/604300817/",
-"id":"5930bf4c69"
-},
-{
 "title":"Project Coordinator",
 "employer":"Chandos",
 "city":"Edmonton",
@@ -481,18 +493,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000153245201",
 "id":"83ef3d9f86"
-},
-{
-"title":"Superintendent",
-"employer":"Chandos",
-"city":"Ottawa",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-01",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000152985499",
-"id":"8987635c16"
 },
 {
 "title":"Project Manager, SSG",
