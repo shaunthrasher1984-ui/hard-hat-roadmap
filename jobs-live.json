@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-24T10:40:23Z",
+"generated_at":"2026-10-25T10:40:42Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
 "OHS":11,
-"CM":37
+"CM":36
 },
 "sources":[
 {
@@ -30,7 +30,7 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":290,
-"kept":35
+"kept":34
 },
 {
 "id":"opg",
@@ -63,17 +63,53 @@
 "attribution":{},
 "filter_stats":{
 "in":540,
-"not_canada":83,
-"no_track":310,
+"not_canada":129,
+"no_track":296,
 "blocked":0,
 "too_old":29,
 "bad_date":0,
 "bad_url":0,
-"duplicate":70,
+"duplicate":39,
 "over_cap":0,
-"kept":48
+"kept":47
 },
 "jobs":[
+{
+"title":"Project Manager",
+"employer":"Aecon",
+"city":"Pickering",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-25",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Pickering-Project-Manager-ON/604830917/",
+"id":"0117cf1518"
+},
+{
+"title":"Project Coordinator - Future Opportunities",
+"employer":"Aecon",
+"city":"Pickering",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-25",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-Future-Opportunities-ON/599625817/",
+"id":"774b990539"
+},
+{
+"title":"Jr. Project Coordinator",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-25",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Jr_-Project-Coordinator-ON/605651817/",
+"id":"1aee22e6d8"
+},
 {
 "title":"Superintendant, Civil (Opportunité future)",
 "employer":"Aecon",
@@ -207,30 +243,6 @@
 "id":"240998f2b9"
 },
 {
-"title":"Sr. Project Coordinator",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-23",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Sr_-Project-Coordinator-ON/607316117/",
-"id":"9c2dcaf150"
-},
-{
-"title":"Project Manager, Design and Technical",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-23",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Project-Manager%2C-Design-and-Technical-ON/606420717/",
-"id":"bced2fad28"
-},
-{
 "title":"Project Coordinator (Utilities) - YNSE",
 "employer":"Aecon",
 "city":"North York",
@@ -241,18 +253,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/North-York-Project-Coordinator-%28Utilities%29-YNSE-ON/605553417/",
 "id":"8391cfcf31"
-},
-{
-"title":"Project Controls Manager",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-23",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-Project-Controls-Manager-ON/597976517/",
-"id":"cf172eb240"
 },
 {
 "title":"Lifting & Rigging Superintendent - Future Opportunities",
@@ -277,18 +277,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Bowmanville-Audit-EHS-Advisor-ON/604728117/",
 "id":"02f76dbe72"
-},
-{
-"title":"Assistant Project Manager",
-"employer":"Aecon",
-"city":"North York",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-23",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/North-York-Assistant-Project-Manager-ON/605553517/",
-"id":"93a72f3787"
 },
 {
 "title":"Mechanical, Superintendent",
