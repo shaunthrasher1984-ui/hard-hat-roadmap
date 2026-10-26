@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-25T10:40:42Z",
+"generated_at":"2026-10-26T10:49:52Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
 "OHS":11,
-"CM":36
+"CM":29
 },
 "sources":[
 {
@@ -23,14 +23,14 @@
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
 "fetched":64,
-"kept":13
+"kept":12
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":290,
-"kept":34
+"kept":28
 },
 {
 "id":"opg",
@@ -63,17 +63,65 @@
 "attribution":{},
 "filter_stats":{
 "in":540,
-"not_canada":129,
-"no_track":296,
+"not_canada":104,
+"no_track":320,
 "blocked":0,
-"too_old":29,
+"too_old":30,
 "bad_date":0,
 "bad_url":0,
-"duplicate":39,
+"duplicate":46,
 "over_cap":0,
-"kept":47
+"kept":40
 },
 "jobs":[
+{
+"title":"Substations Superintendent",
+"employer":"Aecon",
+"city":"Cambridge",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Cambridge-Substations-Superintendent-ON/603994817/",
+"id":"316e04a83a"
+},
+{
+"title":"Sr. Project Manager",
+"employer":"Aecon",
+"city":"Saskatoon",
+"prov":"SK",
+"region":"CA",
+"track":"CM",
+"posted":"2026-10-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Saskatoon-Sr_-Project-Manager-SK/603123917/",
+"id":"a820f9b0d6"
+},
+{
+"title":"Project Manager",
+"employer":"Aecon",
+"city":"Tiverton",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Tiverton-Project-Manager-ON/603124117/",
+"id":"67c77fc4a4"
+},
+{
+"title":"Estimating Lead",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Toronto-Estimating-Lead-ON/603108817/",
+"id":"d616fac8ee"
+},
 {
 "title":"Project Manager",
 "employer":"Aecon",
@@ -123,78 +171,6 @@
 "id":"900c414fa1"
 },
 {
-"title":"Project Controls Manager- Kincardine",
-"employer":"Aecon",
-"city":"Kincardine",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Kincardine-Project-Controls-Manager-Kincardine-ON/605599417/",
-"id":"4768e2de38"
-},
-{
-"title":"Project Controls Co-op",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Project-Controls-Co-op-ON/605589517/",
-"id":"c57877930a"
-},
-{
-"title":"Planning Manager, Project Controls",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Planning-Manager%2C-Project-Controls-ON/605589017/",
-"id":"e0de91f20a"
-},
-{
-"title":"Planner, Project Controls",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Planner%2C-Project-Controls-ON/605589317/",
-"id":"deb16d3eb1"
-},
-{
-"title":"Estimateur(trice), électrique",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Estimateur%28trice%29%2C-%C3%A9lectrique-Qu%C3%A9b/605586217/",
-"id":"3065219622"
-},
-{
-"title":"Estimateur(trice), mécanique",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Estimateur%28trice%29%2C-m%C3%A9canique-Qu%C3%A9b/605586117/",
-"id":"bb70c54778"
-},
-{
 "title":"Estimateur(trice), civil",
 "employer":"Aecon",
 "city":"Montreal",
@@ -205,30 +181,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Montreal-Estimateur%28trice%29%2C-civil-Qu%C3%A9b/605586317/",
 "id":"bd3d879508"
-},
-{
-"title":"Estimateur(trice), Sénior",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Estimateur%28trice%29%2C-S%C3%A9nior-Qu%C3%A9b/604777017/",
-"id":"9b145da6d3"
-},
-{
-"title":"Estimateur Sénior (Opportunité future)",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Estimateur-S%C3%A9nior-%28Opportunit%C3%A9-future%29-Qu%C3%A9b/599595417/",
-"id":"e98465d207"
 },
 {
 "title":"Superintendent",
@@ -327,18 +279,6 @@
 "id":"96fa18bcc5"
 },
 {
-"title":"General Superintendent - Civil",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-21",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-General-Superintendent-Civil-ON/605478517/",
-"id":"069b36e11f"
-},
-{
 "title":"DPSC Superintendent",
 "employer":"Aecon",
 "city":"Bowmanville",
@@ -349,18 +289,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Bowmanville-DPSC-Superintendent-ON/605479117/",
 "id":"55322cc4d1"
-},
-{
-"title":"Civil Superintendent",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-21",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-Civil-Superintendent-ON/605478817/",
-"id":"e9e8f1f3b8"
 },
 {
 "title":"Co-op, Environment Health & Safety",
@@ -625,18 +553,6 @@
 "source":"Chandos careers (SmartRecruiters Posting API)",
 "url":"https://jobs.smartrecruiters.com/Chandos/744000152525689",
 "id":"eaa96153f3"
-},
-{
-"title":"Superintendent",
-"employer":"Chandos",
-"city":"Vancouver",
-"prov":"BC",
-"region":"CA",
-"track":"CM",
-"posted":"2026-09-25",
-"source":"Chandos careers (SmartRecruiters Posting API)",
-"url":"https://jobs.smartrecruiters.com/Chandos/744000151721639",
-"id":"f77cb506aa"
 }
 ]
 }
