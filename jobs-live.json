@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-26T10:49:52Z",
+"generated_at":"2026-10-27T10:47:21Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
 "OHS":11,
-"CM":29
+"CM":26
 },
 "sources":[
 {
@@ -30,13 +30,13 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":290,
-"kept":28
+"kept":25
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":186,
+"fetched":185,
 "kept":0
 },
 {
@@ -62,18 +62,54 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":540,
-"not_canada":104,
-"no_track":320,
+"in":539,
+"not_canada":114,
+"no_track":301,
 "blocked":0,
 "too_old":30,
 "bad_date":0,
 "bad_url":0,
-"duplicate":46,
+"duplicate":57,
 "over_cap":0,
-"kept":40
+"kept":37
 },
 "jobs":[
+{
+"title":"Superintendent - AOTHR",
+"employer":"Aecon",
+"city":"Kawartha Lakes",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-27",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Kawartha-Lakes-Superintendent-AOTHR-ON/603138917/",
+"id":"4e590ef773"
+},
+{
+"title":"Co-op, Project Coordinator",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-27",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Co-op%2C-Project-Coordinator-ON/606515017/",
+"id":"b0f67bc7c0"
+},
+{
+"title":"*Future Opportunities* - Planning Manager",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-27",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Future-Opportunities-Planning-Manager-ON/606507617/",
+"id":"a857eeb2f5"
+},
 {
 "title":"Substations Superintendent",
 "employer":"Aecon",
@@ -123,42 +159,6 @@
 "id":"d616fac8ee"
 },
 {
-"title":"Project Manager",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-25",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Project-Manager-ON/604830917/",
-"id":"0117cf1518"
-},
-{
-"title":"Project Coordinator - Future Opportunities",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-25",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-Future-Opportunities-ON/599625817/",
-"id":"774b990539"
-},
-{
-"title":"Jr. Project Coordinator",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-25",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-Jr_-Project-Coordinator-ON/605651817/",
-"id":"1aee22e6d8"
-},
-{
 "title":"Superintendant, Civil (Opportunité future)",
 "employer":"Aecon",
 "city":"Montreal",
@@ -169,18 +169,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Montreal-Superintendant%2C-Civil-%28Opportunit%C3%A9-future%29-Qu%C3%A9b/599621117/",
 "id":"900c414fa1"
-},
-{
-"title":"Estimateur(trice), civil",
-"employer":"Aecon",
-"city":"Montreal",
-"prov":"QC",
-"region":"QC",
-"track":"CM",
-"posted":"2026-10-24",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Montreal-Estimateur%28trice%29%2C-civil-Qu%C3%A9b/605586317/",
-"id":"bd3d879508"
 },
 {
 "title":"Superintendent",
@@ -231,18 +219,6 @@
 "id":"02f76dbe72"
 },
 {
-"title":"Mechanical, Superintendent",
-"employer":"Aecon",
-"city":"Pickering",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-22",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Pickering-Mechanical%2C-Superintendent-ON/605527117/",
-"id":"e7fa135140"
-},
-{
 "title":"EHS Advisor",
 "employer":"Aecon",
 "city":"Cambridge",
@@ -277,18 +253,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Scarborough-Superintendent-Scarborough-Subway-Extension-%28STC%29-ON/602033017/",
 "id":"96fa18bcc5"
-},
-{
-"title":"DPSC Superintendent",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-21",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-DPSC-Superintendent-ON/605479117/",
-"id":"55322cc4d1"
 },
 {
 "title":"Co-op, Environment Health & Safety",
