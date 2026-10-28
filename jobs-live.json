@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-10-27T10:47:21Z",
+"generated_at":"2026-10-28T10:54:35Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":11,
-"CM":26
+"OHS":12,
+"CM":28
 },
 "sources":[
 {
@@ -22,7 +22,7 @@
 "id":"chandos",
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
-"fetched":64,
+"fetched":66,
 "kept":12
 },
 {
@@ -30,14 +30,12 @@
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":290,
-"kept":25
+"kept":28
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
-"status":"ok",
-"fetched":185,
-"kept":0
+"status":"error: TimeoutError: The read operation timed out"
 },
 {
 "id":"pcl",
@@ -62,18 +60,66 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":539,
-"not_canada":114,
-"no_track":301,
+"in":356,
+"not_canada":117,
+"no_track":122,
 "blocked":0,
 "too_old":30,
 "bad_date":0,
 "bad_url":0,
-"duplicate":57,
+"duplicate":47,
 "over_cap":0,
-"kept":37
+"kept":40
 },
 "jobs":[
+{
+"title":"Sr. Advisor, EHS",
+"employer":"Aecon",
+"city":"Stouffville",
+"prov":"ON",
+"region":"ON",
+"track":"OHS",
+"posted":"2026-10-28",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Stouffville-Sr_-Advisor%2C-EHS-ON/605675317/",
+"id":"05ad7261a2"
+},
+{
+"title":"Project Coordinator - SGR",
+"employer":"Aecon",
+"city":"Pickering",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-28",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Pickering-Project-Coordinator-SGR-ON/602245117/",
+"id":"ace2b5c45b"
+},
+{
+"title":"Mechanical Superintendent",
+"employer":"Aecon",
+"city":"Bowmanville",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-28",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Bowmanville-Mechanical-Superintendent-ON/605666817/",
+"id":"77dfa30185"
+},
+{
+"title":"Ingénieur de Projet (Opportunité future)",
+"employer":"Aecon",
+"city":"Montreal",
+"prov":"QC",
+"region":"QC",
+"track":"CM",
+"posted":"2026-10-28",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Montreal-Ing%C3%A9nieur-de-Projet-%28Opportunit%C3%A9-future%29-Qu%C3%A9b/599688717/",
+"id":"da3c4d5348"
+},
 {
 "title":"Superintendent - AOTHR",
 "employer":"Aecon",
@@ -85,6 +131,18 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Kawartha-Lakes-Superintendent-AOTHR-ON/603138917/",
 "id":"4e590ef773"
+},
+{
+"title":"Superintendent",
+"employer":"Aecon",
+"city":"Toronto",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-10-27",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Superintendent-ON/607410617/",
+"id":"535f253a21"
 },
 {
 "title":"Co-op, Project Coordinator",
@@ -171,18 +229,6 @@
 "id":"900c414fa1"
 },
 {
-"title":"Superintendent",
-"employer":"Aecon",
-"city":"Toronto",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-23",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/ONxpress/job/Toronto-Superintendent-ON/607315917/",
-"id":"240998f2b9"
-},
-{
 "title":"Project Coordinator (Utilities) - YNSE",
 "employer":"Aecon",
 "city":"North York",
@@ -229,18 +275,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Cambridge-EHS-Advisor-ON/607263417/",
 "id":"e32a667a3b"
-},
-{
-"title":"Superintendent, Civil/Structural Welding",
-"employer":"Aecon",
-"city":"Bowmanville",
-"prov":"ON",
-"region":"ON",
-"track":"CM",
-"posted":"2026-10-21",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Bowmanville-Superintendent%2C-CivilStructural-Welding-ON/605478317/",
-"id":"cab348329a"
 },
 {
 "title":"Superintendent - Scarborough Subway Extension (STC)",
