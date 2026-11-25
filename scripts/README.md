@@ -36,3 +36,32 @@ python3 scripts/sync_internships.py
 ```
 
 to copy it into the `<script id="internships-data">` block in `index.html`. Fields: `employer`, `title`, `location`, `type`, `kind` (`student` or `full_time`), `link`, `status` (`live`, `closed`, or `not_found`), `pay` (only when the employer posting states it; otherwise leave blank), `note`, `checked` (YYYY-MM-DD). For a closed or missing posting, keep `link` pointed at the posting if it still exists, otherwise at the employer careers page.
+
+## Daily Finds
+
+`posts.json` at the repo root is the curated Daily Finds list (jobs, free training and volunteer opportunities).
+The Daily Finds page reads that file; jobs older than 30 days, or with `"status": "closed"`, are hidden.
+Training and volunteer items stay visible unless they have an `end_date` that has passed.
+
+To add one find after a morning post, from the repo root:
+
+```bash
+python3 scripts/add-post.py \
+  --id p-2026-11-26-short-slug \
+  --date 2026-11-26 \
+  --track OHS \
+  --type job \
+  --title "Role title (City)" \
+  --org "Employer" \
+  --summary "One sentence for a job seeker." \
+  --url "https://example.com/job" \
+  --status open
+
+git add posts.json
+git commit -m "Add Daily Find: Role title (City)"
+git push origin main
+```
+
+`--track` is `OHS`, `CM` or `Both`. `--type` is `job`, `free_training` or `volunteer`.
+Add `--end-date YYYY-MM-DD` when a free-training offer expires, and `--resource-id r123` when the same item already lives in `resources.json`.
+Check the file without writing: `python3 scripts/add-post.py --validate-only`.

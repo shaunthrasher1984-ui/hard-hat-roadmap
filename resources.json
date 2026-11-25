@@ -11788,6 +11788,150 @@
    "required_in_ontario": false,
    "required_note": "",
    "added_in": "r1"
+  },
+  {
+   "id": "r255",
+   "title": "Habitat for Humanity Greater Ottawa build volunteer",
+   "url": "https://habitatgo.com/volunteer/volunteer-build/",
+   "description": "Volunteer on Habitat home builds in Ottawa. No experience is required; weekday day shifts are typical, and co-op students are welcome. A practical way to add site hours to a resume.",
+   "track": "Both",
+   "stages": [
+    1,
+    2
+   ],
+   "tags": [
+    "Careers & Jobs",
+    "Placements & Co-op"
+   ],
+   "free": "Free",
+   "org": "Habitat for Humanity Greater Ottawa",
+   "source": "Researched",
+   "section": "public",
+   "audience": "Everyone",
+   "public": true,
+   "verification": {
+    "status": "Verified",
+    "method": "HTTP 200 (curl, redirects followed; page title checked)",
+    "checked": "2026-11-25"
+   },
+   "format": "Website",
+   "required_in_ontario": false,
+   "required_note": "",
+   "added_in": "daily-finds",
+   "placement": {
+    "cat": "Volunteer & portfolio hours",
+    "region": [
+     "Ottawa"
+    ],
+    "lang": "EN",
+    "note": "No construction experience required. Confirm current build sites and shift times on the official page before you sign up."
+   }
+  },
+  {
+   "id": "r256",
+   "title": "Habitat for Humanity Quebec volunteer intake",
+   "url": "https://quebec.habitat.ca/en/how-to-donate/volunteering/volunteer",
+   "description": "Apply to volunteer on Habitat builds and repair projects in Quebec. Useful site experience for people entering construction or health and safety.",
+   "track": "Both",
+   "stages": [
+    1,
+    2
+   ],
+   "tags": [
+    "Careers & Jobs",
+    "Placements & Co-op"
+   ],
+   "free": "Free",
+   "org": "Habitat for Humanity Quebec",
+   "source": "Researched",
+   "section": "public",
+   "audience": "Everyone",
+   "public": true,
+   "verification": {
+    "status": "Verified",
+    "method": "HTTP 200 (curl, redirects followed; page title checked)",
+    "checked": "2026-11-25"
+   },
+   "format": "Website",
+   "required_in_ontario": false,
+   "required_note": "",
+   "added_in": "daily-finds",
+   "placement": {
+    "cat": "Volunteer & portfolio hours",
+    "region": [
+     "Montreal/Quebec"
+    ],
+    "lang": "EN",
+    "note": "Confirm current volunteer intake and language requirements on the official page."
+   }
+  },
+  {
+   "id": "r257",
+   "title": "YMCA Ottawa Power of Trades",
+   "url": "https://www.ymcaottawa.ca/programs-services/employment-services/power-of-trades/power-of-trades-program",
+   "description": "An Ottawa pre-apprenticeship style program. People who qualify may get tickets such as First Aid, CPR-C, WHMIS and Working at Heights at no cost. Eligibility rules apply (often newcomers or permanent residents, 18+, living in Ontario).",
+   "track": "Both",
+   "stages": [
+    1
+   ],
+   "tags": [
+    "Training & Certification",
+    "Careers & Jobs"
+   ],
+   "free": "Free",
+   "org": "YMCA of the National Capital Region",
+   "source": "Researched",
+   "section": "public",
+   "audience": "Everyone",
+   "public": true,
+   "verification": {
+    "status": "Verified",
+    "method": "HTTP 200 (curl, redirects followed; page title checked)",
+    "checked": "2026-11-25"
+   },
+   "format": "Course",
+   "required_in_ontario": false,
+   "required_note": "",
+   "added_in": "daily-finds",
+   "placement": {
+    "cat": "Training to finish before day one",
+    "region": [
+     "Ottawa"
+    ],
+    "lang": "EN",
+    "note": "Check eligibility before you apply. Spaces and included tickets can change."
+   }
+  },
+  {
+   "id": "r258",
+   "title": "Job Bank training finder",
+   "url": "https://www.jobbank.gc.ca/career-planning/find-training",
+   "description": "The Government of Canada's free tool for finding training programs by occupation, location and keyword.",
+   "track": "Both",
+   "stages": [
+    1,
+    2,
+    3
+   ],
+   "tags": [
+    "Training & Certification",
+    "Careers & Jobs"
+   ],
+   "free": "Free",
+   "org": "Government of Canada Job Bank",
+   "source": "Researched",
+   "section": "public",
+   "audience": "Everyone",
+   "public": true,
+   "verification": {
+    "status": "Verified",
+    "method": "HTTP 200 (curl, redirects followed; page title checked)",
+    "checked": "2026-11-25"
+   },
+   "format": "Website",
+   "required_in_ontario": false,
+   "required_note": "",
+   "added_in": "daily-finds"
   }
  ]
 }
