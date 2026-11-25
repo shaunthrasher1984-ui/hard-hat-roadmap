@@ -25,3 +25,14 @@ Run locally: `python scripts/fetch_jobs.py --out jobs-live.json` (Python 3.9+, s
 
 ## Soft-launch note
 Python fetch/filter scripts are **not** shipped in this public preview build (proprietary pipeline). Keep them in a private source repo; CI should run them privately and commit only `jobs-live.json`.
+
+
+## Paid internships & student roles
+
+`internships.json` is a curated list (not the daily jobs-live refresh). Edit that file to add, update or close a posting, then run:
+
+```
+python3 scripts/sync_internships.py
+```
+
+to copy it into the `<script id="internships-data">` block in `index.html`. Fields: `employer`, `title`, `location`, `type`, `kind` (`student` or `full_time`), `link`, `status` (`live`, `closed`, or `not_found`), `pay` (only when the employer posting states it; otherwise leave blank), `note`, `checked` (YYYY-MM-DD). For a closed or missing posting, keep `link` pointed at the posting if it still exists, otherwise at the employer careers page.
