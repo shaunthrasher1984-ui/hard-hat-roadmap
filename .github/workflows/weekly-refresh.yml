@@ -1,0 +1,90 @@
+# Monday weekly refresh of time-sensitive listings (America/Moncton ~6 AM AST = 10:00 UTC).
+# Also runnable by hand from the Actions tab. GitHub cron can start late; this workflow has no
+# hour-of-day skip gate, so a delayed Monday run still refreshes.
+# It (1) fetches jobs-live.json from official sources, (2) re-checks every internships.json
+# link and marks postings closed or not found, (3) writes weekly-update.json (last updated +
+# what changed this week) and syncs it into index.html, (4) commits those data files — even
+# when only the dates changed, so the scheduled workflow is not auto-disabled after 60 days
+# of repo inactivity — and (5) deploys GitHub Pages in this workflow because a push with
+# GITHUB_TOKEN does not start pages.yml.
+name: Weekly listings refresh
+on:
+  schedule:
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: jobs-live
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Snapshot previous lists
+        run: |
+          cp jobs-live.json /tmp/prev-jobs-live.json
+          cp internships.json /tmp/prev-internships.json
+      - name: Fetch, filter and write jobs-live.json
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          JOOBLE_API_KEY: ${{ secrets.JOOBLE_API_KEY }}
+        run: python scripts/fetch_jobs.py --out jobs-live.json
+      - name: Check the jobs file
+        run: python scripts/check_jobs.py jobs-live.json
+      - name: Re-check internship posting links
+        run: python scripts/check_internships.py internships.json
+      - name: Sync internships.json into index.html
+        run: python scripts/sync_internships.py
+      - name: Write weekly update note
+        run: |
+          python scripts/write_weekly_update.py \
+            --prev-jobs /tmp/prev-jobs-live.json --jobs jobs-live.json \
+            --prev-internships /tmp/prev-internships.json --internships internships.json \
+            --out weekly-update.json --index index.html
+      - name: Commit data files
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs-live.json internships.json weekly-update.json index.html
+          if git diff --cached --quiet; then
+            echo "No data changes, which is unexpected; touching weekly-update stamp is required."
+            exit 1
+          fi
+          git commit -m "Weekly listings refresh ($(TZ=America/Moncton date '+%Y-%m-%d'))"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.refresh.outputs.sha }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+          include-hidden-files: true
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

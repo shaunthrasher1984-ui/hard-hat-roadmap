@@ -15,7 +15,8 @@
       "status": "live",
       "pay": "$21.00–$30.00 (unit not stated on the posting)",
       "note": "Ottawa district, Canadian Buildings. Candidates should be working toward a civil-engineering-related degree or diploma and be eligible for Government of Canada Reliability Status clearance.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://careers.pcl.com/"
     },
     {
       "id": "taggart-pc-ottawa",
@@ -28,7 +29,8 @@
       "status": "live",
       "pay": "$55,000–$60,000",
       "note": "A live full-time Project Coordinator posting was found. It is not listed as a student, intern or co-op role. A student-specific posting was not found; check Taggart’s careers page for other openings.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://www.taggartconstruction.com/careers/"
     },
     {
       "id": "pcl-ict-ottawa",
@@ -41,7 +43,8 @@
       "status": "live",
       "pay": "$21.25–$30.00 (unit not stated on the posting)",
       "note": "Ottawa district, Canadian Buildings. Working toward a degree or diploma in architectural technology or a related field; Revit knowledge is expected. Eligible for Government of Canada Reliability Status clearance.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://careers.pcl.com/"
     },
     {
       "id": "aecon-pc-coop-north-york",
@@ -54,7 +57,8 @@
       "status": "live",
       "pay": "$23–$28 per hour",
       "note": "Office- and site-based role on a heavy civil infrastructure project in the GTA. For students currently enrolled in Civil Engineering or Construction Management. Posted November 20, 2026.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://jobs.aecon.com/"
     },
     {
       "id": "aecon-pc-coop-toronto",
@@ -67,7 +71,8 @@
       "status": "live",
       "pay": "$23–$28 (unit not restated on this posting)",
       "note": "Winter co-op with a January 2027 start. The project is a major civil works program in the Kawartha Lakes and Barrie regions; the posting location is Toronto. For students currently enrolled in Civil Engineering or Construction Management.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://jobs.aecon.com/"
     },
     {
       "id": "aecon-utilities-pc-coop-scarborough",
@@ -80,7 +85,8 @@
       "status": "live",
       "pay": "$20–$25 per hour",
       "note": "Supports underground utility construction projects. For students currently enrolled in a technical diploma or engineering degree (civil, electrical, construction or related). Posted November 11, 2026.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://jobs.aecon.com/"
     },
     {
       "id": "maple-reinders-apc-coop",
@@ -93,7 +99,8 @@
       "status": "live",
       "pay": "$22–$28 per hour",
       "note": "Two locations: Mississauga head office with travel to site, and Pickering fully on site. For full-time students in a related program (for example architectural technology, construction management or civil engineering) or 2026 graduates. A vehicle is required because sites are not easily reached by transit.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://apply.workable.com/maple-reinders/"
     },
     {
       "id": "pcl-estimating-oakville",
@@ -106,7 +113,8 @@
       "status": "live",
       "pay": "$21.37–$31.33 per hour",
       "note": "Toronto District, Canadian Buildings. A second Oakville Estimating Student posting (Solar District) showed as filled on November 25, 2026.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://careers.pcl.com/"
     },
     {
       "id": "hkc-junior-pc-toronto",
@@ -119,7 +127,8 @@
       "status": "live",
       "pay": "$50,000–$70,000 a year",
       "note": "A live full-time entry-level role was found. It is not listed as a student, intern or co-op posting. The posting says co-op placements and internships count toward the experience they ask for.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://www.hkcconstruction.com/careers"
     },
     {
       "id": "pomerleau-intern-pc-montreal",
@@ -132,7 +141,8 @@
       "status": "live",
       "pay": "",
       "note": "Pay is not listed on the posting. For students enrolled in an Engineering or Construction Management program (or graduates within the last six months). A driver's licence, a vehicle and an ASP card are required. Posted September 9, 2026.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://jobs.pomerleau.ca/en_US/Jobs"
     },
     {
       "id": "aecon-estimating-intern-montreal",
@@ -145,7 +155,8 @@
       "status": "live",
       "pay": "",
       "note": "French required (the posting asks for maîtrise du français; English is an asset). Posted in French as Stagiaire, estimations (hiver), dated November 7, 2026. For students in a bachelor's program in civil engineering, construction engineering or a related field. Pay is not listed on the posting.",
-      "checked": "2026-11-25"
+      "checked": "2026-11-25",
+      "careers": "https://jobs.aecon.com/"
     }
   ]
 }

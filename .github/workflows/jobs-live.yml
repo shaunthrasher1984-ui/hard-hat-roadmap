@@ -1,5 +1,7 @@
 # Refreshes jobs-live.json (the "Live job postings" page) once a day at 6:17 AM Toronto time.
-# GitHub cron runs in UTC, so both 10:17 UTC (EDT) and 11:17 UTC (EST) are scheduled and the first step lets only the 6 AM Toronto run continue.
+# GitHub cron runs in UTC and often starts late, so both 10:17 UTC (EDT) and 11:17 UTC (EST) stay scheduled,
+# and a run is skipped only if jobs-live.json was already generated today in America/Toronto (not by clock hour).
+# The Monday weekly-refresh.yml workflow is the guaranteed refresh of jobs + internships.
 # After the refresh, the deploy job publishes the site to GitHub Pages (Pages source: GitHub Actions). A push made with
 # GITHUB_TOKEN does not start other workflows or a branch Pages build, so the deploy runs here, in the same workflow.
 # API keys live in repository secrets (Settings > Secrets and variables > Actions); a source whose secret is missing is skipped.
@@ -22,16 +24,22 @@ jobs:
       run: ${{ steps.gate.outputs.run }}
       sha: ${{ steps.commit.outputs.sha }}
     steps:
-      - name: Run only at 6 AM Toronto time (or when started by hand)
+      # Checkout first so a late GitHub cron can still refresh. The old hour==06 gate
+      # skipped every scheduled run after 2026-10-29 once cron started hours late
+      # (no longer in the 6 AM Toronto hour). Skip only if today's file is already fresh.
+      - uses: actions/checkout@v4
+      - name: Run unless already refreshed today (or when started by hand)
         id: gate
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=America/Toronto date +%H)" != "06" ]; then
-            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Not 6 AM in Toronto; skipping this trigger."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run; refreshing."
+          elif python3 scripts/already_refreshed_today.py jobs-live.json; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "jobs-live.json was already refreshed today; skipping this trigger."
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/checkout@v4
-        if: steps.gate.outputs.run == 'true'
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
         with:
