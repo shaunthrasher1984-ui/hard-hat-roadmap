@@ -2,9 +2,14 @@
 """Compare previous vs current jobs and internships; write weekly-update.json and sync it into index.html.
 Usage:
   python3 scripts/write_weekly_update.py \\
+    --baseline /tmp/prev-weekly-update.json \\
     --prev-jobs /tmp/prev-jobs-live.json --jobs jobs-live.json \\
     --prev-internships /tmp/prev-internships.json --internships internships.json \\
     --out weekly-update.json
+
+Job "new" / "dropped" counts are week-over-week: they prefer job ids saved in the
+previous weekly-update.json (--baseline) so a mid-week daily jobs-live refresh
+does not zero out Monday's "what changed this week" note.
 """
 from __future__ import annotations
 
@@ -35,10 +40,16 @@ def iso_date(s: str) -> str:
     return (s or "")[:10]
 
 
-def build(prev_jobs: dict, jobs: dict, prev_in: dict, internships: dict) -> dict:
+def build(prev_jobs: dict, jobs: dict, prev_in: dict, internships: dict, baseline: dict | None = None) -> dict:
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     today = now.date().isoformat()
-    old_ids, new_ids = job_ids(prev_jobs), job_ids(jobs)
+    new_ids = job_ids(jobs)
+    baseline = baseline or {}
+    base_ids = baseline.get("jobs") or {}
+    if isinstance(base_ids.get("ids"), list) and base_ids.get("ids"):
+        old_ids = {str(i) for i in base_ids["ids"] if i}
+    else:
+        old_ids = job_ids(prev_jobs)
     added = sorted(new_ids - old_ids)
     dropped = sorted(old_ids - new_ids)
     counts = jobs.get("counts") or {}
@@ -71,6 +82,7 @@ def build(prev_jobs: dict, jobs: dict, prev_in: dict, internships: dict) -> dict
             "cm": int(counts.get("CM") or 0),
             "new": len(added),
             "dropped": len(dropped),
+            "ids": sorted(new_ids),
         },
         "internships": {
             "checked": internships.get("checked") or today,
@@ -214,8 +226,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--internships", default=str(ROOT / "internships.json"))
     ap.add_argument("--out", default=str(ROOT / "weekly-update.json"))
     ap.add_argument("--index", default=str(ROOT / "index.html"))
+    ap.add_argument("--baseline", help="Previous weekly-update.json (week-over-week job ids)")
     a = ap.parse_args(argv)
-    data = build(load(a.prev_jobs), load(a.jobs), load(a.prev_internships), load(a.internships))
+    data = build(load(a.prev_jobs), load(a.jobs), load(a.prev_internships), load(a.internships), load(a.baseline))
     out = Path(a.out)
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"out": str(out), "updated": data["updated"], "jobs": data["jobs"], "internships": {k: v for k, v in data["internships"].items() if k != "changes"}}, ensure_ascii=False))

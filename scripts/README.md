@@ -28,7 +28,7 @@ Run locally: `python scripts/fetch_jobs.py --out jobs-live.json` (Python 3.9+, s
 
 `.github/workflows/weekly-refresh.yml` runs every Monday at 10:00 UTC (about 6:00 AM Atlantic Standard Time / 7:00 AM Atlantic Daylight Time in America/Moncton) and on demand from the Actions tab. It has no hour-of-day skip gate, so a late GitHub cron still runs.
 
-It refreshes `jobs-live.json`, re-checks every link in `internships.json` (marks `closed` or `not_found` when the posting is gone; leaves the previous status when the check is inconclusive), writes `weekly-update.json` (last updated date plus new/closed counts), copies both JSON files into `index.html`, commits those data files, and deploys Pages. A commit is expected every week so GitHub does not auto-disable the scheduled workflow after 60 days of inactivity.
+It refreshes `jobs-live.json`, re-checks every link in `internships.json` (marks `closed` or `not_found` when the posting is gone; leaves the previous status when the check is inconclusive), writes `weekly-update.json` (last updated date plus week-over-week new/closed counts, compared with the previous weekly-update job ids so a mid-week daily refresh does not zero out the note), copies both JSON files into `index.html`, commits those data files, and deploys Pages. A commit is expected every week so GitHub does not auto-disable the scheduled workflow after 60 days of inactivity.
 
 The daily `jobs-live.yml` workflow still exists. It no longer requires the runner clock to be 6 AM Toronto; it skips only if `jobs-live.json` was already generated today.
 
@@ -41,7 +41,7 @@ python3 scripts/fetch_jobs.py --out jobs-live.json
 python3 scripts/check_jobs.py jobs-live.json
 python3 scripts/check_internships.py internships.json
 python3 scripts/sync_internships.py
-python3 scripts/write_weekly_update.py --prev-jobs /tmp/prev-jobs-live.json --jobs jobs-live.json --prev-internships /tmp/prev-internships.json --internships internships.json --out weekly-update.json
+python3 scripts/write_weekly_update.py --baseline /tmp/prev-weekly-update.json --prev-jobs /tmp/prev-jobs-live.json --jobs jobs-live.json --prev-internships /tmp/prev-internships.json --internships internships.json --out weekly-update.json
 ```
 
 

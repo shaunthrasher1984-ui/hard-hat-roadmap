@@ -32,6 +32,7 @@ jobs:
         run: |
           cp jobs-live.json /tmp/prev-jobs-live.json
           cp internships.json /tmp/prev-internships.json
+          if [ -f weekly-update.json ]; then cp weekly-update.json /tmp/prev-weekly-update.json; fi
       - name: Fetch, filter and write jobs-live.json
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
@@ -47,6 +48,7 @@ jobs:
       - name: Write weekly update note
         run: |
           python scripts/write_weekly_update.py \
+            --baseline /tmp/prev-weekly-update.json \
             --prev-jobs /tmp/prev-jobs-live.json --jobs jobs-live.json \
             --prev-internships /tmp/prev-internships.json --internships internships.json \
             --out weekly-update.json --index index.html

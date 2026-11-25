@@ -1,14 +1,52 @@
 {
   "schema": 1,
   "updated": "2026-11-25",
-  "updated_at": "2026-11-25T23:50:11Z",
+  "updated_at": "2026-11-25T23:54:51Z",
   "jobs": {
     "generated_at": "2026-11-25T23:50:05Z",
     "count": 36,
     "ohs": 7,
     "cm": 29,
-    "new": 0,
-    "dropped": 0
+    "new": 20,
+    "dropped": 29,
+    "ids": [
+      "03d9ee4e47",
+      "1491012a2f",
+      "27a3218825",
+      "2d4f2c31ec",
+      "2e8ff862d6",
+      "316e04a83a",
+      "392fea30a4",
+      "3fea29663f",
+      "4079071d73",
+      "4e590ef773",
+      "535f253a21",
+      "67c77fc4a4",
+      "6a77d4cdc3",
+      "730c1bb0bc",
+      "786c56cb44",
+      "8391cfcf31",
+      "885aa45c32",
+      "8b2b65adb9",
+      "8b775ec3d6",
+      "900c414fa1",
+      "95476724fe",
+      "9623cde001",
+      "9e28f94ea9",
+      "9ef9fc8b89",
+      "a17667cf2c",
+      "a820f9b0d6",
+      "a857eeb2f5",
+      "a9e4fbfaf7",
+      "b0f67bc7c0",
+      "bf3d67bb1b",
+      "d616fac8ee",
+      "d803fe96f9",
+      "e0fb513310",
+      "e32a667a3b",
+      "edbc7b7857",
+      "f05e9b5a96"
+    ]
   },
   "internships": {
     "checked": "2026-11-25",
@@ -20,8 +58,8 @@
     "changes": []
   },
   "summary": {
-    "en": "36 live job postings (7 OHS, 29 construction management). No change in the live jobs list since the last refresh. 11 internship or student roles still open.",
-    "fr": "36 offres d’emploi en direct (7 SST, 29 gestion de construction). Aucun changement dans la liste des offres depuis le dernier rafraîchissement. 11 stages ou postes étudiant encore ouverts.",
-    "es": "36 ofertas de empleo en vivo (7 SST, 29 gestión de construcción). Sin cambios en la lista de ofertas desde la última actualización. 11 prácticas o puestos para estudiantes aún abiertos."
+    "en": "36 live job postings (7 OHS, 29 construction management). This week: 20 new, 29 no longer in the list. 11 internship or student roles still open.",
+    "fr": "36 offres d’emploi en direct (7 SST, 29 gestion de construction). Cette semaine : 20 nouvelles, 29 retirées de la liste. 11 stages ou postes étudiant encore ouverts.",
+    "es": "36 ofertas de empleo en vivo (7 SST, 29 gestión de construcción). Esta semana: 20 nuevas, 29 ya no están en la lista. 11 prácticas o puestos para estudiantes aún abiertos."
   }
 }
