@@ -1,6 +1,6 @@
 {
 "schema":1,
-"generated_at":"2026-11-25T23:43:27Z",
+"generated_at":"2026-11-25T23:50:05Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
@@ -57,6 +57,16 @@
 {
 "id":"mississauga",
 "name":"City of Mississauga jobs (RSS feed)",
+"status":"off"
+},
+{
+"id":"hatch",
+"name":"Hatch careers (RSS feed)",
+"status":"off"
+},
+{
+"id":"hydroone",
+"name":"Hydro One careers (RSS feed)",
 "status":"off"
 }
 ],
