@@ -1,0 +1,48 @@
+HARD HAT ROADMAP — safety resume template
+Generic sample for an Ontario occupational health and safety or construction safety job.
+Replace every [bracket] with your own facts. Do not invent tickets, hours, employers or credentials.
+A fictional filled example is on this site only as a layout demo (samples/sample-ohs-resume.txt).
+
+[Your name]
+[City], Ontario  ·  [phone]  ·  [email]  ·  [LinkedIn or portfolio if you have one]
+
+SUMMARY
+[One or two sentences: the kind of safety or site role you want, the tickets you actually hold, and the setting you know (construction, industrial, healthcare, etc.).]
+
+SAFETY TICKETS AND TRAINING
+List only certificates you hold. Include the issuer and the expiry or completion date if you have it.
+- Worker Health and Safety Awareness in 4 Steps — [date]
+- WHMIS — [date]
+- Working at Heights (CPO-approved provider: [name]) — completed [date], valid until [date]
+- Supervisor Health and Safety Awareness in 5 Steps — [date]  (include only if completed)
+- Standard First Aid and CPR — [issuer], [expiry]
+- [Other official training]
+
+EXPERIENCE
+[Job title], [Employer], [City] — [start year]–[end year or Present]
+- [What you did + a number or scope if you have one, e.g. inspected [n] areas / supported a crew of [n]]
+- [A safety action you actually took: reported a hazard, helped with an inspection, delivered or recorded a talk, followed lockout, etc.]
+- [Tools, procedures or regulations you used, only if true]
+
+[Previous job title], [Employer], [City] — [dates]
+- [Fact]
+- [Fact]
+
+If you are new to safety work, use placements, trades work, military, volunteering or other jobs, and describe real safety-related tasks (PPE, reporting, lifting, traffic, housekeeping). Do not invent a safety title you did not hold.
+
+EDUCATION
+- [Credential], [School], [year]
+- [Courses that support the job, if relevant]
+
+SKILLS
+- [Languages]
+- [Software you actually use, e.g. Microsoft 365, incident reporting]
+- [Site skills you actually have]
+
+REFERENCES
+Available on request.
+
+Notes
+- Put required Ontario tickets near the top.
+- Tailor the summary and bullets to each posting.
+- Use the resume checker on Hard Hat Roadmap for a keyword gap check. Nothing you type leaves your device.

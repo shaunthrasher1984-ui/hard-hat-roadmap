@@ -1,0 +1,676 @@
+{
+  "schema": 1,
+  "checked": "2026-11-26",
+  "checked_at": "2026-11-26T00:21:47Z",
+  "total": 111,
+  "ok": 111,
+  "broken": [],
+  "results": [
+    {
+      "url": "https://bcrsp.ca/en/prospective-certificants/about-CRSP-certification",
+      "status": 200,
+      "final": "https://bcrsp.ca/en/prospective-certificants/about-CRSP-certification",
+      "ok": true
+    },
+    {
+      "url": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification",
+      "status": 200,
+      "final": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification",
+      "ok": true
+    },
+    {
+      "url": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification/apply-crst-certification",
+      "status": 200,
+      "final": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification/apply-crst-certification",
+      "ok": true
+    },
+    {
+      "url": "https://bcrsp.ca/en/prospective-certificants/certification-comparison-glance",
+      "status": 200,
+      "final": "https://bcrsp.ca/en/prospective-certificants/certification-comparison-glance",
+      "ok": true
+    },
+    {
+      "url": "https://bcrsp.ca/en/prospective-certificants/why-become-crsp/are-you-eligible-crsp-certification",
+      "status": 200,
+      "final": "https://bcrsp.ca/en/prospective-certificants/why-become-crsp/are-you-eligible-crsp-certification",
+      "ok": true
+    },
+    {
+      "url": "https://csse.org/site/CHSC",
+      "status": 200,
+      "final": "https://csse.org/site/CHSC",
+      "ok": true
+    },
+    {
+      "url": "https://data.ontario.ca/en/dataset/training-providers-for-working-at-heights",
+      "status": 200,
+      "final": "https://data.ontario.ca/en/dataset/training-providers-for-working-at-heights",
+      "ok": true
+    },
+    {
+      "url": "https://learn.ihsa.ca/catalog.php",
+      "status": 200,
+      "final": "https://learn.ihsa.ca/catalog.php",
+      "ok": true
+    },
+    {
+      "url": "https://ncso.ihsa.ca/",
+      "status": 200,
+      "final": "https://ncso.ihsa.ca/",
+      "ok": true
+    },
+    {
+      "url": "https://ohsguide.ihsa.ca/en/topic/fall_protection",
+      "status": 200,
+      "final": "https://ohsguide.ihsa.ca/en/topic/fall_protection",
+      "ok": true
+    },
+    {
+      "url": "https://ohsguide.ihsa.ca/en/topic/trenching-and-excavation",
+      "status": 200,
+      "final": "https://ohsguide.ihsa.ca/en/topic/trenching-and-excavation",
+      "ok": true
+    },
+    {
+      "url": "https://shop.wsps.ca/pages/free-workplace-safety-training",
+      "status": 200,
+      "final": "https://shop.wsps.ca/pages/free-workplace-safety-training",
+      "ok": true
+    },
+    {
+      "url": "https://workplacesafety.ihsa.ca/free-resources",
+      "status": 200,
+      "final": "https://workplacesafety.ihsa.ca/free-resources",
+      "ok": true
+    },
+    {
+      "url": "https://www.apps.labour.gov.on.ca/cms/safety-and-prevention/approved-training-providers",
+      "status": 200,
+      "final": "https://www.apps.labour.gov.on.ca/cms/safety-and-prevention/approved-training-providers",
+      "ok": true
+    },
+    {
+      "url": "https://www.canada.ca/en/employment-social-development/programs/foreign-credential-recognition.html",
+      "status": 200,
+      "final": "https://www.canada.ca/en/employment-social-development/programs/foreign-credential-recognition.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada.html",
+      "status": 200,
+      "final": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills.html",
+      "status": 200,
+      "final": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cca-acc.com/gold-seal/exam/",
+      "status": 200,
+      "final": "https://www.cca-acc.com/gold-seal/exam/",
+      "ok": true
+    },
+    {
+      "url": "https://www.cca-acc.com/gold-seal/new-to-gold-seal/",
+      "status": 200,
+      "final": "https://www.cca-acc.com/gold-seal/new-to-gold-seal/",
+      "ok": true
+    },
+    {
+      "url": "https://www.cca-acc.com/wp-content/uploads/2026/08/GS-application-guide_Aug12026.pdf",
+      "status": 200,
+      "final": "https://www.cca-acc.com/wp-content/uploads/2026/08/GS-application-guide_Aug12026.pdf",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/chemicals/chem_profiles/quartz_silica.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/chemicals/chem_profiles/quartz_silica.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/chemicals/whmis_ghs/general.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/chemicals/whmis_ghs/general.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/diseases/silicosis.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/diseases/silicosis.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/hsprograms/housekeeping/house.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/hsprograms/housekeeping/house.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/hsprograms/lockout.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/hsprograms/lockout.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/hsprograms/trenching_excavation.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/hsprograms/trenching_excavation.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/phys_agents/cold/cold_working.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/phys_agents/cold/cold_working.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/prevention/ppe",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/prevention/ppe",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/prevention/ppe/designin.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/prevention/ppe/designin.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/safety_haz/falls.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/safety_haz/falls.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.ccohs.ca/oshanswers/safety_haz/working-safety-around-heavy-equipment.html",
+      "status": 200,
+      "final": "https://www.ccohs.ca/oshanswers/safety_haz/working-safety-around-heavy-equipment.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cicic.ca/",
+      "status": 200,
+      "final": "https://www.cicic.ca/2/home.canada",
+      "ok": true
+    },
+    {
+      "url": "https://www.csse.org/site/career-development/chsc-certification",
+      "status": 200,
+      "final": "https://www.csse.org/site/career-development/chsc-certification",
+      "ok": true
+    },
+    {
+      "url": "https://www.ihsa.ca/NCSO",
+      "status": 200,
+      "final": "https://www.ihsa.ca/NCSO",
+      "ok": true
+    },
+    {
+      "url": "https://www.ihsa.ca/Resources",
+      "status": 200,
+      "final": "https://www.ihsa.ca/Resources",
+      "ok": true
+    },
+    {
+      "url": "https://www.ihsa.ca/Training/Course-List",
+      "status": 200,
+      "final": "https://www.ihsa.ca/Training/Course-List",
+      "ok": true
+    },
+    {
+      "url": "https://www.ihsa.ca/ncso-nhsa-resources",
+      "status": 200,
+      "final": "https://www.ihsa.ca/ncso-nhsa-resources",
+      "ok": true
+    },
+    {
+      "url": "https://www.ihsa.ca/pdfs/ncso/ncso-experience-criteria.pdf",
+      "status": 200,
+      "final": "https://www.ihsa.ca/pdfs/ncso/ncso-experience-criteria.pdf",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17414/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17414/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17428/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17428/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22380/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22380/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22694/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22694/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22914/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22914/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24311/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24311/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24320/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24320/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24323/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24323/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24325/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24325/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/2488/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/2488/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27307/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27307/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27324/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27324/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/297568/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/297568/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/3273/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/3273/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/5138/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/5138/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/17414/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/17414/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/17428/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/17428/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/22380/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/22380/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/22694/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/22694/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/22914/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/22914/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/24311/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/24311/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/24320/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/24320/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/24323/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/24323/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/24325/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/24325/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/2488/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/2488/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/27307/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/27307/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/27324/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/27324/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/297568/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/297568/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/3273/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/3273/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/requirements/5138/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/requirements/5138/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/17414/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/17414/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22380/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22380/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22668/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22668/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22699/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22699/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22914/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22914/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24311/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24311/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24320/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24320/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24325/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24325/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/2488/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/2488/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27307/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27307/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27324/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27324/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/277/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/277/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297108/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297108/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297568/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297568/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/3273/ON",
+      "status": 200,
+      "final": "https://www.jobbank.gc.ca/marketreport/wages-occupation/3273/ON",
+      "ok": true
+    },
+    {
+      "url": "https://www.labour.gov.on.ca/english/hs/elearn/supervisor/fivesteps.php",
+      "status": 200,
+      "final": "https://www.labour.gov.on.ca/english/hs/elearn/supervisor/fivesteps.php",
+      "ok": true
+    },
+    {
+      "url": "https://www.labour.gov.on.ca/english/hs/elearn/worker/foursteps.php",
+      "status": 200,
+      "final": "https://www.labour.gov.on.ca/english/hs/elearn/worker/foursteps.php",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act",
+      "status": 200,
+      "final": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/document/worker-health-and-safety-awareness-workbook",
+      "status": 200,
+      "final": "https://www.ontario.ca/document/worker-health-and-safety-awareness-workbook",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/files/2022-02/mltsd-worker-health-and-safety-awareness-workbook-en-2022-02-01.pdf",
+      "status": 200,
+      "final": "https://www.ontario.ca/files/2022-02/mltsd-worker-health-and-safety-awareness-workbook-en-2022-02-01.pdf",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/laws/regulation/130297",
+      "status": 200,
+      "final": "https://www.ontario.ca/laws/regulation/130297",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/laws/regulation/900860",
+      "status": 200,
+      "final": "https://www.ontario.ca/laws/regulation/900860",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/laws/regulation/901101",
+      "status": 200,
+      "final": "https://www.ontario.ca/laws/regulation/901101",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/laws/statute/90o01",
+      "status": 200,
+      "final": "https://www.ontario.ca/laws/statute/90o01",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/achieve-compliance-construction-sites-fall-prevention",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/achieve-compliance-construction-sites-fall-prevention",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/alert-fraudulent-working-heights-training-cards",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/alert-fraudulent-working-heights-training-cards",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/employment-ontario",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/employment-ontario",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/getting-settled-ontario",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/getting-settled-ontario",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/ministry-labour-immigration-training-skills-development",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/ministry-labour-immigration-training-skills-development",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/newcomers",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/newcomers",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/occupational-health-and-safety-regional-offices",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/occupational-health-and-safety-regional-offices",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/program-standard-joint-health-and-safety-committee-training",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/program-standard-joint-health-and-safety-committee-training",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/supervisor-health-and-safety-awareness-five-steps",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/supervisor-health-and-safety-awareness-five-steps",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/training-working-heights",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/training-working-heights",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/work-your-profession-or-trade",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/work-your-profession-or-trade",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/worker-health-and-safety-awareness-four-steps",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/worker-health-and-safety-awareness-four-steps",
+      "ok": true
+    },
+    {
+      "url": "https://www.ontario.ca/page/workplace-hazardous-materials-information-system-whmis",
+      "status": 200,
+      "final": "https://www.ontario.ca/page/workplace-hazardous-materials-information-system-whmis",
+      "ok": true
+    },
+    {
+      "url": "https://www.skilledtradesontario.ca",
+      "status": 200,
+      "final": "https://www.skilledtradesontario.ca",
+      "ok": true
+    },
+    {
+      "url": "https://www.wsib.ca/en/find-your-first-aid-training-provider",
+      "status": 200,
+      "final": "https://www.wsib.ca/en/find-your-first-aid-training-provider",
+      "ok": true
+    },
+    {
+      "url": "https://www.wsib.ca/en/form-6",
+      "status": 200,
+      "final": "https://www.wsib.ca/en/form-6",
+      "ok": true
+    },
+    {
+      "url": "https://www.wsib.ca/en/form-7",
+      "status": 200,
+      "final": "https://www.wsib.ca/en/form-7",
+      "ok": true
+    },
+    {
+      "url": "https://www.wsib.ca/en/submitting-injury-or-illness-report",
+      "status": 200,
+      "final": "https://www.wsib.ca/en/submitting-injury-or-illness-report",
+      "ok": true
+    }
+  ]
+}

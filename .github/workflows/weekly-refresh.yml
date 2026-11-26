@@ -43,6 +43,8 @@ jobs:
         run: python scripts/check_jobs.py jobs-live.json
       - name: Re-check internship posting links
         run: python scripts/check_internships.py internships.json
+      - name: Check guide and official listing links
+        run: python scripts/check_guide_links.py --guides guides.json --out guides-link-check.json --weekly weekly-update.json
       - name: Sync internships.json into index.html
         run: python scripts/sync_internships.py
       - name: Write weekly update note
@@ -57,7 +59,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs-live.json internships.json weekly-update.json index.html
+          git add jobs-live.json internships.json weekly-update.json index.html guides-link-check.json guides.json
           if git diff --cached --quiet; then
             echo "No data changes, which is unexpected; touching weekly-update stamp is required."
             exit 1

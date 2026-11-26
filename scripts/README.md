@@ -87,3 +87,13 @@ git push origin main
 `--track` is `OHS`, `CM` or `Both`. `--type` is `job`, `free_training` or `volunteer`.
 Add `--end-date YYYY-MM-DD` when a free-training offer expires, and `--resource-id r123` when the same item already lives in `resources.json`.
 Check the file without writing: `python3 scripts/add-post.py --validate-only`.
+
+## Guides link check
+
+The Monday `weekly-refresh.yml` workflow also runs `scripts/check_guide_links.py`. It requests every official HTTP link in `guides.json` (certification finder, rights, pay checker, newcomer, toolbox and designation pages), writes `guides-link-check.json`, and adds a `links` block to `weekly-update.json` listing any broken URLs. A broken external page is flagged; it does not fail the whole weekly job.
+
+Run locally:
+
+```
+python3 scripts/check_guide_links.py
+```

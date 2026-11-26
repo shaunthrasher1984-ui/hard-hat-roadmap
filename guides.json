@@ -1,0 +1,1174 @@
+{
+  "schema": 1,
+  "updated": "2026-11-25",
+  "access": {
+    "certs": "free",
+    "rights": "free",
+    "pay": "free",
+    "kit": "free",
+    "newcomers": "free",
+    "toolbox": "free",
+    "designations": "free"
+  },
+  "access_note": "All seven guides are free. Test Your Skills practice beyond the sample remains behind the existing $14.99 unlock. Official sources were checked on 25 November 2026 (America/Moncton).",
+  "certs": {
+    "intro": "These are Ontario workplace safety certificates and courses that job seekers are most often asked to complete. Cost and validity appear only where an official source states them. Always confirm details with the official page or an approved provider before you pay or book.",
+    "employers_first": "On Ontario construction and industrial sites, employers commonly ask first for the basics the law already requires: Worker Health and Safety Awareness in 4 Steps (every worker), WHMIS training if you work with or near hazardous products, and CPO-approved Working at Heights if you will use fall protection on a construction project. Supervisor Awareness in 5 Steps is required before someone acts as a supervisor. This list follows those legal starting points (O. Reg. 297/13 and Reg. 860). It is not a survey of employers.",
+    "items": [
+      {
+        "id": "wa",
+        "title": "Worker Health and Safety Awareness in 4 Steps",
+        "priority": 1,
+        "ask_first": true,
+        "cost": "Free",
+        "cost_note": "The ministry's e-learning module and printable workbook are free. Employers may use another program if it meets O. Reg. 297/13.",
+        "validity": "Not stated as expiring on the official pages. Your employer must keep a training record. Save or print your proof of completion — the ministry does not store certificates.",
+        "who": "Every Ontario worker, before starting work, under O. Reg. 297/13.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "Official page and workbook (ontario.ca)",
+            "url": "https://www.ontario.ca/page/worker-health-and-safety-awareness-four-steps"
+          },
+          {
+            "label": "Free e-learning module",
+            "url": "https://www.labour.gov.on.ca/english/hs/elearn/worker/foursteps.php"
+          },
+          {
+            "label": "Workbook (PDF)",
+            "url": "https://www.ontario.ca/files/2022-02/mltsd-worker-health-and-safety-awareness-workbook-en-2022-02-01.pdf"
+          },
+          {
+            "label": "O. Reg. 297/13",
+            "url": "https://www.ontario.ca/laws/regulation/130297"
+          }
+        ]
+      },
+      {
+        "id": "whmis",
+        "title": "WHMIS (Workplace Hazardous Materials Information System)",
+        "priority": 1,
+        "ask_first": true,
+        "cost": "Official information is free; third-party courses may charge a fee",
+        "cost_note": "Ontario and CCOHS publish free WHMIS information. Some providers (for example WSPS eCourses) offer free training with an account. A private certificate course may charge a fee — we do not list a price the official pages do not set. Your employer must still provide workplace-specific WHMIS training.",
+        "validity": "Not stated as a fixed expiry on the official Ontario WHMIS page. Training must match the hazardous products you actually work with. Ask your employer when a refresher is required.",
+        "who": "Anyone who works with or near hazardous products, under R.R.O. 1990, Reg. 860.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "Ontario: WHMIS",
+            "url": "https://www.ontario.ca/page/workplace-hazardous-materials-information-system-whmis"
+          },
+          {
+            "label": "Reg. 860 (WHMIS)",
+            "url": "https://www.ontario.ca/laws/regulation/900860"
+          },
+          {
+            "label": "CCOHS: WHMIS 2015 general",
+            "url": "https://www.ccohs.ca/oshanswers/chemicals/whmis_ghs/general.html"
+          },
+          {
+            "label": "WSPS free eCourses (account required)",
+            "url": "https://shop.wsps.ca/pages/free-workplace-safety-training"
+          }
+        ]
+      },
+      {
+        "id": "wah",
+        "title": "Working at Heights (CPO-approved)",
+        "priority": 1,
+        "ask_first": true,
+        "cost": "Fee set by the approved provider (not set by the ministry)",
+        "cost_note": "Use only a Chief Prevention Officer approved provider. Beware of fraudulent training cards. Check the provider on the ministry list or Certification Management System before you pay.",
+        "validity": "Valid for three years from the date of successful completion (O. Reg. 297/13, s. 8(1)). A limited historical exception applied to training completed between 28 February 2017 and 31 August 2017 (valid four years).",
+        "who": "Workers on Ontario construction projects who may use listed fall protection methods (travel restraint, fall restricting, fall arrest, safety net, work belt or safety belt) under O. Reg. 297/13.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "Training for working at heights (ontario.ca)",
+            "url": "https://www.ontario.ca/page/training-working-heights"
+          },
+          {
+            "label": "Find an approved training provider",
+            "url": "https://www.apps.labour.gov.on.ca/cms/safety-and-prevention/approved-training-providers"
+          },
+          {
+            "label": "Approved-provider dataset (Ontario Data Catalogue)",
+            "url": "https://data.ontario.ca/en/dataset/training-providers-for-working-at-heights"
+          },
+          {
+            "label": "Alert: fraudulent working at heights cards",
+            "url": "https://www.ontario.ca/page/alert-fraudulent-working-heights-training-cards"
+          },
+          {
+            "label": "O. Reg. 297/13, including the 3-year validity rule",
+            "url": "https://www.ontario.ca/laws/regulation/130297"
+          }
+        ]
+      },
+      {
+        "id": "sup",
+        "title": "Supervisor Health and Safety Awareness in 5 Steps",
+        "priority": 2,
+        "ask_first": true,
+        "cost": "Free",
+        "cost_note": "The ministry's e-learning module and workbook are free. Employers may use another program that meets O. Reg. 297/13. Supervisors must also complete worker awareness training, and must be competent for the work they supervise.",
+        "validity": "Not stated as expiring on the official pages. Save or print your proof of completion. The ministry does not store certificates.",
+        "who": "Anyone who will act as a supervisor in an Ontario workplace covered by the OHSA, under O. Reg. 297/13.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "Official page (ontario.ca)",
+            "url": "https://www.ontario.ca/page/supervisor-health-and-safety-awareness-five-steps"
+          },
+          {
+            "label": "Free e-learning module",
+            "url": "https://www.labour.gov.on.ca/english/hs/elearn/supervisor/fivesteps.php"
+          },
+          {
+            "label": "O. Reg. 297/13",
+            "url": "https://www.ontario.ca/laws/regulation/130297"
+          }
+        ]
+      },
+      {
+        "id": "fa",
+        "title": "Standard First Aid and CPR",
+        "priority": 2,
+        "ask_first": false,
+        "cost": "Fee (provider-set)",
+        "cost_note": "Take training from a WSIB-recognized first aid training provider. Official pages do not set a single price.",
+        "validity": "Confirm the expiry printed on your certificate and in WSIB first-aid rules (Reg. 1101). We do not state a number the official pages did not confirm in this review.",
+        "who": "Employers must meet first-aid requirements in Reg. 1101. Many construction employers ask new hires for a current first-aid certificate.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "WSIB: find a first aid training provider",
+            "url": "https://www.wsib.ca/en/find-your-first-aid-training-provider"
+          },
+          {
+            "label": "Reg. 1101: First Aid Requirements",
+            "url": "https://www.ontario.ca/laws/regulation/901101"
+          }
+        ]
+      },
+      {
+        "id": "ihsa",
+        "title": "IHSA courses and free resources",
+        "priority": 3,
+        "ask_first": false,
+        "cost": "Mixed — some resources are free; many courses have a fee",
+        "cost_note": "Check the current IHSA course list and free-resources page for price, eligibility and any no-charge member courses. We do not invent course fees.",
+        "validity": "Depends on the course. Working at Heights taken through an approved provider follows the three-year rule above.",
+        "who": "Construction and related workers, supervisors and safety staff in Ontario. IHSA is a ministry-designated health and safety association.",
+        "track": "Both",
+        "links": [
+          {
+            "label": "IHSA course list",
+            "url": "https://www.ihsa.ca/Training/Course-List"
+          },
+          {
+            "label": "IHSA eLearning catalogue",
+            "url": "https://learn.ihsa.ca/catalog.php"
+          },
+          {
+            "label": "Free health and safety resources (IHSA)",
+            "url": "https://workplacesafety.ihsa.ca/free-resources"
+          },
+          {
+            "label": "IHSA resources",
+            "url": "https://www.ihsa.ca/Resources"
+          }
+        ]
+      },
+      {
+        "id": "jhsc",
+        "title": "JHSC Certification (Parts One and Two)",
+        "priority": 3,
+        "ask_first": false,
+        "cost": "Fee (provider-set)",
+        "cost_note": "Certification training is delivered by CPO-approved providers. Confirm current fees with the provider.",
+        "validity": "Confirm current maintenance or refresher rules on the official program standard page — do not assume a duration that is not stated there.",
+        "who": "Certified members of a joint health and safety committee, where the Act requires certification.",
+        "track": "OHS",
+        "links": [
+          {
+            "label": "Program standard for JHSC training (Ontario)",
+            "url": "https://www.ontario.ca/page/program-standard-joint-health-and-safety-committee-training"
+          }
+        ]
+      }
+    ]
+  },
+  "rights": {
+    "disclaimer": "This is plain-language information about Ontario law, not legal advice and not a complete statement of the Occupational Health and Safety Act (OHSA) or the Workplace Safety and Insurance Act. For your situation, read the official Act and guide or get advice from a lawyer, your union, or the ministry.",
+    "act_url": "https://www.ontario.ca/laws/statute/90o01",
+    "guide_url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act",
+    "rights": [
+      {
+        "id": "know",
+        "title": "The right to know",
+        "summary": "You have the right to know about hazards that may affect you and about how to do your work safely. The Act does not use a single catch-all heading called “right to know.” That right is set out through specific duties.",
+        "cites": [
+          "OHSA s. 25(2)(a): the employer shall provide information, instruction and supervision to a worker to protect the health or safety of the worker.",
+          "OHSA s. 25(2)(d): the employer shall acquaint a worker, or a person in authority over a worker, with any hazard in the work and in the handling, storage, use, disposal and transport of any article, device, equipment or a biological, chemical or physical agent.",
+          "A supervisor’s duties to advise a worker of hazards are in s. 27. WHMIS duties for hazardous products are in the Act and in Reg. 860."
+        ],
+        "links": [
+          {
+            "label": "OHSA (e-Laws)",
+            "url": "https://www.ontario.ca/laws/statute/90o01"
+          },
+          {
+            "label": "Guide to the OHSA",
+            "url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act"
+          },
+          {
+            "label": "Ontario WHMIS page",
+            "url": "https://www.ontario.ca/page/workplace-hazardous-materials-information-system-whmis"
+          }
+        ]
+      },
+      {
+        "id": "participate",
+        "title": "The right to participate",
+        "summary": "You have the right to take part in keeping your workplace healthy and safe — for example by raising concerns, taking part in inspections, and serving as a health and safety representative or joint health and safety committee (JHSC) member.",
+        "cites": [
+          "OHSA s. 8: a health and safety representative is required in most workplaces where more than five workers are regularly employed and a JHSC is not required.",
+          "OHSA s. 9: a JHSC is required in most workplaces where 20 or more workers are regularly employed. The Act also sets special rules for construction projects and some other workplaces — read s. 8, s. 9 and the official guide for the rule that applies to your site.",
+          "OHSA s. 28: among other duties, a worker must report hazards and contraventions to the employer or supervisor."
+        ],
+        "links": [
+          {
+            "label": "OHSA s. 8 and s. 9 (e-Laws)",
+            "url": "https://www.ontario.ca/laws/statute/90o01"
+          },
+          {
+            "label": "Guide to the OHSA",
+            "url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act"
+          },
+          {
+            "label": "JHSC certification program standard",
+            "url": "https://www.ontario.ca/page/program-standard-joint-health-and-safety-committee-training"
+          }
+        ]
+      },
+      {
+        "id": "refuse",
+        "title": "The right to refuse unsafe work",
+        "summary": "If you have reason to believe the work, equipment or workplace condition is likely to endanger you or another worker, you may refuse the work. Some occupations have limits on this right — read s. 43 for those rules.",
+        "cites": [
+          "OHSA s. 43 sets out the work-refusal process. In brief: promptly tell your employer or supervisor the reason; they must investigate, in the presence of you and a worker JHSC member or health and safety representative if reasonably available; if you still have reasonable grounds to refuse, the ministry may be called to investigate; you are generally entitled to remain in a safe place and be available for the investigation. Do not rely only on this summary — follow s. 43 and the official guide.",
+          "OHSA s. 50: the employer (and others listed in the section) cannot dismiss, threaten, discipline, suspend or intimidate you, or impose a penalty, because you acted under the Act or sought enforcement — including refusing unsafe work or asking the employer to comply. That is a reprisal, and you may seek a remedy at the Ontario Labour Relations Board as described in s. 50."
+        ],
+        "links": [
+          {
+            "label": "OHSA s. 43 and s. 50 (e-Laws)",
+            "url": "https://www.ontario.ca/laws/statute/90o01"
+          },
+          {
+            "label": "Guide to the OHSA",
+            "url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act"
+          },
+          {
+            "label": "Worker awareness workbook (Step 4: getting help)",
+            "url": "https://www.ontario.ca/document/worker-health-and-safety-awareness-workbook"
+          }
+        ]
+      }
+    ],
+    "injured": {
+      "title": "If you are hurt at work",
+      "steps": [
+        "Get first aid or medical care. In an emergency, call 911.",
+        "Report the injury or illness to your employer or supervisor as soon as you can, and tell them what happened.",
+        "Your employer must report the injury or illness to the WSIB. The employer's report is Form 7. Ask for a copy — the Workplace Safety and Insurance Act requires the employer to give you one.",
+        "You should also report the injury or illness to the WSIB yourself. WSIB no longer offers the English PDF of the Worker's Report of Injury/Disease (Form 6). Report through WSIB's secure online services, as explained on the official Form 6 page (updated 16 October 2026). Official WSIB pages also state that you have six months from the date of the injury or illness to claim WSIB supports and services.",
+        "If the workplace is unsafe and the problem is not fixed, or you are in a work refusal, you can call the Ministry of Labour, Immigration, Training and Skills Development Health and Safety Contact Centre."
+      ],
+      "contacts": [
+        {
+          "name": "Emergency services",
+          "detail": "911"
+        },
+        {
+          "name": "MLITSD Health and Safety Contact Centre",
+          "detail": "Toll-free 1-877-202-0008 · TTY 1-855-653-9260 · webohs@ontario.ca. Official ministry pages list this number for reporting unsafe work, work refusals, critical injuries and fatalities (call 911 first in an emergency). The official worker-awareness workbook states that the Contact Centre takes calls 24 hours a day, seven days a week."
+        },
+        {
+          "name": "WSIB",
+          "detail": "Report online. Official WSIB pages list 1-800-387-0750 as a contact number. Confirm hours and services on the pages linked below."
+        }
+      ],
+      "links": [
+        {
+          "label": "WSIB: Form 6 (report online)",
+          "url": "https://www.wsib.ca/en/form-6"
+        },
+        {
+          "label": "WSIB: submitting an injury or illness report",
+          "url": "https://www.wsib.ca/en/submitting-injury-or-illness-report"
+        },
+        {
+          "label": "WSIB: Form 7 (employer's report)",
+          "url": "https://www.wsib.ca/en/form-7"
+        },
+        {
+          "label": "Ministry of Labour, Immigration, Training and Skills Development — contact",
+          "url": "https://www.ontario.ca/page/ministry-labour-immigration-training-skills-development"
+        },
+        {
+          "label": "Occupational health and safety regional offices",
+          "url": "https://www.ontario.ca/page/occupational-health-and-safety-regional-offices"
+        }
+      ]
+    }
+  },
+  "pay": {
+    "intro": "These Ontario wage ranges and outlooks come from Job Bank and are reused from the site's existing “Jobs you could get” pages. Hard Hat Roadmap does not invent wage numbers. Each card links to the official Job Bank wage, outlook and requirements pages for that occupation. Figures can change — always check the live Job Bank page.",
+    "source": "Job Bank (Government of Canada). Role figures and source notes were already published on this site and were checked 30 September 2026, with Job Bank update dates shown in each source line.",
+    "careers_url": "#/ohs/careers",
+    "roles": [
+      {
+        "id": "role-hs-coord",
+        "track": "OHS",
+        "title": "Health and safety coordinator or officer",
+        "noc": "22232",
+        "median": "$38.00/hour",
+        "range": "$22.00 to $55.00",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22668/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17428/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/17428/ON",
+        "source_note": "Source: Job Bank, “Occupational health and safety coordinator” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a bachelor&#x27;s degree or college diploma in occupational health and safety is usually required; officers may need BCRSP certification. Ontario employers also expect the mandatory awareness training, WHMIS and, on construction sites, Working at Heights."
+      },
+      {
+        "id": "role-jhsc",
+        "track": "OHS",
+        "title": "JHSC certified member or health and safety representative",
+        "noc": "",
+        "median": "",
+        "range": "",
+        "outlook": "",
+        "outlook_period": "",
+        "wages_url": "",
+        "outlook_url": "",
+        "requirements_url": "",
+        "source_note": "Source: Program standard for JHSC training (Ontario) · Guide for health and safety committees and representatives . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Certified members complete JHSC Certification Part One and Part Two from a CPO-approved provider. Health and safety representatives are chosen by workers in smaller workplaces. It is a strong first line on an OHS resume."
+      },
+      {
+        "id": "role-hs-advisor",
+        "track": "OHS",
+        "title": "Health and safety advisor or specialist",
+        "noc": "22232",
+        "median": "$38.00/hour",
+        "range": "$22.00 to $55.00",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27324/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27324/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/27324/ON",
+        "source_note": "Source: Job Bank, “Health and safety advisor” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a bachelor&#x27;s degree or college diploma in occupational health and safety is usually required; BCRSP certification may be required. Advisor postings often ask for a few years in a coordinator role and a CRST or CRSP."
+      },
+      {
+        "id": "role-trainer",
+        "track": "OHS",
+        "title": "Safety trainer",
+        "noc": "41210",
+        "median": "$45.00/hour",
+        "range": "$24.00 to $110.00",
+        "outlook": "Limited",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22914/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22914/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/22914/ON",
+        "source_note": "Source: Job Bank, “Health and safety instructor” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a bachelor&#x27;s degree, a college diploma or demonstrated expertise in the subject is required; a certificate in adult education may be required. Trainers who deliver CPO-approved courses must meet that provider&#x27;s instructor rules."
+      },
+      {
+        "id": "role-ehs-tech",
+        "track": "OHS",
+        "title": "Environmental health and safety technician",
+        "noc": "21120",
+        "median": "$46.67/hour",
+        "range": "$31.40 to $65.93",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22699/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22694/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/22694/ON",
+        "source_note": "Source: Job Bank, “Environmental health and safety technician” in Ontario: wages (reference period 2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a bachelor&#x27;s degree in a field such as environmental studies, chemistry or health and safety is usually required; BCRSP certification may be required. Job Bank files this title with public and environmental health professionals, so the wage covers that wider group."
+      },
+      {
+        "id": "role-rtw",
+        "track": "OHS",
+        "title": "Return-to-work or disability management coordinator",
+        "noc": "42201",
+        "median": "$26.50/hour",
+        "range": "$19.79 to $37.23",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/277/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/5138/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/5138/ON",
+        "source_note": "Source: Job Bank, “Return-to-work coordinator - disability management” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a college or university program in social work, psychology or another social science or health field is usually required. Postings usually ask for WSIB claims and Ontario return-to-work experience."
+      },
+      {
+        "id": "role-consultant",
+        "track": "OHS",
+        "title": "Safety consultant",
+        "noc": "22232",
+        "median": "$38.00/hour",
+        "range": "$22.00 to $55.00",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/27307/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/27307/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/27307/ON",
+        "source_note": "Source: Job Bank, “Occupational health and safety (OHS) consultant” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a bachelor&#x27;s degree or college diploma in occupational health and safety is usually required; BCRSP certification may be required. Consulting roles usually want several years of experience and a CRSP or CHSC."
+      },
+      {
+        "id": "role-hs-manager",
+        "track": "OHS",
+        "title": "Health and safety manager",
+        "noc": "10011",
+        "median": "$56.41/hour",
+        "range": "$39.90 to $87.91",
+        "outlook": "Limited",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/17414/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/17414/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/17414/ON",
+        "source_note": "Source: Job Bank, “Manager, occupational health and safety” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank files this title with human resources managers (a bachelor&#x27;s degree and several years of experience are required). OHS manager postings usually ask for a CRSP and experience running a management system such as COR."
+      },
+      {
+        "id": "role-pc",
+        "track": "CM",
+        "title": "Project coordinator",
+        "noc": "70010",
+        "median": "$50.61/hour",
+        "range": "$30.77 to $91.91",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24320/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24320/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/24320/ON",
+        "source_note": "Source: Job Bank, “Project co-ordinator, construction” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank (whole NOC 70010 group): a civil engineering degree or construction technology diploma is usually required. Coordinator postings are the usual first CM job: site tickets, Procore or similar software, and document control (RFIs, submittals)."
+      },
+      {
+        "id": "role-apm",
+        "track": "CM",
+        "title": "Assistant project manager",
+        "noc": "70010",
+        "median": "$50.61/hour",
+        "range": "$30.77 to $91.91",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297568/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/297568/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/297568/ON",
+        "source_note": "Source: Job Bank, “Assistant project manager, construction” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank (whole NOC 70010 group): a civil engineering degree or construction technology diploma is usually required. APM postings usually want a year or two as a coordinator or field engineer."
+      },
+      {
+        "id": "role-fe",
+        "track": "CM",
+        "title": "Field engineer",
+        "noc": "21300",
+        "median": "$48.08/hour",
+        "range": "$30.50 to $72.12",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/22380/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/22380/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/22380/ON",
+        "source_note": "Source: Job Bank, “Project engineer, construction” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank has no &#x27;field engineer&#x27; title; the closest is project engineer, construction (civil engineers). A bachelor&#x27;s degree in civil or a related engineering discipline is required, and a P.Eng. licence is needed to approve drawings. New grads often start as field engineers while working toward the licence."
+      },
+      {
+        "id": "role-est",
+        "track": "CM",
+        "title": "Junior estimator or estimator",
+        "noc": "22303",
+        "median": "$38.46/hour",
+        "range": "$24.00 to $61.54",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/3273/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/3273/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/3273/ON",
+        "source_note": "Source: Job Bank, “Construction estimator” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a three-year college program in civil or construction engineering technology, or several years as a qualified tradesperson, is required; certification by the Canadian Institute of Quantity Surveyors is usually required. Juniors start with quantity take-offs."
+      },
+      {
+        "id": "role-super",
+        "track": "CM",
+        "title": "Site superintendent or supervisor",
+        "noc": "70010",
+        "median": "$50.61/hour",
+        "range": "$30.77 to $91.91",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297108/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24323/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/24323/ON",
+        "source_note": "Source: Job Bank, “Construction site superintendent” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank (whole NOC 70010 group): several years of construction experience, including as a supervisor, are usually required; extensive experience can substitute for post-secondary education."
+      },
+      {
+        "id": "role-sched",
+        "track": "CM",
+        "title": "Scheduler or project controls",
+        "noc": "13201",
+        "median": "$29.74/hour",
+        "range": "$20.19 to $41.83",
+        "outlook": "Very limited",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/2488/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/2488/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/2488/ON",
+        "source_note": "Source: Job Bank, “Construction schedule coordinator” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank files construction schedule coordinators with logistics coordinators: a post-secondary program of less than two years, or experience as a scheduling clerk, is usually required. Construction postings usually ask for critical-path scheduling in Primavera P6 or MS Project."
+      },
+      {
+        "id": "role-pm",
+        "track": "CM",
+        "title": "Project manager",
+        "noc": "70010",
+        "median": "$50.61/hour",
+        "range": "$30.77 to $91.91",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24311/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24311/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/24311/ON",
+        "source_note": "Source: Job Bank, “Project manager, construction” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank (whole NOC 70010 group): a civil engineering degree or construction technology diploma and several years of construction experience are usually required. PM postings often list PMP or Gold Seal as an asset."
+      },
+      {
+        "id": "role-cmgr",
+        "track": "CM",
+        "title": "Construction manager",
+        "noc": "70010",
+        "median": "$50.61/hour",
+        "range": "$30.77 to $91.91",
+        "outlook": "Moderate",
+        "outlook_period": "2025-2027",
+        "wages_url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24325/ON",
+        "outlook_url": "https://www.jobbank.gc.ca/marketreport/outlook-occupation/24325/ON",
+        "requirements_url": "https://www.jobbank.gc.ca/marketreport/requirements/24325/ON",
+        "source_note": "Source: Job Bank, “Construction manager” in Ontario: wages (reference period 2023-2024, updated November 19, 2025) · outlook · requirements . Checked Sep 30, 2026.",
+        "requirements_blurb": "Typical requirements. Job Bank: a civil engineering degree or construction technology diploma and several years of experience, including as a supervisor or superintendent, are usually required. Professional engineering status or trade certification may be required by some employers."
+      }
+    ]
+  },
+  "kit": {
+    "intro": "A generic safety-job resume you can copy, plus common interview questions and STAR answer guidance. Examples are fictional. Do not copy them as if they were your own experience, and do not invent credentials, tickets or hours you do not have.",
+    "template_file": "samples/hhr-safety-resume-template.txt",
+    "tools_links": [
+      {
+        "label": "Resume checker (on this site)",
+        "href": "#/ohs/tools/resume"
+      },
+      {
+        "label": "Interview practice (on this site)",
+        "href": "#/ohs/tools/interview"
+      }
+    ],
+    "star": {
+      "title": "STAR answers",
+      "steps": [
+        {
+          "letter": "S",
+          "name": "Situation",
+          "text": "Set the scene in one or two sentences: the site, the task, and the risk or problem."
+        },
+        {
+          "letter": "T",
+          "name": "Task",
+          "text": "What were you responsible for? Keep it about your role, not the whole company."
+        },
+        {
+          "letter": "A",
+          "name": "Action",
+          "text": "What you did, in order. Use “I” for your actions. Mention procedures, people you told, and controls you used."
+        },
+        {
+          "letter": "R",
+          "name": "Result",
+          "text": "What changed? Be honest. A good result can be that work stopped until a control was in place, not only that production continued."
+        }
+      ],
+      "examples": [
+        {
+          "id": "ex-refuse",
+          "question": "Tell me about a time you raised a safety concern.",
+          "label": "Fictional sample — not a real person or employer",
+          "answer": "Situation: On a renovation, a temporary guardrail had been removed at a stair opening on the second floor. Task: I was a labourer assigned to move materials past that opening. Action: I stopped, told my supervisor I would not walk the opening until a rail or cover was back in place, and stayed in a safe area. I also told the health and safety representative what I had seen. Result: The supervisor had the opening secured before anyone used that route. I was not punished for speaking up. I would use the same approach again under the right to refuse unsafe work."
+        },
+        {
+          "id": "ex-inspect",
+          "question": "Walk me through how you would start a workplace inspection.",
+          "label": "Fictional sample — a model answer, not a claim about you",
+          "answer": "Situation: I have been asked to join a monthly inspection on an occupied construction site. Task: My job is to help spot hazards and record them clearly. Action: I would review recent incidents and the last inspection list first, walk a planned route with the supervisor or JHSC member, look at access, openings, PPE, housekeeping and any energy sources, and write each hazard with a location and a suggested control. Result: The record would go to the supervisor the same day, with follow-up dates, so items are not left only as a conversation."
+        }
+      ]
+    },
+    "use_site_interview": true
+  },
+  "newcomers": {
+    "intro": "If you trained or worked outside Canada, start with official credential-recognition and settlement pages. Requirements depend on your occupation and on the province where you will work. This page does not assess credentials and does not replace a regulatory body or an official assessment agency.",
+    "sections": [
+      {
+        "id": "fcr",
+        "title": "Foreign credential recognition",
+        "text": "In Canada, recognition of education and experience from another country is usually done by a provincial regulatory body (for a regulated profession or compulsory trade) or by an academic credential assessment agency (for general education). Occupational health and safety practitioner roles in Ontario are generally not a provincially licensed profession; designations such as CRSP are voluntary professional certifications. Project management is listed by Ontario as not a regulated profession. Trades such as electrician or plumber are compulsory trades and may require a certificate of qualification. Always check the official list for your occupation.",
+        "links": [
+          {
+            "label": "CICIC — Canadian Information Centre for International Credentials",
+            "url": "https://www.cicic.ca/"
+          },
+          {
+            "label": "Work in your profession or trade (ontario.ca)",
+            "url": "https://www.ontario.ca/page/work-your-profession-or-trade"
+          },
+          {
+            "label": "Skilled Trades Ontario (trade equivalency assessment)",
+            "url": "https://www.skilledtradesontario.ca"
+          },
+          {
+            "label": "Employment and Social Development Canada: Foreign Credential Recognition",
+            "url": "https://www.canada.ca/en/employment-social-development/programs/foreign-credential-recognition.html"
+          }
+        ],
+        "contacts": [
+          "Global Experience Ontario (non-health regulated professions and skilled trades): geo@ontario.ca · 416-327-9694 · toll-free 1-866-670-4094 · TTY 416-327-9710. Source: ontario.ca “Work in your profession or trade,” updated 11 February 2026."
+        ]
+      },
+      {
+        "id": "settle",
+        "title": "Free language and settlement supports",
+        "text": "The Government of Canada and the Government of Ontario publish official pages on settlement services and on improving English or French. Language training options for eligible newcomers (including government-funded classes such as LINC or equivalent programs, where you qualify) are described on the official language-skills page. Availability and eligibility rules can change — read the live page or ask a settlement organization.",
+        "links": [
+          {
+            "label": "IRCC: Settle in Canada",
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada.html"
+          },
+          {
+            "label": "IRCC: Improve your English or French",
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/language-skills.html"
+          },
+          {
+            "label": "Ontario: Getting settled",
+            "url": "https://www.ontario.ca/page/getting-settled-ontario"
+          },
+          {
+            "label": "Ontario: Newcomers",
+            "url": "https://www.ontario.ca/page/newcomers"
+          },
+          {
+            "label": "Employment Ontario",
+            "url": "https://www.ontario.ca/page/employment-ontario"
+          }
+        ]
+      }
+    ],
+    "glossary": [
+      {
+        "en": "hazard",
+        "fr": "danger (ou risque, selon le contexte)",
+        "es": "peligro"
+      },
+      {
+        "en": "risk",
+        "fr": "risque",
+        "es": "riesgo"
+      },
+      {
+        "en": "incident",
+        "fr": "incident",
+        "es": "incidente"
+      },
+      {
+        "en": "injury",
+        "fr": "lésion / blessure",
+        "es": "lesión / herida"
+      },
+      {
+        "en": "personal protective equipment (PPE)",
+        "fr": "équipement de protection individuelle (ÉPI)",
+        "es": "equipo de protección personal (EPP)"
+      },
+      {
+        "en": "hard hat",
+        "fr": "casque de sécurité",
+        "es": "casco de seguridad"
+      },
+      {
+        "en": "harness / fall protection",
+        "fr": "harnais / protection contre les chutes",
+        "es": "arnés / protección contra caídas"
+      },
+      {
+        "en": "Working at Heights",
+        "fr": "travail en hauteur",
+        "es": "trabajo en altura"
+      },
+      {
+        "en": "WHMIS",
+        "fr": "SIMDUT (Système d’information sur les matières dangereuses utilisées au travail)",
+        "es": "WHMIS (sistema de información sobre materiales peligrosos en el trabajo)"
+      },
+      {
+        "en": "safety data sheet (SDS)",
+        "fr": "fiche de données de sécurité (FDS)",
+        "es": "hoja de datos de seguridad (HDS)"
+      },
+      {
+        "en": "lockout / tagout",
+        "fr": "cadenassage / étiquetage",
+        "es": "bloqueo / etiquetado"
+      },
+      {
+        "en": "competent supervisor",
+        "fr": "superviseur compétent",
+        "es": "supervisor competente"
+      },
+      {
+        "en": "joint health and safety committee (JHSC)",
+        "fr": "comité mixte sur la santé et la sécurité au travail (CMSST)",
+        "es": "comité conjunto de salud y seguridad"
+      },
+      {
+        "en": "health and safety representative",
+        "fr": "délégué à la santé et à la sécurité / représentant en santé et sécurité",
+        "es": "representante de salud y seguridad"
+      },
+      {
+        "en": "right to know",
+        "fr": "droit d’être informé",
+        "es": "derecho a saber / a estar informado"
+      },
+      {
+        "en": "right to participate",
+        "fr": "droit de participer",
+        "es": "derecho a participar"
+      },
+      {
+        "en": "right to refuse unsafe work",
+        "fr": "droit de refuser un travail dangereux",
+        "es": "derecho a rechazar un trabajo peligroso"
+      },
+      {
+        "en": "reprisal",
+        "fr": "représailles",
+        "es": "represalia"
+      },
+      {
+        "en": "work refusal",
+        "fr": "refus de travailler",
+        "es": "rechazo a trabajar"
+      },
+      {
+        "en": "inspection",
+        "fr": "inspection",
+        "es": "inspección"
+      },
+      {
+        "en": "toolbox talk",
+        "fr": "charla de sécurité / causerie de sécurité",
+        "es": "charla de seguridad (toolbox talk)"
+      },
+      {
+        "en": "trench / excavation",
+        "fr": "tranchée / excavation",
+        "es": "zanja / excavación"
+      },
+      {
+        "en": "silica dust",
+        "fr": "poussière de silice",
+        "es": "polvo de sílice"
+      },
+      {
+        "en": "heat stress",
+        "fr": "stress dû à la chaleur",
+        "es": "estrés por calor"
+      },
+      {
+        "en": "cold stress",
+        "fr": "stress dû au froid",
+        "es": "estrés por frío"
+      },
+      {
+        "en": "housekeeping",
+        "fr": "rangement / ordre au poste de travail",
+        "es": "orden y limpieza del área de trabajo"
+      },
+      {
+        "en": "struck-by hazard",
+        "fr": "danger d’être heurté",
+        "es": "peligro de golpe / ser golpeado"
+      },
+      {
+        "en": "first aid",
+        "fr": "premiers soins",
+        "es": "primeros auxilios"
+      },
+      {
+        "en": "workers' compensation (WSIB)",
+        "fr": "sécurité professionnelle (CSPAAT / WSIB)",
+        "es": "compensación laboral (WSIB)"
+      },
+      {
+        "en": "Notice of Project",
+        "fr": "avis de projet",
+        "es": "aviso de proyecto"
+      }
+    ],
+    "glossary_note": "French and Spanish terms are practical workplace equivalents, not official translations of the OHSA. For legal wording in French, use the official French text on e-Laws when available."
+  },
+  "toolbox": {
+    "intro": "Short, original talks you can read to a crew in about five to eight minutes. They are not a substitute for training, a procedure or the law. Each talk links to a CCOHS or IHSA fact sheet for deeper official guidance. These talks are original Hard Hat Roadmap text — they do not copy copyrighted manuals.",
+    "talks": [
+      {
+        "id": "falls",
+        "title": "Falls and openings",
+        "minutes": "5–8",
+        "opening": "Where could someone fall on this site today — an opening, a ladder, a leading edge, or a temporary platform?",
+        "talk": "Most serious construction injuries still involve falls. Before work starts, walk the area and name every opening, edge and ladder you will use. An opening needs a secure cover or a guardrail, not a piece of plywood that can slide. A cover should be marked and strong enough for the load. Ladders need a firm base, the right angle, and three-point contact; do not carry a load that makes you let go. If you will use a travel-restraint or fall-arrest system, you must be trained, and on an Ontario construction project that usually means current CPO-approved Working at Heights training. Inspect the harness, lanyard and anchor before you put them on. If a rail has been removed for a lift, put a barrier up and restore the rail as soon as the work allows. If you cannot work safely, tell your supervisor and stay out of the danger area.",
+        "ask": [
+          "Which openings or edges are open on this job today?",
+          "Who checked the fall-protection equipment this morning?",
+          "What do we do if a guardrail has to come down for a few minutes?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Falls",
+            "url": "https://www.ccohs.ca/oshanswers/safety_haz/falls.html"
+          },
+          {
+            "label": "IHSA: fall protection topic",
+            "url": "https://ohsguide.ihsa.ca/en/topic/fall_protection"
+          },
+          {
+            "label": "Ontario: fall prevention on construction sites",
+            "url": "https://www.ontario.ca/page/achieve-compliance-construction-sites-fall-prevention"
+          }
+        ]
+      },
+      {
+        "id": "trenching",
+        "title": "Trenching and excavation",
+        "minutes": "5–8",
+        "opening": "If this trench moved, who would be inside it, and what would protect them?",
+        "talk": "A trench can collapse without much warning. Soil is heavy, and a cave-in can trap a person in seconds. Before anyone enters, the employer and supervisor must identify the hazards: soil type, buried services, water, nearby vibration from traffic or equipment, and a safe way in and out. Locate and mark utilities. Keep spoils and equipment back from the edge so the wall is not overloaded. Use the protective system the law and the work plan require — sloping, shoring or a trench box — and do not enter a trench that is not protected. Test the atmosphere when there is a risk of gas, vapour or low oxygen. A worker on the surface should be able to see and warn people in the trench. If water, a crack in the wall, or a damaged box appears, get out and tell the supervisor. This talk does not replace the Construction Projects regulation or a competent person’s assessment.",
+        "ask": [
+          "Have buried services been located and marked?",
+          "What protective system is in place for this trench?",
+          "Where is the safe way in and out?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Trenching and excavation",
+            "url": "https://www.ccohs.ca/oshanswers/hsprograms/trenching_excavation.html"
+          },
+          {
+            "label": "IHSA: trenching and excavation topic",
+            "url": "https://ohsguide.ihsa.ca/en/topic/trenching-and-excavation"
+          }
+        ]
+      },
+      {
+        "id": "lockout",
+        "title": "Lockout and stored energy",
+        "minutes": "5–8",
+        "opening": "What equipment on this job could start, move, or still hold energy after it looks like it is off?",
+        "talk": "Machines, electrical panels, pneumatic tools and process piping can injure someone if they start or release energy during service. Lockout means isolating the energy source, applying your personal lock, and verifying that the equipment cannot start or move before you put any part of your body in the danger zone. Tag the lock so others know who applied it. Do not remove another person’s lock. Stored energy matters too: residual pressure, gravity, springs or capacitors can still move a part after the switch is off. Follow the site lockout procedure, not a habit from a previous job. If you are not trained or authorized to isolate that equipment, stop and get the person who is. If a lock is in the way of production, that is not a reason to bypass it — speak with the supervisor and follow the written process.",
+        "ask": [
+          "Where is the lockout procedure posted?",
+          "Who is authorized to isolate this equipment?",
+          "How do we verify that energy is at a zero-energy state?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Lockout",
+            "url": "https://www.ccohs.ca/oshanswers/hsprograms/lockout.html"
+          }
+        ]
+      },
+      {
+        "id": "ppe",
+        "title": "Personal protective equipment",
+        "minutes": "5–8",
+        "opening": "What PPE is required in this work area, and does yours actually fit and function?",
+        "talk": "PPE is the last line of defence, not a substitute for a safe work method. Still, the right gear prevents injuries when other controls are not enough. Wear what the site and the task require: typically a hard hat, safety footwear, high-visibility clothing, and then eye, hearing, hand or respiratory protection as the hazard demands. Inspect gear before you put it on. A cracked hard hat, worn-out boots or a dirty respirator does not protect you. Fit matters — especially for eyewear and respirators. Replace damaged equipment instead of repairing it with tape. If a task needs a different respirator cartridge or a face shield, get it before you start, not after the first cut. Tell your supervisor if the required PPE is missing or does not fit. PPE rules apply to visitors and delivery drivers in the work area too.",
+        "ask": [
+          "What is the minimum PPE for this area today?",
+          "Who has spare glasses, vests or gloves if something fails?",
+          "Does anyone need a different type of protection for the task this afternoon?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Designing an effective PPE program",
+            "url": "https://www.ccohs.ca/oshanswers/prevention/ppe/designin.html"
+          },
+          {
+            "label": "CCOHS: PPE topic",
+            "url": "https://www.ccohs.ca/oshanswers/prevention/ppe"
+          }
+        ]
+      },
+      {
+        "id": "heatcold",
+        "title": "Heat and cold stress",
+        "minutes": "5–8",
+        "opening": "How will we work, rest and hydrate if the temperature, wind or humidity makes the job harder today?",
+        "talk": "Hot work can lead to heat exhaustion or heat stroke. Signs include heavy sweating, dizziness, nausea, confusion or a person who stops sweating and seems unwell — treat that as an emergency and get medical help. Plan heavier work for cooler hours when you can, provide shade or cool rest, and drink water regularly rather than waiting until you feel ill. Watch coworkers; people often do not notice their own decline. Cold work brings frostbite and hypothermia. Keep dry layers, cover skin, and warm up before your hands stop working safely with tools. Wind and wet clothing make cold worse. In both heat and cold, a person who is new to the weather, taking certain medication, or working alone needs extra attention. Follow the site plan and tell the supervisor if a worker shows warning signs. This talk does not set temperature thresholds — use the official CCOHS guidance and your employer’s procedure.",
+        "ask": [
+          "Where do we rest, get water or warm up today?",
+          "What are the early signs we should watch for in each other?",
+          "Who do we call if someone becomes unwell?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Heat and health",
+            "url": "https://www.ccohs.ca/oshanswers/phys_agents/heat/heat_health.html"
+          },
+          {
+            "label": "CCOHS: Working in the cold",
+            "url": "https://www.ccohs.ca/oshanswers/phys_agents/cold/cold_working.html"
+          }
+        ]
+      },
+      {
+        "id": "silica",
+        "title": "Silica dust",
+        "minutes": "5–8",
+        "opening": "Which tasks today will cut, grind, drill or break concrete, stone or masonry — and how will we keep the dust down?",
+        "talk": "Crystalline silica is in many common construction materials. Breathing the dust can cause silicosis and is linked to lung cancer. The goal is to keep dust out of the air, not just to wear a mask and hope. Prefer wet methods, local exhaust, or a tool with a vacuum attachment that is in good working order. Do not dry-sweep silica dust or blow it with compressed air. Use a HEPA vacuum or wet clean-up as the site procedure requires. If a respirator is required, it must be the right type, clean, and fit-tested if your program requires it. Keep bystanders out of the dust cloud, including other trades walking through. Bag and dispose of waste as directed. If the control is broken — a dry saw, a missing shroud, a clogged vacuum — stop and fix the control before you continue.",
+        "ask": [
+          "Which tasks will create silica dust today?",
+          "What dust-control method will we use for each one?",
+          "Where is the clean-up equipment, and who inspects it?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Silica, quartz",
+            "url": "https://www.ccohs.ca/oshanswers/chemicals/chem_profiles/quartz_silica.html"
+          },
+          {
+            "label": "CCOHS: Silicosis",
+            "url": "https://www.ccohs.ca/oshanswers/diseases/silicosis.html"
+          }
+        ]
+      },
+      {
+        "id": "struckby",
+        "title": "Struck-by and moving equipment",
+        "minutes": "5–8",
+        "opening": "Where will people and moving equipment share space today, and how will we be seen and stay out of the line of fire?",
+        "talk": "Being struck by a vehicle, a swinging load, a falling object or a tool is a leading cause of serious harm on sites. Wear high-visibility clothing in areas with traffic or mobile equipment. Make eye contact with the operator before you walk near a machine; if you cannot see the operator, assume the operator cannot see you. Stay out of swing radius and out from under loads. Use designated walkways and spotters where the plan requires them. Secure tools and materials so they cannot fall to a lower level. Stack supplies so they will not tip. Phones and earbuds make it harder to hear a backup alarm — keep your attention on the work area. If a travel path has changed, tell the people who use it. Operators should travel at a controlled speed and never assume a person heard the horn.",
+        "ask": [
+          "Where is equipment moving today, and where should pedestrians walk?",
+          "Who is spotting for backing or lifts?",
+          "What objects above us need to be secured?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Working safely around heavy equipment",
+            "url": "https://www.ccohs.ca/oshanswers/safety_haz/working-safety-around-heavy-equipment.html"
+          }
+        ]
+      },
+      {
+        "id": "housekeeping",
+        "title": "Housekeeping",
+        "minutes": "5–8",
+        "opening": "If someone had to leave this area quickly, what would they trip on?",
+        "talk": "Housekeeping is not cosmetic. Debris, extension cords, leftover lumber, spills and blocked exits cause slips, trips, falls and delays in an emergency. Keep access routes, stairs, doorways and eye-wash or extinguisher locations clear. Coil cords and hoses out of walkways, or cover them if they must cross a path. Put scrap in the bin as you go; do not leave a pile for the end of the day if people will walk through it. Clean up spills promptly with the right material. Store chemicals in labelled containers, not in drinking bottles. Sharp off-cuts belong in a puncture-resistant container, not in an ordinary garbage bag. A tidy area also makes hazards easier to see. Before you leave, do a two-minute sweep of your work zone. If you inherit a messy area, fix the immediate trip hazards and tell the supervisor if a larger clean-up is needed.",
+        "ask": [
+          "Which walkways or stairs are cluttered right now?",
+          "Where do we put scrap, cords and chemical containers?",
+          "Who will do the end-of-shift sweep in each zone?"
+        ],
+        "links": [
+          {
+            "label": "CCOHS: Workplace housekeeping — basic guide",
+            "url": "https://www.ccohs.ca/oshanswers/hsprograms/housekeeping/house.html"
+          }
+        ]
+      }
+    ]
+  },
+  "designations": {
+    "intro": "National and industry designations that often appear on safety and construction-management paths. Requirements and timelines below come from the official bodies linked on each card. Fees and rules change — confirm on the official page before you apply. Unofficial practice for some of these sits in Test Your Skills (sample questions are free; full practice is part of the $14.99 unlock). Hard Hat Roadmap is not affiliated with the awarding bodies.",
+    "skills_url": "#/ohs/skills",
+    "items": [
+      {
+        "id": "ncso",
+        "short": "NCSO",
+        "title": "National Construction Safety Officer",
+        "org": "IHSA (Ontario) / CFCSA national standard",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "IHSA NCSO program",
+            "url": "https://www.ihsa.ca/NCSO"
+          },
+          {
+            "label": "NCSO applicant site",
+            "url": "https://ncso.ihsa.ca/"
+          },
+          {
+            "label": "Official experience criteria (PDF)",
+            "url": "https://www.ihsa.ca/pdfs/ncso/ncso-experience-criteria.pdf"
+          },
+          {
+            "label": "NCSO / NHSA resources",
+            "url": "https://www.ihsa.ca/ncso-nhsa-resources"
+          }
+        ],
+        "requirements": "IHSA’s official experience criteria state that applicants need three years or 6,000 hours of construction field experience within the previous ten years. Construction field experience is defined in that PDF (field construction work, or full-time field safety or supervision of construction workers). At least two of the three required years must have been in Canada; up to one year of verified international experience may be accepted as described in the criteria. Applicants also complete required training, examinations and an audit. Confirm the current course list, exam rules, audit rules, maintenance and fees on IHSA’s NCSO pages — those details can change and are not all repeated here.",
+        "timeline": "The official criteria set a minimum of three years (or 6,000 hours) of qualifying field experience. Time needed to finish courses, the exam and the audit after that is not stated as a single official “typical” duration on the pages we used. Ask IHSA for current processing times.",
+        "uncertainty": "Do not treat unofficial study-hour estimates as IHSA requirements."
+      },
+      {
+        "id": "nhsa",
+        "short": "NHSA",
+        "title": "National Health and Safety Administrator",
+        "org": "IHSA / CFCSA",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "IHSA NCSO / NHSA program",
+            "url": "https://www.ihsa.ca/NCSO"
+          },
+          {
+            "label": "NCSO / NHSA resources",
+            "url": "https://www.ihsa.ca/ncso-nhsa-resources"
+          }
+        ],
+        "requirements": "NHSA is the companion national designation for people in construction health and safety administration. Confirm current eligibility, training, exam and experience rules on IHSA’s official NCSO/NHSA pages.",
+        "timeline": "No single official “typical timeline” was stated on the pages used for this guide.",
+        "uncertainty": "Use the official IHSA pages as the source of truth; this card does not list course names we could not confirm in full on those pages in this review."
+      },
+      {
+        "id": "cso",
+        "short": "CSO",
+        "title": "Construction Safety Officer — not the current Ontario title",
+        "org": "Varies by province",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "IHSA NCSO (Ontario’s current national construction safety officer designation)",
+            "url": "https://www.ihsa.ca/NCSO"
+          }
+        ],
+        "requirements": "In Ontario, IHSA transitioned from its earlier Construction Health and Safety Officer (CHSO) program to the National Construction Safety Officer (NCSO) designation. “CSO” is used by some other provincial construction safety associations, but it is not the current Ontario designation name we could verify for IHSA.",
+        "timeline": "Not applicable as an Ontario IHSA designation under this title.",
+        "uncertainty": "If a job posting asks for a “CSO,” ask whether the employer means NCSO (Ontario/CFCSA) or a provincial CSO from another jurisdiction, and confirm with the issuing body."
+      },
+      {
+        "id": "crst",
+        "short": "CRST",
+        "title": "Canadian Registered Safety Technician",
+        "org": "BCRSP",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "CRST eligibility criteria",
+            "url": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification/apply-crst-certification"
+          },
+          {
+            "label": "About CRST",
+            "url": "https://bcrsp.ca/en/prospective-certificants/about-crst-certification"
+          },
+          {
+            "label": "Certification comparison",
+            "url": "https://bcrsp.ca/en/prospective-certificants/certification-comparison-glance"
+          }
+        ],
+        "requirements": "BCRSP publishes three pathways (confirm on the official eligibility page). Pathway A: a one-year OHS certificate from a recognized institution, plus at least 12 months of OHS work experience (at least 35% OHS duties) within the last 24 months, as validated by the QRC. Pathway B: a two-year non-OHS formal education program (about 900 hours or 60 credit hours) or journeyperson status, plus professional development related to the CRST exam blueprint, plus the same 12-month experience rule. Pathway C: graduates of an approved two-year OHS diploma or degree on BCRSP’s approved list may write the technician exam upon graduation if the application is received within 12 months of graduation. There is a mandatory certification examination after the application is reviewed. The official page states the application fee is $525 plus GST/HST and is non-refundable. International academic credentials have extra documentation rules, including assessment by a Canadian credentialing agency.",
+        "timeline": "Experience minima are 12 months for Pathways A and B. Pathway C may sit the exam on graduation. The official page also states that a person who obtains four years of relevant professional-level OHS experience, and who has maintained CRST certification in good standing, will be eligible to apply for the CRSP. Time to book and write the exam after approval is not given as a single typical figure here.",
+        "uncertainty": "Confirm fees, the approved-program list and handbook details on BCRSP before you pay."
+      },
+      {
+        "id": "crsp",
+        "short": "CRSP",
+        "title": "Canadian Registered Safety Professional",
+        "org": "BCRSP",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "CRSP eligibility criteria",
+            "url": "https://bcrsp.ca/en/prospective-certificants/why-become-crsp/are-you-eligible-crsp-certification"
+          },
+          {
+            "label": "About CRSP",
+            "url": "https://bcrsp.ca/en/prospective-certificants/about-CRSP-certification"
+          },
+          {
+            "label": "Certification comparison",
+            "url": "https://bcrsp.ca/en/prospective-certificants/certification-comparison-glance"
+          }
+        ],
+        "requirements": "For applications on or after 1 July 2018, BCRSP requires a minimum of a bachelor’s degree in any field or a two-year diploma or certificate (minimum 900 hours or 60 credits) in occupational health and safety or equivalent from a recognized academic institution, plus 48 months of professional-level OHS experience obtained within the last 72 months (minimum 900 hours per calendar year of OHS practice). Applicants using a bachelor’s degree in any field must also demonstrate sufficient current professional development activities in OHS. There is a mandatory certification examination after the application is reviewed for eligibility. The official page states the application fee is $525 plus GST/HST and is non-refundable. One of the two questionnaires must be completed by a CRSP or an equivalent listed on that page. International credentials must be translated if needed and submitted to a Canadian credentialing agency before application.",
+        "timeline": "The experience rule is 48 months within the last 72 months. That is a minimum, not a promise of how long approval or exam booking will take.",
+        "uncertainty": "Use BCRSP’s eligibility self-assessment and candidate handbook. Confirm current fees and handbook dates on the official site."
+      },
+      {
+        "id": "gold",
+        "short": "Gold Seal",
+        "title": "Gold Seal Certification (CCA)",
+        "org": "Canadian Construction Association",
+        "track": "CM",
+        "official": [
+          {
+            "label": "New to Gold Seal",
+            "url": "https://www.cca-acc.com/gold-seal/new-to-gold-seal/"
+          },
+          {
+            "label": "Gold Seal exam",
+            "url": "https://www.cca-acc.com/gold-seal/exam/"
+          },
+          {
+            "label": "Application guide (PDF, 1 August 2026)",
+            "url": "https://www.cca-acc.com/wp-content/uploads/2026/08/GS-application-guide_Aug12026.pdf"
+          }
+        ],
+        "requirements": "The official application guide (1 August 2026) states that, to qualify to write the exam, applicants must be currently employed in Canada in the applicable designation and have at least five years of experience in that designation (experience in another designation does not generally count; a limited exception is described for superintendents). A letter of reference from the direct supervisor (or a long-term client if self-employed) is required. Applicants need 100 credits: a minimum of 50 and a maximum of 75 from experience, and a minimum of 25 from education and training, including mandatory Construction Industry Ethics (three credits) and a designation-specific course (two credits). Training must be Gold Seal accredited as described in the guide. You may first enrol as a Gold Seal Intern (GSI) with at least one year of Canadian experience in the designation, or two years in a related assistant role, plus a reference letter. The guide lists an enrolment fee of $490 plus applicable taxes, a GSC application fee of $115 plus taxes, and an exam fee of $150 plus taxes (all described as non-refundable).",
+        "timeline": "A GSI has up to five years to meet GSC requirements, apply and write the exam, according to the official guide. The five-year experience minimum still applies to writing the exam.",
+        "uncertainty": "Fees and rules in the 1 August 2026 guide can be updated. Confirm on the current CCA Gold Seal pages and the latest guide before you pay. Designation streams include roles such as project manager, superintendent, estimator, foreperson and safety practitioner — choose the stream that matches your work."
+      },
+      {
+        "id": "chsc",
+        "short": "CHSC",
+        "title": "Certified Health and Safety Consultant",
+        "org": "CSSE / Health and Safety Professionals Canada (HSPC)",
+        "track": "OHS",
+        "official": [
+          {
+            "label": "CHSC program (CSSE)",
+            "url": "https://csse.org/site/CHSC"
+          },
+          {
+            "label": "CHSC certification process",
+            "url": "https://www.csse.org/site/career-development/chsc-certification"
+          }
+        ],
+        "requirements": "Official CSSE CHSC pages state that applicants must currently be an internal or external health and safety advisor or consultant, with at least five years (60 months) of cumulative work experience within the previous seven years and at least 51% health and safety related duties; plus either a one-year college or university OHS/environment certificate or diploma (minimum 300 instruction hours) or a two-year non-OHS certificate or diploma (minimum 600 instruction hours); and current CSSE membership. The official program page lists a non-refundable application fee of $100 plus taxes. Approved applicants must complete six CHSC courses (three mandatory and three electives) and pass each course exam. Official FAQ material states the pass grade is 75%, that no course equivalency is granted, and that candidates are expected to finish the six courses within six years of acceptance (and to take the first course within one year). Proof of professional liability insurance (or employer indemnification) is required as described on the official pages.",
+        "timeline": "Five years of experience is a minimum to enter. After acceptance, official FAQ material allows up to six years to finish the six courses. That is a maximum, not a typical completion time.",
+        "uncertainty": "CSSE has also been referred to as HSPC. Confirm the current organization name, course calendar, insurance rules and fees on the official pages linked here. An older hsproscanada.ca address did not load reliably during this review, so it is not used as a primary link."
+      }
+    ]
+  }
+}
