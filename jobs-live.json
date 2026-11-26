@@ -1,11 +1,11 @@
 {
 "schema":1,
-"generated_at":"2026-11-25T23:50:05Z",
+"generated_at":"2026-11-26T19:37:18Z",
 "max_age_days":30,
 "cap":150,
 "counts":{
-"OHS":7,
-"CM":29
+"OHS":6,
+"CM":35
 },
 "sources":[
 {
@@ -22,21 +22,21 @@
 "id":"chandos",
 "name":"Chandos careers (SmartRecruiters Posting API)",
 "status":"ok",
-"fetched":63,
-"kept":8
+"fetched":62,
+"kept":12
 },
 {
 "id":"aecon",
 "name":"Aecon careers (RSS feed)",
 "status":"ok",
 "fetched":295,
-"kept":28
+"kept":29
 },
 {
 "id":"opg",
 "name":"Ontario Power Generation careers (RSS feed)",
 "status":"ok",
-"fetched":177,
+"fetched":157,
 "kept":0
 },
 {
@@ -72,18 +72,90 @@
 ],
 "attribution":{},
 "filter_stats":{
-"in":535,
-"not_canada":114,
-"no_track":280,
+"in":514,
+"not_canada":103,
+"no_track":271,
 "blocked":0,
-"too_old":32,
+"too_old":26,
 "bad_date":0,
 "bad_url":0,
 "duplicate":73,
 "over_cap":0,
-"kept":36
+"kept":41
 },
 "jobs":[
+{
+"title":"Superintendent",
+"employer":"Chandos",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000163915909",
+"id":"9bf4a3c51a"
+},
+{
+"title":"Project Manager, SSG",
+"employer":"Chandos",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000163915389",
+"id":"d9a05f6dfe"
+},
+{
+"title":"Estimator (Municipal Infrastructure)",
+"employer":"Chandos",
+"city":"Edmonton",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000163915589",
+"id":"95da50d1c8"
+},
+{
+"title":"Estimator",
+"employer":"Chandos",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Chandos careers (SmartRecruiters Posting API)",
+"url":"https://jobs.smartrecruiters.com/Chandos/744000163915631",
+"id":"a41668da43"
+},
+{
+"title":"Coordinator, Project Controls",
+"employer":"Aecon",
+"city":"Calgary",
+"prov":"AB",
+"region":"CA",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/job/Calgary-Coordinator%2C-Project-Controls-AB/608420017/",
+"id":"0a041ee90f"
+},
+{
+"title":"Construction Coordinator Co-op",
+"employer":"Aecon",
+"city":"Scarborough",
+"prov":"ON",
+"region":"ON",
+"track":"CM",
+"posted":"2026-11-26",
+"source":"Aecon careers (RSS feed)",
+"url":"https://jobs.aecon.com/stconnect/job/Scarborough-Construction-Coordinator-Co-op-ON/608409317/",
+"id":"c0a0a5b959"
+},
 {
 "title":"Track Superintendent (Future Opportunities)",
 "employer":"Aecon",
@@ -419,18 +491,6 @@
 "source":"Aecon careers (RSS feed)",
 "url":"https://jobs.aecon.com/job/Toronto-Sr_-Manager%2C-Project-ON/606063717/",
 "id":"f05e9b5a96"
-},
-{
-"title":"EHS Manager",
-"employer":"Aecon",
-"city":"Cambridge",
-"prov":"ON",
-"region":"ON",
-"track":"OHS",
-"posted":"2026-11-09",
-"source":"Aecon careers (RSS feed)",
-"url":"https://jobs.aecon.com/job/Cambridge-EHS-Manager-ON/604393817/",
-"id":"9ef9fc8b89"
 },
 {
 "title":"Project Manager",
